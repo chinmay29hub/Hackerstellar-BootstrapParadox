@@ -79,10 +79,19 @@ const routes = [
   {
     type: "collapse",
     name: "Register",
-    key: "sign-upp",
-    route: "/authentication/register",
+    key: "sign-up",
+    route: "/authentication/sign-up",
     icon: <IoRocketSharp size="15px" color="inherit" />,
-    component: Register,
+    component: SignUp,
+    noCollapse: true,
+  },
+  {
+    type: "collapse",
+    name: "Sign In",
+    key: "sign-up",
+    route: "/authentication/sign-in",
+    icon: <IoRocketSharp size="15px" color="inherit" />,
+    component: SignIn,
     noCollapse: true,
   },
   {
