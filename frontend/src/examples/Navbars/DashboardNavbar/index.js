@@ -61,6 +61,9 @@ import {
 import team2 from "assets/images/team-2.jpg";
 import logoSpotify from "assets/images/small-logos/logo-spotify.svg";
 
+import { auth } from "layouts/authentication/firebase";
+import { signOut } from "firebase/auth";
+
 function DashboardNavbar({ absolute, light, isMini }) {
   const [navbarType, setNavbarType] = useState();
   const [controller, dispatch] = useVisionUIController();
@@ -68,7 +71,11 @@ function DashboardNavbar({ absolute, light, isMini }) {
   const [openMenu, setOpenMenu] = useState(false);
   const route = useLocation().pathname.split("/").slice(1);
 
+  var user = auth.currentUser;
   useEffect(() => {
+
+    
+
     // Setting the navbar type
     if (fixedNavbar) {
       setNavbarType("sticky");
@@ -98,6 +105,14 @@ function DashboardNavbar({ absolute, light, isMini }) {
   const handleConfiguratorOpen = () => setOpenConfigurator(dispatch, !openConfigurator);
   const handleOpenMenu = (event) => setOpenMenu(event.currentTarget);
   const handleCloseMenu = () => setOpenMenu(false);
+
+  const signout = () => {
+    try{
+    signOut(auth);
+    } catch(e) {
+      console.log(e)
+    }
+  }
 
   // Render the notifications menu
   const renderMenu = () => (
@@ -165,7 +180,8 @@ function DashboardNavbar({ absolute, light, isMini }) {
                 })}
               />
             </VuiBox>
-            <VuiBox color={light ? "white" : "inherit"}>
+            {!user ?
+            (<VuiBox color={light ? "white" : "inherit"}>
               <Link to="/authentication/sign-in">
                 <IconButton sx={navbarIconButton} size="small">
                   <Icon
@@ -187,22 +203,6 @@ function DashboardNavbar({ absolute, light, isMini }) {
               <IconButton
                 size="small"
                 color="inherit"
-                sx={navbarMobileMenu}
-                onClick={handleMiniSidenav}
-              >
-                <Icon className={"text-white"}>{miniSidenav ? "menu_open" : "menu"}</Icon>
-              </IconButton>
-              <IconButton
-                size="small"
-                color="inherit"
-                sx={navbarIconButton}
-                onClick={handleConfiguratorOpen}
-              >
-                <Icon>settings</Icon>
-              </IconButton>
-              <IconButton
-                size="small"
-                color="inherit"
                 sx={navbarIconButton}
                 aria-controls="notification-menu"
                 aria-haspopup="true"
@@ -212,7 +212,25 @@ function DashboardNavbar({ absolute, light, isMini }) {
                 <Icon className={light ? "text-white" : "text-dark"}>notifications</Icon>
               </IconButton>
               {renderMenu()}
-            </VuiBox>
+            </VuiBox>) :
+            (<VuiBox color={light ? "white" : "inherit"}>
+                <IconButton sx={navbarIconButton} size="small" onClick={signout}>
+                  <Icon
+                    sx={({ palette: { dark, white } }) => ({
+                      color: light ? white.main : dark.main,
+                    })}
+                  >
+                    account_circle
+                  </Icon>
+                  <VuiTypography
+                    variant="button"
+                    fontWeight="medium"
+                    color={light ? "white" : "dark"}
+                  >
+                    Sign out
+                  </VuiTypography>
+                </IconButton>
+            </VuiBox>)}
           </VuiBox>
         )}
       </Toolbar>

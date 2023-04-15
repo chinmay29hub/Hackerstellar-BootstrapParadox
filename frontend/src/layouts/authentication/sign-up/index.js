@@ -16,7 +16,7 @@
 
 */
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 // react-router-dom components
 import { Link } from "react-router-dom";
@@ -49,10 +49,41 @@ import CoverLayout from "layouts/authentication/components/CoverLayout";
 // Images
 import bgSignIn from "assets/images/signUpImage.png";
 
+//firebase
+import { getAuth, createUserWithEmailAndPassword } from "firebase/auth";
+import { auth } from '../firebase';
+import { useHistory } from "react-router-dom"
+
 function SignIn() {
   const [rememberMe, setRememberMe] = useState(true);
 
   const handleSetRememberMe = () => setRememberMe(!rememberMe);
+
+  // const navigate = useNavigate();
+  const history = useHistory()
+  const [email, setEmail] = useState('')
+  const [password, setPassword] = useState('');
+
+  const onSubmit = async (e) => {
+    e.preventDefault()
+   
+    await createUserWithEmailAndPassword(auth, email, password)
+      .then((userCredential) => {
+        console.log("hoi")
+          // Signed in
+          const user = userCredential.user;
+          console.log(user);
+          history.push("/dashboard")
+          // ...
+      })
+      .catch((error) => {
+        console.log("not")
+          const errorCode = error.code;
+          const errorMessage = error.message;
+          console.log(errorCode, errorMessage);
+          // ..
+      });
+    }
 
   return (
     <CoverLayout
@@ -85,7 +116,7 @@ function SignIn() {
           >
             Register with
           </VuiTypography>
-          <Stack mb="25px" justifyContent="center" alignItems="center" direction="row" spacing={2}>
+          {/* <Stack mb="25px" justifyContent="center" alignItems="center" direction="row" spacing={2}>
             <GradientBorder borderRadius="xl">
               <a href="#">
                 <IconButton
@@ -179,8 +210,8 @@ function SignIn() {
             sx={({ typography: { size } }) => ({ fontSize: size.lg })}
           >
             or
-          </VuiTypography>
-          <VuiBox mb={2}>
+          </VuiTypography> */}
+          {/* <VuiBox mb={2}>
             <VuiBox mb={1} ml={0.5}>
               <VuiTypography component="label" variant="button" color="white" fontWeight="medium">
                 Name
@@ -203,10 +234,10 @@ function SignIn() {
                 })}
               />
             </GradientBorder>
-          </VuiBox>
+          </VuiBox> */}
           <VuiBox mb={2}>
             <VuiBox mb={1} ml={0.5}>
-              <VuiTypography component="label" variant="button" color="white" fontWeight="medium">
+              <VuiTypography component="label" variant="button" color="white" fontWeight="medium" >
                 Email
               </VuiTypography>
             </VuiBox>
@@ -221,6 +252,9 @@ function SignIn() {
               )}
             >
               <VuiInput
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}  
+              required 
                 type="email"
                 placeholder="Your email..."
                 sx={({ typography: { size } }) => ({
@@ -231,7 +265,7 @@ function SignIn() {
           </VuiBox>
           <VuiBox mb={2}>
             <VuiBox mb={1} ml={0.5}>
-              <VuiTypography component="label" variant="button" color="white" fontWeight="medium">
+              <VuiTypography component="label" variant="button" color="white" fontWeight="medium" >
                 Password
               </VuiTypography>
             </VuiBox>
@@ -246,6 +280,9 @@ function SignIn() {
               )}
             >
               <VuiInput
+              value={password}
+              onChange={(e) => setPassword(e.target.value)} 
+              required
                 type="password"
                 placeholder="Your password..."
                 sx={({ typography: { size } }) => ({
@@ -267,7 +304,8 @@ function SignIn() {
             </VuiTypography>
           </VuiBox>
           <VuiBox mt={4} mb={1}>
-            <VuiButton color="info" fullWidth>
+            <VuiButton color="info" fullWidth type="submit" 
+                            onClick={onSubmit} >
               SIGN UP
             </VuiButton>
           </VuiBox>

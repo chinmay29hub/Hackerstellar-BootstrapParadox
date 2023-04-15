@@ -40,10 +40,41 @@ import CoverLayout from "layouts/authentication/components/CoverLayout";
 // Images
 import bgSignIn from "assets/images/signInImage.png";
 
+//firebase
+import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword } from "firebase/auth";
+import { auth } from '../firebase';
+import { useHistory } from "react-router-dom"
+
 function SignIn() {
   const [rememberMe, setRememberMe] = useState(true);
 
   const handleSetRememberMe = () => setRememberMe(!rememberMe);
+
+    // const navigate = useNavigate();
+    const history = useHistory()
+    const [email, setEmail] = useState('')
+    const [password, setPassword] = useState('');
+  
+    const onSubmit = async (e) => {
+      e.preventDefault()
+     
+      await signInWithEmailAndPassword(auth, email, password)
+        .then((userCredential) => {
+          console.log("hoi")
+            // Signed in
+            const user = userCredential.user;
+            console.log(user);
+            history.push("/dashboard")
+            // ...
+        })
+        .catch((error) => {
+          console.log("not")
+            const errorCode = error.code;
+            const errorMessage = error.message;
+            console.log(errorCode, errorMessage);
+            // ..
+        });
+      }
 
   return (
     <CoverLayout
@@ -71,7 +102,9 @@ function SignIn() {
               palette.gradients.borderLight.angle
             )}
           >
-            <VuiInput type="email" placeholder="Your email..." fontWeight="500" />
+            <VuiInput type="email" placeholder="Your email..." fontWeight="500" value={email}
+              onChange={(e) => setEmail(e.target.value)}  
+              required />
           </GradientBorder>
         </VuiBox>
         <VuiBox mb={2}>
@@ -91,6 +124,9 @@ function SignIn() {
             )}
           >
             <VuiInput
+            value={password}
+            onChange={(e) => setPassword(e.target.value)} 
+            required
               type="password"
               placeholder="Your password..."
               sx={({ typography: { size } }) => ({
@@ -112,7 +148,7 @@ function SignIn() {
           </VuiTypography>
         </VuiBox>
         <VuiBox mt={4} mb={1}>
-          <VuiButton color="info" fullWidth>
+          <VuiButton color="info" fullWidth onClick={onSubmit}>
             SIGN IN
           </VuiButton>
         </VuiBox>
