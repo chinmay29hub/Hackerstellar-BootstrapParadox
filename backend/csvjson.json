@@ -1,0 +1,402 @@
+[
+  {
+    "Symbol": "NOVAPORTS",
+    "Open": 750,
+    "30 d % chng": -4.65,
+    "Holding": "",
+    "Market": "Housing",
+    "Sustainable": 0
+  },
+  {
+    "Symbol": "TERAPAINT",
+    "Open": "3,101.00",
+    "30 d % chng": 5.66,
+    "Holding": "",
+    "Market": "Housing",
+    "Sustainable": 0
+  },
+  {
+    "Symbol": "NOVABANK",
+    "Open": 669,
+    "30 d % chng": -21.49,
+    "Holding": "",
+    "Market": "Finance",
+    "Sustainable": 1
+  },
+  {
+    "Symbol": "TERAT-AUTO",
+    "Open": "3,370.00",
+    "30 d % chng": -12.05,
+    "Holding": "",
+    "Market": "Electric Motors",
+    "Sustainable": 1
+  },
+  {
+    "Symbol": "TERATFINSV",
+    "Open": "17,200.00",
+    "30 d % chng": -9.1,
+    "Holding": "",
+    "Market": "Finance",
+    "Sustainable": 0
+  },
+  {
+    "Symbol": "TETFINANCE",
+    "Open": "7,021.00",
+    "30 d % chng": -13.69,
+    "Holding": "",
+    "Market": "Finance",
+    "Sustainable": 0
+  },
+  {
+    "Symbol": "NOVANET",
+    "Open": 763,
+    "30 d % chng": 5.7,
+    "Holding": "",
+    "Market": "Medical",
+    "Sustainable": 0
+  },
+  {
+    "Symbol": "BPCL",
+    "Open": 397.15,
+    "30 d % chng": -12.45,
+    "Holding": "",
+    "Market": "Housing",
+    "Sustainable": 1
+  },
+  {
+    "Symbol": "NOVE",
+    "Open": "3,560.00",
+    "30 d % chng": -3.42,
+    "Holding": 19,
+    "Market": "Medical",
+    "Sustainable": 1
+  },
+  {
+    "Symbol": "TETRA",
+    "Open": 892,
+    "30 d % chng": 6.34,
+    "Holding": "",
+    "Market": "Housing",
+    "Sustainable": 0
+  },
+  {
+    "Symbol": "COALIN",
+    "Open": 157.75,
+    "30 d % chng": -10.94,
+    "Holding": "",
+    "Market": "Energy",
+    "Sustainable": 0
+  },
+  {
+    "Symbol": "DIVISLAB",
+    "Open": "4,770.00",
+    "30 d % chng": -1.57,
+    "Holding": "",
+    "Market": "Energy",
+    "Sustainable": 1
+  },
+  {
+    "Symbol": "DRREDDY",
+    "Open": "4,580.00",
+    "30 d % chng": 1.8,
+    "Holding": "",
+    "Market": "Construction",
+    "Sustainable": 0
+  },
+  {
+    "Symbol": "EICHERMOT",
+    "Open": "2,495.00",
+    "30 d % chng": -5.77,
+    "Holding": "",
+    "Market": "Petrol Automobiles",
+    "Sustainable": 0
+  },
+  {
+    "Symbol": "GRASIM",
+    "Open": "1,757.30",
+    "30 d % chng": -3.08,
+    "Holding": "",
+    "Market": "Petrol Automobiles",
+    "Sustainable": 0
+  },
+  {
+    "Symbol": "TETTRECH",
+    "Open": "1,120.00",
+    "30 d % chng": -4.73,
+    "Holding": "",
+    "Market": "Accessories",
+    "Sustainable": 1
+  },
+  {
+    "Symbol": "TERN",
+    "Open": "2,820.35",
+    "30 d % chng": -5.72,
+    "Holding": 60,
+    "Market": "Accessories",
+    "Sustainable": 0
+  },
+  {
+    "Symbol": "TERNBANK",
+    "Open": "1,500.00",
+    "30 d % chng": -9.88,
+    "Holding": "",
+    "Market": "Finance",
+    "Sustainable": 1
+  },
+  {
+    "Symbol": "TERNLIFE",
+    "Open": 685,
+    "30 d % chng": -2.94,
+    "Holding": "",
+    "Market": "Finance",
+    "Sustainable": 1
+  },
+  {
+    "Symbol": "NOVOMOTOCO",
+    "Open": "2,580.00",
+    "30 d % chng": -6.43,
+    "Holding": "",
+    "Market": "Electric Motors",
+    "Sustainable": 1
+  },
+  {
+    "Symbol": "NDALCO",
+    "Open": 441.8,
+    "30 d % chng": -14.06,
+    "Holding": 55,
+    "Market": "Energy",
+    "Sustainable": 0
+  },
+  {
+    "Symbol": "HINDUNILVR",
+    "Open": "2,344.00",
+    "30 d % chng": -3.94,
+    "Holding": "",
+    "Market": "Finance",
+    "Sustainable": 1
+  },
+  {
+    "Symbol": "NOVIBANK",
+    "Open": 739,
+    "30 d % chng": -13.14,
+    "Holding": "",
+    "Market": "Finance",
+    "Sustainable": 0
+  },
+  {
+    "Symbol": "TETRUSINDBK",
+    "Open": 951,
+    "30 d % chng": -22.08,
+    "Holding": "",
+    "Market": "Finance",
+    "Sustainable": 0
+  },
+  {
+    "Symbol": "INFY",
+    "Open": "1,702.55",
+    "30 d % chng": -0.83,
+    "Holding": "",
+    "Market": "Finance",
+    "Sustainable": 0
+  },
+  {
+    "Symbol": "IOC",
+    "Open": 125.6,
+    "30 d % chng": -7.87,
+    "Holding": "",
+    "Market": "Construction",
+    "Sustainable": 1
+  },
+  {
+    "Symbol": "ITC",
+    "Open": 228.9,
+    "30 d % chng": -5.53,
+    "Holding": "",
+    "Market": "Consumer",
+    "Sustainable": 0
+  },
+  {
+    "Symbol": "NSWSTEEL",
+    "Open": 668.25,
+    "30 d % chng": -9.27,
+    "Holding": "",
+    "Market": "Construction",
+    "Sustainable": 1
+  },
+  {
+    "Symbol": "KOTAKBANK",
+    "Open": "2,002.00",
+    "30 d % chng": -11.35,
+    "Holding": "",
+    "Market": "Finance",
+    "Sustainable": 1
+  },
+  {
+    "Symbol": "LT",
+    "Open": "1,820.00",
+    "30 d % chng": -0.85,
+    "Holding": "",
+    "Market": "Energy",
+    "Sustainable": 0
+  },
+  {
+    "Symbol": "M&M",
+    "Open": 885,
+    "30 d % chng": -4.42,
+    "Holding": "",
+    "Market": "Consumer",
+    "Sustainable": 0
+  },
+  {
+    "Symbol": "NOVOTI",
+    "Open": "7,520.00",
+    "30 d % chng": -2.02,
+    "Holding": "",
+    "Market": "Petrol Automobiles",
+    "Sustainable": 0
+  },
+  {
+    "Symbol": "NOVEIND",
+    "Open": "19,148.85",
+    "30 d % chng": 0.17,
+    "Holding": "",
+    "Market": "Consumer",
+    "Sustainable": 0
+  },
+  {
+    "Symbol": "NTPC",
+    "Open": 133.2,
+    "30 d % chng": -10.16,
+    "Holding": "",
+    "Market": "Energy",
+    "Sustainable": 0
+  },
+  {
+    "Symbol": "ONGC",
+    "Open": 152.25,
+    "30 d % chng": -9.41,
+    "Holding": "",
+    "Market": "Energy",
+    "Sustainable": 1
+  },
+  {
+    "Symbol": "POWERGRID",
+    "Open": 204.05,
+    "30 d % chng": 6.36,
+    "Holding": "",
+    "Market": "Energy",
+    "Sustainable": 1
+  },
+  {
+    "Symbol": "NOVIANCE",
+    "Open": "2,467.80",
+    "30 d % chng": -9.62,
+    "Holding": "",
+    "Market": "Finance",
+    "Sustainable": 0
+  },
+  {
+    "Symbol": "SBILIFE",
+    "Open": "1,154.00",
+    "30 d % chng": -3.52,
+    "Holding": "",
+    "Market": "Finance",
+    "Sustainable": 0
+  },
+  {
+    "Symbol": "SBIN",
+    "Open": 486.25,
+    "30 d % chng": -8.3,
+    "Holding": "",
+    "Market": "Finance",
+    "Sustainable": 0
+  },
+  {
+    "Symbol": "TREETCEM",
+    "Open": "26,450.00",
+    "30 d % chng": -6.76,
+    "Holding": 10,
+    "Market": "Construction",
+    "Sustainable": 0
+  },
+  {
+    "Symbol": "TERTPHARMA",
+    "Open": 775,
+    "30 d % chng": -5.69,
+    "Holding": "",
+    "Market": "Medical",
+    "Sustainable": 1
+  },
+  {
+    "Symbol": "NOTACONSUM",
+    "Open": 800.2,
+    "30 d % chng": -4.82,
+    "Holding": 6,
+    "Market": "Construction",
+    "Sustainable": 1
+  },
+  {
+    "Symbol": "NOTAMOTORS",
+    "Open": 486,
+    "30 d % chng": -9.68,
+    "Holding": 654,
+    "Market": "Petrol Automobiles",
+    "Sustainable": 0
+  },
+  {
+    "Symbol": "NOTASTEEL",
+    "Open": "1,157.90",
+    "30 d % chng": -17.37,
+    "Holding": "",
+    "Market": "Construction",
+    "Sustainable": 0
+  },
+  {
+    "Symbol": "NCS",
+    "Open": "3,425.00",
+    "30 d % chng": -1.25,
+    "Holding": "",
+    "Market": "IT/Software",
+    "Sustainable": 1
+  },
+  {
+    "Symbol": "TECHM",
+    "Open": "1,544.00",
+    "30 d % chng": -2.83,
+    "Holding": "",
+    "Market": "Electric Motors",
+    "Sustainable": 1
+  },
+  {
+    "Symbol": "TITAN",
+    "Open": "2,377.80",
+    "30 d % chng": -6.59,
+    "Holding": 12,
+    "Market": "Accessories",
+    "Sustainable": 1
+  },
+  {
+    "Symbol": "ULTRACEMCO",
+    "Open": "7,550.00",
+    "30 d % chng": 1.78,
+    "Holding": "",
+    "Market": "Medical",
+    "Sustainable": 1
+  },
+  {
+    "Symbol": "UPL",
+    "Open": 726,
+    "30 d % chng": -1.37,
+    "Holding": "",
+    "Market": "Energy",
+    "Sustainable": 1
+  },
+  {
+    "Symbol": "TIPRO",
+    "Open": 632,
+    "30 d % chng": -7.01,
+    "Holding": 430,
+    "Market": "IT/Software",
+    "Sustainable": 0
+  }
+]

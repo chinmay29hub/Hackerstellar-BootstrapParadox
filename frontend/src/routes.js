@@ -9,6 +9,7 @@ import Register from "layouts/authentication/register";
 import Budget from "layouts/budget";
 import Expense from "layouts/expense";
 import OCR from "layouts/ocr/OCR";
+import Stocks from "layouts/stocks";
 
 // Vision UI Dashboard React icons
 import { IoRocketSharp } from "react-icons/io5";
@@ -69,7 +70,7 @@ const routes = [
   {
     type: "collapse",
     name: "Add Expense",
-    key: "sign-up",
+    key: "expense",
     route: "/expense",
     icon: <IoRocketSharp size="15px" color="inherit" />,
     component: Expense,
@@ -91,6 +92,15 @@ const routes = [
     route: "/ocr",
     icon: <IoRocketSharp size="15px" color="inherit" />,
     component: OCR,
+    noCollapse: true,
+  },
+  {
+    type: "collapse",
+    name: "Stocks",
+    key: "stocks",
+    route: "/stocks",
+    icon: <IoRocketSharp size="15px" color="inherit" />,
+    component: Stocks,
     noCollapse: true,
   }
 ];
