@@ -23,23 +23,20 @@ import axios from "axios";
 // Images
 import bgSignIn from "assets/images/signInImage.png";
 import { fs } from "layouts/authentication/firebase";
-import { doc, setDoc, getDocs } from "firebase/firestore";
+import { doc, setDoc, getDoc, updateDoc } from "firebase/firestore";
 import { collection, query, where } from "firebase/firestore";
 const options = [
-  { label: 'Shopping', value: 'Shopping' },
-  { label: 'Home Improvement', value: 'Home Improvement' },
-  { label: 'Foods', value: 'Foods' },
-  { label: 'Credit Card Payment', value: 'Credit Card Payment' },
-  { label: 'Entertainment', value: 'Entertainment' },
-  { label: 'Misc', value: 'Misc' },
-  { label: 'Groceries', value: 'Groceries' },
-  { label: 'Paycheck', value: 'Paycheck' },
+  { label: 'Bills', value: 'bills' },
+  { label: 'Education', value: 'education' },
+  { label: 'Grocery', value: 'grocery' },
+  { label: 'Investment', value: 'investment' },
+  { label: 'Medical', value: 'medical' },
+  { label: 'Misc', value: 'extra' }
 ];
 import NavbarDarkExample from "components/NavbarDarkExample";
 import OCR from "layouts/ocr/OCR";
 
 function Expense() {
-
     // OCR
     const [image, setImage] = useState(null);
     const [matches, setMatches] = useState([]);
@@ -68,13 +65,63 @@ function Expense() {
       }
     };
 
+
+
+  const[previoustotal, setPrevioustotal] = useState(null)
+  const[previouscategory, setPreviouscategory] = useState(null)
+  const [selectedOption, setSelectedOption] = useState(null);
+  const[amount, setAmount] = useState(null);
+  const[category, setCategory] = useState(null);
+  const[product, setProduct] = useState(null);
+  const[expense, setExpense] = useState(null);
+
+  const monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+  let monthIndex = (new Date().getMonth());
+  let monthName = monthNames[monthIndex];
+  var today = new Date()
+  var date = (today.getDate() + monthName + today.getFullYear())
+
+    const citiesRef = collection(fs, "kshitij");
+
+    // Create a query against the collection.
+    const q = query(citiesRef, where("month", "==", monthName));
+    const name = "bills"
+
+
   const handleSelect = (option) => {
     setCategory(option);
   };
 
+  const balanceref = doc(fs, "kshitij", monthName + " Expense")
+
   const onSubmit = async (e) => {
     e.preventDefault()
+    console.log("started")
+    try{
+        const docRef = await updateDoc(doc(fs, "kshitij",monthName + " Expense"), {
+            balance : (previoustotal - amount),
+            expense: (parseInt(expense) + parseInt(amount)),
+            // [category]: (previouscategory - amount)
+        });
+          console.log("success")
+    } catch(e) {
+        console.log(e)
+    }
+  
   }
+
+  
+	useEffect(( category ) => {
+	  getDoc(balanceref).then((data) => {
+		setPreviouscategory(data.data()[category])
+		setPrevioustotal(data.data().balance)
+        setExpense(data.data().expense)
+		console.log(data.data()[category])
+	  }).catch((error) => {
+		console.log("Error getting documents: ", error);
+	  });
+
+	},[])
 
   return (
     <>
@@ -161,14 +208,15 @@ function Expense() {
             />
           </GradientBorder>
         </VuiBox>
+     <NavbarDarkExample options = {options} onSelect={handleSelect} /> 
+
         <VuiBox mt={4} mb={1}>
           <VuiButton color="info" fullWidth onClick={onSubmit}>
-            SIGN IN
+            ADD TRANSACTION
           </VuiButton>
         </VuiBox>
         
     </VuiBox>
-     <NavbarDarkExample options = {options} onSelect={handleSelect} /> 
     </CoverLayout>
     
     </>
