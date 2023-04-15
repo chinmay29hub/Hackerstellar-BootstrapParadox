@@ -26,6 +26,8 @@ function Stocks() {
 
   const [stocks, setStocks] = useState([]);
 
+  const [text, setText] = useState("");
+
   useEffect(() => {
     const query = ref(db, "/stocks");
     return onValue(query, (snapshot) => {
@@ -36,6 +38,14 @@ function Stocks() {
       }
     });
   }, []);
+
+  const symbolTextMap = {
+    "NOVABANK": "This futuristic bank has adopted sustainable techniques to keep track of Terra Coins and even create them with least carbon emission.",
+    "TERAT-AUTO": "These electric automobiles company is leading the way to an environment friendly transportation manufacturing.",
+    "BPCL": "BPCL has revolutionized housing systems by creating anti-pollution paint that captures dust and emissions molecules and disintegrates them to their non-existence. ",
+    "DIVISLAB" : "This green house energy company has been leading the way for energy consumption on Tera Nova with a focus on protecting it by not repeating the mistakes done on planet Earth.   ",
+    "TETTRECH" : "This fashionable store has been using environment friendly production techniques that is benefitting the planet without dropping on the fashion scale."
+  };
 
   return (
     <DashboardLayout>
@@ -149,14 +159,15 @@ function Stocks() {
             <td>{stock["Market"]}</td>
             <td>{stock["Open"]}</td>
             {/* <td>{stock["Sustainable"]}</td> */}
-            <td>{stock["Symbol"]}</td>
+            <td onClick={() => setText(symbolTextMap[stock["Symbol"]])}>{stock["Symbol"]}</td>
           </tr>
         ))
     )}
+
 </tbody>
-
-
       </table>
+      <br></br>
+      {text && <div>{text}</div>}
 
 
             {
