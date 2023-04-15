@@ -41,14 +41,44 @@ import { lineChartOptionsDashboard } from "layouts/dashboard/data/lineChartOptio
 import { barChartDataDashboard } from "layouts/dashboard/data/barChartData";
 import { barChartOptionsDashboard } from "layouts/dashboard/data/barChartOptions";
 
+// import {database} from "../../layouts/authentication/firebase.js"
+import { db } from "layouts/authentication/firebase";
+import { onValue, ref } from "firebase/database";
+
+import { useState, useEffect } from "react";
+
 function Dashboard() {
   const { gradients } = colors;
   const { cardContent } = gradients;
 
+  const [projects, setProjects] = useState([]);
+
+  useEffect(() => {
+    const query = ref(db, "1");
+    return onValue(query, (snapshot) => {
+      const data = snapshot.val();
+
+      if (snapshot.exists()) {
+        setProjects(data);
+      }
+    });
+  }, []);
+
+
   return (
     <DashboardLayout>
       <DashboardNavbar />
-      Hello
+      <div>
+        {Object.values(projects).map((project) => (
+  <div>{project.name}</div>
+))}
+
+{
+  console.log(projects)
+}
+
+</div>
+
       <VuiBox py={3}>
         <VuiBox mb={3}>
           <Grid container spacing={3}>
