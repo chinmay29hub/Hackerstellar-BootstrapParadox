@@ -1,21 +1,3 @@
-/*!
-
-=========================================================
-* Vision UI Free React - v1.0.0
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/vision-ui-free-react
-* Copyright 2021 Creative Tim (https://www.creative-tim.com/)
-* Licensed under MIT (https://github.com/creativetimofficial/vision-ui-free-react/blob/master LICENSE.md)
-
-* Design and Coded by Simmmple & Creative Tim
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-*/
-
 // @mui material components
 // @mui icons
 import FacebookIcon from "@mui/icons-material/Facebook";
@@ -36,7 +18,6 @@ import VuiBox from "components/VuiBox";
 import VuiTypography from "components/VuiTypography";
 import ProfileInfoCard from "examples/Cards/InfoCards/ProfileInfoCard";
 import DefaultProjectCard from "examples/Cards/ProjectCards/DefaultProjectCard";
-import Footer from "examples/Footer";
 // Vision UI Dashboard React example components
 import DashboardLayout from "examples/LayoutContainers/DashboardLayout";
 // Overview page components
@@ -131,7 +112,7 @@ function Overview() {
         <Grid item xs={12} xl={3} height="100%">
           <PlatformSettings />
         </Grid>
-        <Grid item xs={12} xl={9}>
+        {/* <Grid item xs={12} xl={9}>
           <Card>
             <VuiBox display="flex" flexDirection="column" height="100%">
               <VuiBox display="flex" flexDirection="column" mb="24px">
@@ -206,10 +187,8 @@ function Overview() {
               </Grid>
             </VuiBox>
           </Card>
-        </Grid>
+        </Grid> */}
       </Grid>
-
-      <Footer />
     </DashboardLayout>
   );
 }

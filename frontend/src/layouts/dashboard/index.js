@@ -1,21 +1,3 @@
-/*!
-
-=========================================================
-* Vision UI Free React - v1.0.0
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/vision-ui-free-react
-* Copyright 2021 Creative Tim (https://www.creative-tim.com/)
-* Licensed under MIT (https://github.com/creativetimofficial/vision-ui-free-react/blob/master LICENSE.md)
-
-* Design and Coded by Simmmple & Creative Tim
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-*/
-
 // @mui material components
 import Grid from "@mui/material/Grid";
 import Icon from "@mui/material/Icon";
@@ -29,7 +11,6 @@ import VuiProgress from "components/VuiProgress";
 // Vision UI Dashboard React example components
 import DashboardLayout from "examples/LayoutContainers/DashboardLayout";
 import DashboardNavbar from "examples/Navbars/DashboardNavbar";
-import Footer from "examples/Footer";
 import MiniStatisticsCard from "examples/Cards/StatisticsCards/MiniStatisticsCard";
 import linearGradient from "assets/theme/functions/linearGradient";
 
@@ -94,14 +75,14 @@ function Dashboard() {
                 icon={{ color: "info", component: <IoDocumentText size="22px" color="white" /> }}
               />
             </Grid>
-            <Grid item xs={12} md={6} xl={3}>
+            {/* <Grid item xs={12} md={6} xl={3}>
               <MiniStatisticsCard
                 title={{ text: "total sales" }}
                 count="$103,430"
                 percentage={{ color: "success", text: "+5%" }}
                 icon={{ color: "info", component: <FaShoppingCart size="20px" color="white" /> }}
               />
-            </Grid>
+            </Grid> */}
           </Grid>
         </VuiBox>
         <VuiBox mb={3}>
@@ -276,16 +257,7 @@ function Dashboard() {
             </Grid>
           </Grid>
         </VuiBox>
-        <Grid container spacing={3} direction="row" justifyContent="center" alignItems="stretch">
-          <Grid item xs={12} md={6} lg={8}>
-            <Projects />
-          </Grid>
-          <Grid item xs={12} md={6} lg={4}>
-            <OrderOverview />
-          </Grid>
-        </Grid>
       </VuiBox>
-      <Footer />
     </DashboardLayout>
   );
 }
