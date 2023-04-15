@@ -13,7 +13,6 @@ import VuiBox from "components/VuiBox";
 
 // Vision UI Dashboard React example components
 import Sidenav from "examples/Sidenav";
-import Configurator from "examples/Configurator";
 
 // Vision UI Dashboard React themes
 import theme from "assets/theme";
@@ -90,29 +89,29 @@ export default function App() {
       return null;
     });
 
-  const configsButton = (
-    <VuiBox
-      display="flex"
-      justifyContent="center"
-      alignItems="center"
-      width="3.5rem"
-      height="3.5rem"
-      bgColor="info"
-      shadow="sm"
-      borderRadius="50%"
-      position="fixed"
-      right="2rem"
-      bottom="2rem"
-      zIndex={99}
-      color="white"
-      sx={{ cursor: "pointer" }}
-      onClick={handleConfiguratorOpen}
-    >
-      <Icon fontSize="default" color="inherit">
-        settings
-      </Icon>
-    </VuiBox>
-  );
+  // const configsButton = (
+  //   <VuiBox
+  //     display="flex"
+  //     justifyContent="center"
+  //     alignItems="center"
+  //     width="3.5rem"
+  //     height="3.5rem"
+  //     bgColor="info"
+  //     shadow="sm"
+  //     borderRadius="50%"
+  //     position="fixed"
+  //     right="2rem"
+  //     bottom="2rem"
+  //     zIndex={99}
+  //     color="white"
+  //     sx={{ cursor: "pointer" }}
+  //     onClick={handleConfiguratorOpen}
+  //   >
+  //     <Icon fontSize="default" color="inherit">
+  //       settings
+  //     </Icon>
+  //   </VuiBox>
+  // );
 
   return direction === "rtl" ? (
     <CacheProvider value={rtlCache}>
@@ -128,11 +127,11 @@ export default function App() {
               onMouseEnter={handleOnMouseEnter}
               onMouseLeave={handleOnMouseLeave}
             />
-            <Configurator />
+            {/* <Configurator /> */}
             {configsButton}
           </>
         )}
-        {layout === "vr" && <Configurator />}
+        {/* {layout === "vr" && <Configurator />} */}
         <Switch>
           {getRoutes(routes)}
           <Redirect from="*" to="/dashboard" />
@@ -152,11 +151,11 @@ export default function App() {
             onMouseEnter={handleOnMouseEnter}
             onMouseLeave={handleOnMouseLeave}
           />
-          <Configurator />
-          {configsButton}
+          {/* <Configurator /> */}
+          {/* {configsButton} */}
         </>
       )}
-      {layout === "vr" && <Configurator />}
+      {/* {layout === "vr" && <Configurator />} */}
       <Switch>
         {getRoutes(routes)}
         <Redirect from="*" to="/dashboard" />
