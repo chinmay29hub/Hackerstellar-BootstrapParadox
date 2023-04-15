@@ -42,12 +42,22 @@ import bgSignIn from "assets/images/signInImage.png";
 import { fs } from "layouts/authentication/firebase";
 import { doc, setDoc, getDocs } from "firebase/firestore";
 import { collection, query, where } from "firebase/firestore";
-
-
+const options = [
+  { label: 'Option 1', value: 'option1' },
+  { label: 'Option 2', value: 'option2' },
+  { label: 'Option 3', value: 'option3' },
+];
+import NavbarDarkExample from "components/NavbarDarkExample";
 function Expense() {
+  const [selectedOption, setSelectedOption] = useState(null);
 
+  const handleSelect = (option) => {
+    setSelectedOption(option);
+  };
 
   return (
+    <>
+    
     <CoverLayout
       title="Add what you spent on"
       color="white"
@@ -55,6 +65,10 @@ function Expense() {
       premotto="DON'T SPEND MUCH"
       image={bgSignIn}
     >
-    </CoverLayout>)
+     <NavbarDarkExample options = {options} onSelect={handleSelect} /> 
+    </CoverLayout>
+    
+    </>
+    )
 }
 export default Expense;
