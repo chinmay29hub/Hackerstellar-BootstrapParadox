@@ -18,6 +18,7 @@ import borders from "assets/theme/base/borders";
 
 // Authentication layout components
 import CoverLayout from "layouts/authentication/components/CoverLayout";
+import axios from "axios";
 
 // Images
 import bgSignIn from "assets/images/signInImage.png";
@@ -42,6 +43,11 @@ function Expense() {
     // OCR
     const [image, setImage] = useState(null);
     const [matches, setMatches] = useState([]);
+
+    const [selectedOption, setSelectedOption] = useState(null);
+    const[amount, setAmount] = useState(null);
+    const[category, setCategory] = useState(null);
+    const[product, setProduct] = useState(null);
   
     const handleImageChange = (event) => {
       setImage(event.target.files[0]);
@@ -53,18 +59,14 @@ function Expense() {
         formData.append('image', image);
         const response = await axios.post('http://localhost:4000/ocr', formData);
         setMatches(response.data.matches);
+        const amountMatch = response.data.matches[0];
+        if (amountMatch) {
+          setAmount(amountMatch);
+        }
       } catch (error) {
         console.error(error);
       }
     };
-
-
-
-
-  const [selectedOption, setSelectedOption] = useState(null);
-  const[amount, setAmount] = useState(null);
-  const[category, setCategory] = useState(null);
-  const[product, setProduct] = useState(null);
 
   const handleSelect = (option) => {
     setCategory(option);
@@ -76,6 +78,9 @@ function Expense() {
 
   return (
     <>
+    {/* {
+    console.log(amount)
+    } */}
     <CoverLayout
       title="Add what you spent on"
       color="white"
@@ -124,9 +129,9 @@ function Expense() {
           <div>
       <input type="file" onChange={handleImageChange} />
       <button onClick={handleOCR}>OCR</button>
-      {matches.map((match, index) => (
+      {/* {matches.map((match, index) => (
         <div key={index}>{match}</div>
-      ))}
+      ))} */}
     </div>
     <VuiBox mb={2}>
           <VuiBox mb={1} ml={0.5}>

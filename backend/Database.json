@@ -1,0 +1,6450 @@
+[
+  {
+    "Date": "01/01/2051",
+    "Description": "SpaceZone",
+    "Amount": "11.11",
+    "Transaction Type": "debit",
+    "Category": "Shopping",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "01/02/2051",
+    "Description": "Mortgage Payment",
+    "Amount": "1247.44",
+    "Transaction Type": "debit",
+    "Category": "Mortgage & Rent",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "01/02/2051",
+    "Description": "TetraThai",
+    "Amount": "24.22",
+    "Transaction Type": "debit",
+    "Category": "Restaurants",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "01/03/2051",
+    "Description": "Nova SmartCard Refill",
+    "Amount": "2298.09",
+    "Transaction Type": "credit",
+    "Category": "Tera Coins Payment",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "01/04/2051",
+    "Description": "Tetrix",
+    "Amount": "11.76",
+    "Transaction Type": "debit",
+    "Category": "Movies & DVDs",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "01/05/2051",
+    "Description": "Noverican Foods",
+    "Amount": "25.85",
+    "Transaction Type": "debit",
+    "Category": "Restaurants",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "01/06/2051",
+    "Description": "Hardware Store",
+    "Amount": "18.45",
+    "Transaction Type": "debit",
+    "Category": "Home Improvement",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "01/08/2051",
+    "Description": "Gas Company",
+    "Amount": "45",
+    "Transaction Type": "debit",
+    "Category": "Utilities",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "01/08/2051",
+    "Description": "Hardware Store",
+    "Amount": "15.38",
+    "Transaction Type": "debit",
+    "Category": "Home Improvement",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "01/09/2051",
+    "Description": "NovaMusic",
+    "Amount": "10.69",
+    "Transaction Type": "debit",
+    "Category": "Music",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "01/10/2051",
+    "Description": "NovaPhones",
+    "Amount": "89.46",
+    "Transaction Type": "debit",
+    "Category": "Mobile Phone",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "01/11/2051",
+    "Description": "Shell",
+    "Amount": "34.87",
+    "Transaction Type": "debit",
+    "Category": "Gas & Fuel",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "01/11/2051",
+    "Description": "Tera F&B",
+    "Amount": "43.54",
+    "Transaction Type": "debit",
+    "Category": "Groceries",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "01/12/2051",
+    "Description": "Biweekly Paycheck",
+    "Amount": "2000",
+    "Transaction Type": "credit",
+    "Category": "Paycheck",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "01/13/2051",
+    "Description": "Novinos",
+    "Amount": "32.91",
+    "Transaction Type": "debit",
+    "Category": "Fast Food",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "01/13/2051",
+    "Description": "SpaceZone",
+    "Amount": "39.05",
+    "Transaction Type": "debit",
+    "Category": "Shopping",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "01/15/2051",
+    "Description": "Tera F&B",
+    "Amount": "44.19",
+    "Transaction Type": "debit",
+    "Category": "Groceries",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "01/15/2051",
+    "Description": "Noverican Foods",
+    "Amount": "64.11",
+    "Transaction Type": "debit",
+    "Category": "Restaurants",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "01/16/2051",
+    "Description": "Tera Water Charges",
+    "Amount": "35",
+    "Transaction Type": "debit",
+    "Category": "Utilities",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "01/16/2051",
+    "Description": "Tera Solar Company",
+    "Amount": "60",
+    "Transaction Type": "debit",
+    "Category": "Utilities",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "01/19/2051",
+    "Description": "Biweekly Paycheck",
+    "Amount": "2000",
+    "Transaction Type": "credit",
+    "Category": "Paycheck",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "01/20/2051",
+    "Description": "SpaceZone",
+    "Amount": "50.21",
+    "Transaction Type": "debit",
+    "Category": "Shopping",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "01/22/2051",
+    "Description": "Tera Coins Payment",
+    "Amount": "554.99",
+    "Transaction Type": "credit",
+    "Category": "Tera Coins Payment",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "01/22/2051",
+    "Description": "Tera Coins Payment",
+    "Amount": "309.81",
+    "Transaction Type": "credit",
+    "Category": "Tera Coins Payment",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "01/22/2051",
+    "Description": "Tera Coins Payment",
+    "Amount": "554.99",
+    "Transaction Type": "debit",
+    "Category": "Tera Coins Payment",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "01/22/2051",
+    "Description": "Hardware Store",
+    "Amount": "17.38",
+    "Transaction Type": "debit",
+    "Category": "Home Improvement",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "01/23/2051",
+    "Description": "Tera Coins Payment",
+    "Amount": "309.81",
+    "Transaction Type": "debit",
+    "Category": "Tera Coins Payment",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "01/24/2051",
+    "Description": "Novabucks",
+    "Amount": "3",
+    "Transaction Type": "debit",
+    "Category": "Coffee Shops",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "01/25/2051",
+    "Description": "Inter-Nova",
+    "Amount": "69.99",
+    "Transaction Type": "debit",
+    "Category": "Internet",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "01/29/2051",
+    "Description": "Shell",
+    "Amount": "30.42",
+    "Transaction Type": "debit",
+    "Category": "Gas & Fuel",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "01/29/2051",
+    "Description": "TetraThai",
+    "Amount": "25",
+    "Transaction Type": "debit",
+    "Category": "Restaurants",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "01/29/2051",
+    "Description": "Novunch",
+    "Amount": "17.62",
+    "Transaction Type": "debit",
+    "Category": "Restaurants",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "02/01/2051",
+    "Description": "Tera F&B",
+    "Amount": "27.79",
+    "Transaction Type": "debit",
+    "Category": "Groceries",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "02/01/2051",
+    "Description": "SpaceZone",
+    "Amount": "11.11",
+    "Transaction Type": "debit",
+    "Category": "Shopping",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "02/02/2051",
+    "Description": "Mortgage Payment",
+    "Amount": "1247.44",
+    "Transaction Type": "debit",
+    "Category": "Mortgage & Rent",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "02/02/2051",
+    "Description": "Biweekly Paycheck",
+    "Amount": "2000",
+    "Transaction Type": "credit",
+    "Category": "Paycheck",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "02/03/2051",
+    "Description": "Novenese",
+    "Amount": "57.02",
+    "Transaction Type": "debit",
+    "Category": "Restaurants",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "02/04/2051",
+    "Description": "Tetrix",
+    "Amount": "11.76",
+    "Transaction Type": "debit",
+    "Category": "Movies & DVDs",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "02/05/2051",
+    "Description": "Tera Coins Payment",
+    "Amount": "145.14",
+    "Transaction Type": "credit",
+    "Category": "Tera Coins Payment",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "02/06/2051",
+    "Description": "Tera Coins Payment",
+    "Amount": "154.13",
+    "Transaction Type": "credit",
+    "Category": "Tera Coins Payment",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "02/07/2051",
+    "Description": "Tera Coins Payment",
+    "Amount": "154.13",
+    "Transaction Type": "debit",
+    "Category": "Tera Coins Payment",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "02/07/2051",
+    "Description": "Gas Company",
+    "Amount": "65",
+    "Transaction Type": "debit",
+    "Category": "Utilities",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "02/09/2051",
+    "Description": "Barbershop",
+    "Amount": "30",
+    "Transaction Type": "debit",
+    "Category": "Haircut",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "02/09/2051",
+    "Description": "NovaMusic",
+    "Amount": "10.69",
+    "Transaction Type": "debit",
+    "Category": "Music",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "02/10/2051",
+    "Description": "Bojangles",
+    "Amount": "10.66",
+    "Transaction Type": "debit",
+    "Category": "Fast Food",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "02/11/2051",
+    "Description": "NovaKings",
+    "Amount": "106.8",
+    "Transaction Type": "debit",
+    "Category": "Restaurants",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "02/12/2051",
+    "Description": "Shell",
+    "Amount": "36.47",
+    "Transaction Type": "debit",
+    "Category": "Gas & Fuel",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "02/12/2051",
+    "Description": "NovaPhones",
+    "Amount": "89.52",
+    "Transaction Type": "debit",
+    "Category": "Mobile Phone",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "02/14/2051",
+    "Description": "Brewing Company",
+    "Amount": "14",
+    "Transaction Type": "debit",
+    "Category": "Alcohol & Bars",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "02/15/2051",
+    "Description": "Noverican Foods",
+    "Amount": "10",
+    "Transaction Type": "debit",
+    "Category": "Restaurants",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "02/15/2051",
+    "Description": "Tera Solar Company",
+    "Amount": "60",
+    "Transaction Type": "debit",
+    "Category": "Utilities",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "02/16/2051",
+    "Description": "Biweekly Paycheck",
+    "Amount": "2000",
+    "Transaction Type": "credit",
+    "Category": "Paycheck",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "02/16/2051",
+    "Description": "Novunch",
+    "Amount": "8",
+    "Transaction Type": "debit",
+    "Category": "Restaurants",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "02/16/2051",
+    "Description": "Tera Water Charges",
+    "Amount": "35",
+    "Transaction Type": "debit",
+    "Category": "Utilities",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "02/20/2051",
+    "Description": "Tera F&B",
+    "Amount": "35.95",
+    "Transaction Type": "debit",
+    "Category": "Groceries",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "02/20/2051",
+    "Description": "Teraboy",
+    "Amount": "23.51",
+    "Transaction Type": "debit",
+    "Category": "Restaurants",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "02/21/2051",
+    "Description": "Novabucks",
+    "Amount": "2",
+    "Transaction Type": "debit",
+    "Category": "Coffee Shops",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "02/22/2051",
+    "Description": "Novabucks",
+    "Amount": "4",
+    "Transaction Type": "debit",
+    "Category": "Coffee Shops",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "02/26/2051",
+    "Description": "Tera Coins Payment",
+    "Amount": "765.37",
+    "Transaction Type": "credit",
+    "Category": "Tera Coins Payment",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "02/26/2051",
+    "Description": "Tera Coins Payment",
+    "Amount": "156.11",
+    "Transaction Type": "credit",
+    "Category": "Tera Coins Payment",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "02/26/2051",
+    "Description": "Tera Coins Payment",
+    "Amount": "765.37",
+    "Transaction Type": "debit",
+    "Category": "Tera Coins Payment",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "02/26/2051",
+    "Description": "Inter-Nova",
+    "Amount": "74.99",
+    "Transaction Type": "debit",
+    "Category": "Internet",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "02/26/2051",
+    "Description": "Noverican Foods",
+    "Amount": "85.52",
+    "Transaction Type": "debit",
+    "Category": "Restaurants",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "02/26/2051",
+    "Description": "Gas Station",
+    "Amount": "32.21",
+    "Transaction Type": "debit",
+    "Category": "Gas & Fuel",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "02/27/2051",
+    "Description": "Tera Coins Payment",
+    "Amount": "156.11",
+    "Transaction Type": "debit",
+    "Category": "Tera Coins Payment",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "03/01/2051",
+    "Description": "Tera F&B",
+    "Amount": "32.07",
+    "Transaction Type": "debit",
+    "Category": "Groceries",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "03/01/2051",
+    "Description": "SpaceZone",
+    "Amount": "13.13",
+    "Transaction Type": "debit",
+    "Category": "Shopping",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "03/02/2051",
+    "Description": "Mortgage Payment",
+    "Amount": "1247.44",
+    "Transaction Type": "debit",
+    "Category": "Mortgage & Rent",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "03/02/2051",
+    "Description": "Biweekly Paycheck",
+    "Amount": "2000",
+    "Transaction Type": "credit",
+    "Category": "Paycheck",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "03/03/2051",
+    "Description": "Tera F&B",
+    "Amount": "23.74",
+    "Transaction Type": "debit",
+    "Category": "Groceries",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "03/04/2051",
+    "Description": "Tera F&B",
+    "Amount": "10.69",
+    "Transaction Type": "debit",
+    "Category": "Groceries",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "03/04/2051",
+    "Description": "Tetrix",
+    "Amount": "11.76",
+    "Transaction Type": "debit",
+    "Category": "Movies & DVDs",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "03/04/2051",
+    "Description": "NovaQ",
+    "Amount": "42.24",
+    "Transaction Type": "debit",
+    "Category": "Restaurants",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "03/05/2051",
+    "Description": "Novabucks",
+    "Amount": "3",
+    "Transaction Type": "debit",
+    "Category": "Coffee Shops",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "03/05/2051",
+    "Description": "Tera Coins Payment",
+    "Amount": "761.59",
+    "Transaction Type": "credit",
+    "Category": "Tera Coins Payment",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "03/05/2051",
+    "Description": "Tera Coins Payment",
+    "Amount": "761.59",
+    "Transaction Type": "debit",
+    "Category": "Tera Coins Payment",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "03/07/2051",
+    "Description": "Novabucks",
+    "Amount": "3.5",
+    "Transaction Type": "debit",
+    "Category": "Coffee Shops",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "03/08/2051",
+    "Description": "BP",
+    "Amount": "34.9",
+    "Transaction Type": "debit",
+    "Category": "Gas & Fuel",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "03/08/2051",
+    "Description": "Gas Company",
+    "Amount": "52",
+    "Transaction Type": "debit",
+    "Category": "Utilities",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "03/09/2051",
+    "Description": "Tera F&B",
+    "Amount": "20.72",
+    "Transaction Type": "debit",
+    "Category": "Groceries",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "03/09/2051",
+    "Description": "Tera F&B",
+    "Amount": "5.09",
+    "Transaction Type": "debit",
+    "Category": "Groceries",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "03/09/2051",
+    "Description": "NovaMusic",
+    "Amount": "10.69",
+    "Transaction Type": "debit",
+    "Category": "Music",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "03/12/2051",
+    "Description": "Tera F&B",
+    "Amount": "19.35",
+    "Transaction Type": "debit",
+    "Category": "Groceries",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "03/12/2051",
+    "Description": "NovaPhones",
+    "Amount": "89.52",
+    "Transaction Type": "debit",
+    "Category": "Mobile Phone",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "03/13/2051",
+    "Description": "SpaceZone",
+    "Amount": "45.75",
+    "Transaction Type": "debit",
+    "Category": "Shopping",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "03/14/2051",
+    "Description": "Tera F&B",
+    "Amount": "22.5",
+    "Transaction Type": "debit",
+    "Category": "Groceries",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "03/14/2051",
+    "Description": "Novunch",
+    "Amount": "8.49",
+    "Transaction Type": "debit",
+    "Category": "Restaurants",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "03/15/2051",
+    "Description": "Novabucks",
+    "Amount": "3.5",
+    "Transaction Type": "debit",
+    "Category": "Coffee Shops",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "03/15/2051",
+    "Description": "Tera Solar Company",
+    "Amount": "60",
+    "Transaction Type": "debit",
+    "Category": "Utilities",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "03/16/2051",
+    "Description": "Biweekly Paycheck",
+    "Amount": "2000",
+    "Transaction Type": "credit",
+    "Category": "Paycheck",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "03/17/2051",
+    "Description": "Brewing Company",
+    "Amount": "19.5",
+    "Transaction Type": "debit",
+    "Category": "Alcohol & Bars",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "03/17/2051",
+    "Description": "Novinos",
+    "Amount": "23.34",
+    "Transaction Type": "debit",
+    "Category": "Fast Food",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "03/19/2051",
+    "Description": "Mediterranean Restaurant",
+    "Amount": "36.48",
+    "Transaction Type": "debit",
+    "Category": "Restaurants",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "03/19/2051",
+    "Description": "Tera Water Charges",
+    "Amount": "35",
+    "Transaction Type": "debit",
+    "Category": "Utilities",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "03/20/2051",
+    "Description": "SpaceZone",
+    "Amount": "14.97",
+    "Transaction Type": "debit",
+    "Category": "Shopping",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "03/22/2051",
+    "Description": "BP",
+    "Amount": "30.55",
+    "Transaction Type": "debit",
+    "Category": "Gas & Fuel",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "03/23/2051",
+    "Description": "Tera Coins Payment",
+    "Amount": "559.91",
+    "Transaction Type": "credit",
+    "Category": "Tera Coins Payment",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "03/23/2051",
+    "Description": "Tera Coins Payment",
+    "Amount": "559.91",
+    "Transaction Type": "debit",
+    "Category": "Tera Coins Payment",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "03/23/2051",
+    "Description": "Tera F&B",
+    "Amount": "11.76",
+    "Transaction Type": "debit",
+    "Category": "Groceries",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "03/26/2051",
+    "Description": "Inter-Nova",
+    "Amount": "74.99",
+    "Transaction Type": "debit",
+    "Category": "Internet",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "03/28/2051",
+    "Description": "Tera F&B",
+    "Amount": "16.06",
+    "Transaction Type": "debit",
+    "Category": "Groceries",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "03/28/2051",
+    "Description": "Novinos",
+    "Amount": "24.98",
+    "Transaction Type": "debit",
+    "Category": "Restaurants",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "03/29/2051",
+    "Description": "Steakhouse",
+    "Amount": "17.64",
+    "Transaction Type": "debit",
+    "Category": "Restaurants",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "03/30/2051",
+    "Description": "Tera F&B",
+    "Amount": "9.09",
+    "Transaction Type": "debit",
+    "Category": "Groceries",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "03/30/2051",
+    "Description": "Biweekly Paycheck",
+    "Amount": "2000",
+    "Transaction Type": "credit",
+    "Category": "Paycheck",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "03/31/2051",
+    "Description": "Belgian Restaurant",
+    "Amount": "38.32",
+    "Transaction Type": "debit",
+    "Category": "Restaurants",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "03/31/2051",
+    "Description": "Chili's",
+    "Amount": "24.74",
+    "Transaction Type": "debit",
+    "Category": "Restaurants",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "03/31/2051",
+    "Description": "Greek Restaurant",
+    "Amount": "41.16",
+    "Transaction Type": "debit",
+    "Category": "Restaurants",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "04/01/2051",
+    "Description": "Tera F&B",
+    "Amount": "80.79",
+    "Transaction Type": "debit",
+    "Category": "Groceries",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "04/01/2051",
+    "Description": "Brewing Company",
+    "Amount": "59.48",
+    "Transaction Type": "debit",
+    "Category": "Restaurants",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "04/01/2051",
+    "Description": "SpaceZone",
+    "Amount": "13.13",
+    "Transaction Type": "debit",
+    "Category": "Shopping",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "04/02/2051",
+    "Description": "Tera Coins Payment",
+    "Amount": "817.14",
+    "Transaction Type": "credit",
+    "Category": "Tera Coins Payment",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "04/02/2051",
+    "Description": "Tera Coins Payment",
+    "Amount": "817.14",
+    "Transaction Type": "debit",
+    "Category": "Tera Coins Payment",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "04/02/2051",
+    "Description": "Tera F&B",
+    "Amount": "82.36",
+    "Transaction Type": "debit",
+    "Category": "Groceries",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "04/02/2051",
+    "Description": "Hardware Store",
+    "Amount": "13.89",
+    "Transaction Type": "debit",
+    "Category": "Home Improvement",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "04/02/2051",
+    "Description": "Mortgage Payment",
+    "Amount": "1247.44",
+    "Transaction Type": "debit",
+    "Category": "Mortgage & Rent",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "04/03/2051",
+    "Description": "SpaceZone Video",
+    "Amount": "6.41",
+    "Transaction Type": "debit",
+    "Category": "Movies & DVDs",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "04/04/2051",
+    "Description": "Tera Coins Payment",
+    "Amount": "363.08",
+    "Transaction Type": "credit",
+    "Category": "Tera Coins Payment",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "04/04/2051",
+    "Description": "Tera Coins Payment",
+    "Amount": "363.08",
+    "Transaction Type": "debit",
+    "Category": "Tera Coins Payment",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "04/04/2051",
+    "Description": "Tetrix",
+    "Amount": "11.76",
+    "Transaction Type": "debit",
+    "Category": "Movies & DVDs",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "04/06/2051",
+    "Description": "Chevron",
+    "Amount": "4.58",
+    "Transaction Type": "debit",
+    "Category": "Gas & Fuel",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "04/06/2051",
+    "Description": "Tiny Deli",
+    "Amount": "9.76",
+    "Transaction Type": "debit",
+    "Category": "Restaurants",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "04/08/2051",
+    "Description": "Irish Pub",
+    "Amount": "22",
+    "Transaction Type": "debit",
+    "Category": "Restaurants",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "04/09/2051",
+    "Description": "Blue Sky Market",
+    "Amount": "6.48",
+    "Transaction Type": "debit",
+    "Category": "Groceries",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "04/09/2051",
+    "Description": "NovaMusic",
+    "Amount": "10.69",
+    "Transaction Type": "debit",
+    "Category": "Music",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "04/09/2051",
+    "Description": "Gas Company",
+    "Amount": "30",
+    "Transaction Type": "debit",
+    "Category": "Utilities",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "04/11/2051",
+    "Description": "NovaPhones",
+    "Amount": "89.52",
+    "Transaction Type": "debit",
+    "Category": "Mobile Phone",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "04/12/2051",
+    "Description": "Novabucks",
+    "Amount": "7",
+    "Transaction Type": "debit",
+    "Category": "Coffee Shops",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "04/12/2051",
+    "Description": "Barbershop",
+    "Amount": "30",
+    "Transaction Type": "debit",
+    "Category": "Haircut",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "04/13/2051",
+    "Description": "BP",
+    "Amount": "37.98",
+    "Transaction Type": "debit",
+    "Category": "Gas & Fuel",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "04/13/2051",
+    "Description": "Biweekly Paycheck",
+    "Amount": "2000",
+    "Transaction Type": "credit",
+    "Category": "Paycheck",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "04/13/2051",
+    "Description": "Noverican Foods",
+    "Amount": "10.66",
+    "Transaction Type": "debit",
+    "Category": "Restaurants",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "04/14/2051",
+    "Description": "Hardware Store",
+    "Amount": "11.61",
+    "Transaction Type": "debit",
+    "Category": "Home Improvement",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "04/14/2051",
+    "Description": "Noverican Foods",
+    "Amount": "41",
+    "Transaction Type": "debit",
+    "Category": "Restaurants",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "04/16/2051",
+    "Description": "State Farm",
+    "Amount": "75",
+    "Transaction Type": "debit",
+    "Category": "Auto Insurance",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "04/16/2051",
+    "Description": "Tera Water Charges",
+    "Amount": "35",
+    "Transaction Type": "debit",
+    "Category": "Utilities",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "04/18/2051",
+    "Description": "Tera Solar Company",
+    "Amount": "60",
+    "Transaction Type": "debit",
+    "Category": "Utilities",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "04/20/2051",
+    "Description": "TetraThai",
+    "Amount": "24.22",
+    "Transaction Type": "debit",
+    "Category": "Restaurants",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "04/21/2051",
+    "Description": "Tera F&B",
+    "Amount": "4.32",
+    "Transaction Type": "debit",
+    "Category": "Groceries",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "04/21/2051",
+    "Description": "Noverican Foods",
+    "Amount": "35.15",
+    "Transaction Type": "debit",
+    "Category": "Restaurants",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "04/22/2051",
+    "Description": "Tera F&B",
+    "Amount": "21.32",
+    "Transaction Type": "debit",
+    "Category": "Groceries",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "04/23/2051",
+    "Description": "Hardware Store",
+    "Amount": "42.7",
+    "Transaction Type": "debit",
+    "Category": "Home Improvement",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "04/24/2051",
+    "Description": "Hardware Store",
+    "Amount": "224.7",
+    "Transaction Type": "debit",
+    "Category": "Home Improvement",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "04/24/2051",
+    "Description": "SpaceZone",
+    "Amount": "41.34",
+    "Transaction Type": "debit",
+    "Category": "Shopping",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "04/25/2051",
+    "Description": "Hardware Store",
+    "Amount": "210.79",
+    "Transaction Type": "debit",
+    "Category": "Home Improvement",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "04/25/2051",
+    "Description": "Inter-Nova",
+    "Amount": "74.99",
+    "Transaction Type": "debit",
+    "Category": "Internet",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "04/26/2051",
+    "Description": "Tera Coins Payment",
+    "Amount": "769.72",
+    "Transaction Type": "credit",
+    "Category": "Tera Coins Payment",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "04/26/2051",
+    "Description": "Tera Coins Payment",
+    "Amount": "1216.94",
+    "Transaction Type": "credit",
+    "Category": "Tera Coins Payment",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "04/26/2051",
+    "Description": "Tera Coins Payment",
+    "Amount": "1216.94",
+    "Transaction Type": "debit",
+    "Category": "Tera Coins Payment",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "04/27/2051",
+    "Description": "Tera Coins Payment",
+    "Amount": "769.72",
+    "Transaction Type": "debit",
+    "Category": "Tera Coins Payment",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "04/27/2051",
+    "Description": "Biweekly Paycheck",
+    "Amount": "2000",
+    "Transaction Type": "credit",
+    "Category": "Paycheck",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "04/28/2051",
+    "Description": "Tera F&B",
+    "Amount": "22.98",
+    "Transaction Type": "debit",
+    "Category": "Groceries",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "04/29/2051",
+    "Description": "QuikTrip",
+    "Amount": "39",
+    "Transaction Type": "debit",
+    "Category": "Gas & Fuel",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "04/29/2051",
+    "Description": "Tera F&B",
+    "Amount": "51.05",
+    "Transaction Type": "debit",
+    "Category": "Groceries",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "04/29/2051",
+    "Description": "Hardware Store",
+    "Amount": "68.47",
+    "Transaction Type": "debit",
+    "Category": "Home Improvement",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "04/30/2051",
+    "Description": "Tera F&B",
+    "Amount": "5.09",
+    "Transaction Type": "debit",
+    "Category": "Groceries",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "05/01/2051",
+    "Description": "SpaceZone",
+    "Amount": "13.13",
+    "Transaction Type": "debit",
+    "Category": "Shopping",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "05/02/2051",
+    "Description": "Mortgage Payment",
+    "Amount": "1247.44",
+    "Transaction Type": "debit",
+    "Category": "Mortgage & Rent",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "05/03/2051",
+    "Description": "SpaceZone",
+    "Amount": "49.72",
+    "Transaction Type": "debit",
+    "Category": "Shopping",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "05/04/2051",
+    "Description": "Tera F&B",
+    "Amount": "42.23",
+    "Transaction Type": "debit",
+    "Category": "Groceries",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "05/04/2051",
+    "Description": "Tetrix",
+    "Amount": "11.76",
+    "Transaction Type": "debit",
+    "Category": "Movies & DVDs",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "05/05/2051",
+    "Description": "Bojangles",
+    "Amount": "7.27",
+    "Transaction Type": "debit",
+    "Category": "Fast Food",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "05/05/2051",
+    "Description": "Novinos",
+    "Amount": "20.52",
+    "Transaction Type": "debit",
+    "Category": "Fast Food",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "05/06/2051",
+    "Description": "Hardware Store",
+    "Amount": "22.37",
+    "Transaction Type": "debit",
+    "Category": "Home Improvement",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "05/06/2051",
+    "Description": "SpaceZone",
+    "Amount": "117.69",
+    "Transaction Type": "debit",
+    "Category": "Shopping",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "05/09/2051",
+    "Description": "Tera Coins Payment",
+    "Amount": "601.4",
+    "Transaction Type": "credit",
+    "Category": "Tera Coins Payment",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "05/09/2051",
+    "Description": "Tera Coins Payment",
+    "Amount": "601.4",
+    "Transaction Type": "debit",
+    "Category": "Tera Coins Payment",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "05/09/2051",
+    "Description": "NovaMusic",
+    "Amount": "10.69",
+    "Transaction Type": "debit",
+    "Category": "Music",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "05/09/2051",
+    "Description": "Gas Company",
+    "Amount": "30",
+    "Transaction Type": "debit",
+    "Category": "Utilities",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "05/10/2051",
+    "Description": "NovaPhones",
+    "Amount": "111.18",
+    "Transaction Type": "debit",
+    "Category": "Mobile Phone",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "05/11/2051",
+    "Description": "Tera F&B",
+    "Amount": "57.32",
+    "Transaction Type": "debit",
+    "Category": "Groceries",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "05/11/2051",
+    "Description": "Biweekly Paycheck",
+    "Amount": "2000",
+    "Transaction Type": "credit",
+    "Category": "Paycheck",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "05/11/2051",
+    "Description": "Mike's Construction Co.",
+    "Amount": "8000",
+    "Transaction Type": "debit",
+    "Category": "Home Improvement",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "05/12/2051",
+    "Description": "Liquor Store",
+    "Amount": "27.77",
+    "Transaction Type": "debit",
+    "Category": "Alcohol & Bars",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "05/12/2051",
+    "Description": "Shell",
+    "Amount": "33.3",
+    "Transaction Type": "debit",
+    "Category": "Gas & Fuel",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "05/12/2051",
+    "Description": "NovaKings",
+    "Amount": "78",
+    "Transaction Type": "debit",
+    "Category": "Restaurants",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "05/14/2051",
+    "Description": "Tera F&B",
+    "Amount": "67.63",
+    "Transaction Type": "debit",
+    "Category": "Groceries",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "05/15/2051",
+    "Description": "Tera Solar Company",
+    "Amount": "60",
+    "Transaction Type": "debit",
+    "Category": "Utilities",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "05/17/2051",
+    "Description": "Barbershop",
+    "Amount": "29",
+    "Transaction Type": "debit",
+    "Category": "Haircut",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "05/17/2051",
+    "Description": "Tera Water Charges",
+    "Amount": "35",
+    "Transaction Type": "debit",
+    "Category": "Utilities",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "05/18/2051",
+    "Description": "State Farm",
+    "Amount": "75",
+    "Transaction Type": "debit",
+    "Category": "Auto Insurance",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "05/18/2051",
+    "Description": "SpaceZone",
+    "Amount": "6.41",
+    "Transaction Type": "debit",
+    "Category": "Shopping",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "05/19/2051",
+    "Description": "Tera Coins Payment",
+    "Amount": "207.08",
+    "Transaction Type": "credit",
+    "Category": "Tera Coins Payment",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "05/19/2051",
+    "Description": "Tera F&B",
+    "Amount": "31",
+    "Transaction Type": "debit",
+    "Category": "Groceries",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "05/19/2051",
+    "Description": "Greek Restaurant",
+    "Amount": "23.26",
+    "Transaction Type": "debit",
+    "Category": "Restaurants",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "05/21/2051",
+    "Description": "Tera Coins Payment",
+    "Amount": "283.07",
+    "Transaction Type": "credit",
+    "Category": "Tera Coins Payment",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "05/21/2051",
+    "Description": "TetraThai",
+    "Amount": "26.04",
+    "Transaction Type": "debit",
+    "Category": "Restaurants",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "05/21/2051",
+    "Description": "SpaceZone",
+    "Amount": "32.5",
+    "Transaction Type": "debit",
+    "Category": "Shopping",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "05/22/2051",
+    "Description": "Tera Coins Payment",
+    "Amount": "283.07",
+    "Transaction Type": "debit",
+    "Category": "Tera Coins Payment",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "05/24/2051",
+    "Description": "BP",
+    "Amount": "39.44",
+    "Transaction Type": "debit",
+    "Category": "Gas & Fuel",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "05/25/2051",
+    "Description": "Inter-Nova",
+    "Amount": "74.99",
+    "Transaction Type": "debit",
+    "Category": "Internet",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "05/25/2051",
+    "Description": "Biweekly Paycheck",
+    "Amount": "2000",
+    "Transaction Type": "credit",
+    "Category": "Paycheck",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "05/28/2051",
+    "Description": "Movie Theater",
+    "Amount": "9.62",
+    "Transaction Type": "debit",
+    "Category": "Entertainment",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "05/28/2051",
+    "Description": "Tera F&B",
+    "Amount": "91.03",
+    "Transaction Type": "debit",
+    "Category": "Groceries",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "05/29/2051",
+    "Description": "Movie Theater",
+    "Amount": "20",
+    "Transaction Type": "debit",
+    "Category": "Movies & DVDs",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "05/29/2051",
+    "Description": "Movie Theater",
+    "Amount": "6.25",
+    "Transaction Type": "debit",
+    "Category": "Movies & DVDs",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "06/01/2051",
+    "Description": "BP",
+    "Amount": "38.63",
+    "Transaction Type": "debit",
+    "Category": "Gas & Fuel",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "06/01/2051",
+    "Description": "Tera F&B",
+    "Amount": "6.11",
+    "Transaction Type": "debit",
+    "Category": "Groceries",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "06/01/2051",
+    "Description": "SpaceZone",
+    "Amount": "13.13",
+    "Transaction Type": "debit",
+    "Category": "Shopping",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "06/02/2051",
+    "Description": "Tera Coins Payment",
+    "Amount": "235.18",
+    "Transaction Type": "credit",
+    "Category": "Tera Coins Payment",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "06/02/2051",
+    "Description": "Tera Coins Payment",
+    "Amount": "466.36",
+    "Transaction Type": "credit",
+    "Category": "Tera Coins Payment",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "06/03/2051",
+    "Description": "Italian Restaurant",
+    "Amount": "65.81",
+    "Transaction Type": "debit",
+    "Category": "Restaurants",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "06/04/2051",
+    "Description": "Tera Coins Payment",
+    "Amount": "235.18",
+    "Transaction Type": "debit",
+    "Category": "Tera Coins Payment",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "06/04/2051",
+    "Description": "Tera F&B",
+    "Amount": "24.12",
+    "Transaction Type": "debit",
+    "Category": "Groceries",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "06/04/2051",
+    "Description": "Mortgage Payment",
+    "Amount": "1247.44",
+    "Transaction Type": "debit",
+    "Category": "Mortgage & Rent",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "06/04/2051",
+    "Description": "Tetrix",
+    "Amount": "11.76",
+    "Transaction Type": "debit",
+    "Category": "Movies & DVDs",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "06/06/2051",
+    "Description": "Novabucks",
+    "Amount": "4",
+    "Transaction Type": "debit",
+    "Category": "Coffee Shops",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "06/08/2051",
+    "Description": "Biweekly Paycheck",
+    "Amount": "2000",
+    "Transaction Type": "credit",
+    "Category": "Paycheck",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "06/08/2051",
+    "Description": "Gas Company",
+    "Amount": "30",
+    "Transaction Type": "debit",
+    "Category": "Utilities",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "06/09/2051",
+    "Description": "Chick-Fil-A",
+    "Amount": "16.18",
+    "Transaction Type": "debit",
+    "Category": "Fast Food",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "06/09/2051",
+    "Description": "Tera F&B",
+    "Amount": "9.56",
+    "Transaction Type": "debit",
+    "Category": "Groceries",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "06/09/2051",
+    "Description": "NovaMusic",
+    "Amount": "10.69",
+    "Transaction Type": "debit",
+    "Category": "Music",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "06/10/2051",
+    "Description": "Tera F&B",
+    "Amount": "46.01",
+    "Transaction Type": "debit",
+    "Category": "Groceries",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "06/12/2051",
+    "Description": "Tera F&B",
+    "Amount": "12.55",
+    "Transaction Type": "debit",
+    "Category": "Groceries",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "06/12/2051",
+    "Description": "NovaPhones",
+    "Amount": "89.46",
+    "Transaction Type": "debit",
+    "Category": "Mobile Phone",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "06/14/2051",
+    "Description": "Tera Coins Payment",
+    "Amount": "283.44",
+    "Transaction Type": "credit",
+    "Category": "Tera Coins Payment",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "06/14/2051",
+    "Description": "Tera Coins Payment",
+    "Amount": "283.44",
+    "Transaction Type": "debit",
+    "Category": "Tera Coins Payment",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "06/14/2051",
+    "Description": "Tera F&B",
+    "Amount": "7.02",
+    "Transaction Type": "debit",
+    "Category": "Groceries",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "06/15/2051",
+    "Description": "Tera Solar Company",
+    "Amount": "60",
+    "Transaction Type": "debit",
+    "Category": "Utilities",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "06/16/2051",
+    "Description": "Novabucks",
+    "Amount": "3",
+    "Transaction Type": "debit",
+    "Category": "Coffee Shops",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "06/16/2051",
+    "Description": "Novinos",
+    "Amount": "22.66",
+    "Transaction Type": "debit",
+    "Category": "Fast Food",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "06/16/2051",
+    "Description": "Tera F&B",
+    "Amount": "13.9",
+    "Transaction Type": "debit",
+    "Category": "Groceries",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "06/18/2051",
+    "Description": "Tera Water Charges",
+    "Amount": "35",
+    "Transaction Type": "debit",
+    "Category": "Utilities",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "06/19/2051",
+    "Description": "Shell",
+    "Amount": "38.52",
+    "Transaction Type": "debit",
+    "Category": "Gas & Fuel",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "06/19/2051",
+    "Description": "Tera F&B",
+    "Amount": "2.69",
+    "Transaction Type": "debit",
+    "Category": "Groceries",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "06/20/2051",
+    "Description": "State Farm",
+    "Amount": "75",
+    "Transaction Type": "debit",
+    "Category": "Auto Insurance",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "06/20/2051",
+    "Description": "Tera Coins Payment",
+    "Amount": "89.45",
+    "Transaction Type": "credit",
+    "Category": "Tera Coins Payment",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "06/20/2051",
+    "Description": "Barbershop",
+    "Amount": "30",
+    "Transaction Type": "debit",
+    "Category": "Haircut",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "06/21/2051",
+    "Description": "Tera Coins Payment",
+    "Amount": "89.45",
+    "Transaction Type": "debit",
+    "Category": "Tera Coins Payment",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "06/22/2051",
+    "Description": "Biweekly Paycheck",
+    "Amount": "2000",
+    "Transaction Type": "credit",
+    "Category": "Paycheck",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "06/23/2051",
+    "Description": "Novunch",
+    "Amount": "8.5",
+    "Transaction Type": "debit",
+    "Category": "Restaurants",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "06/23/2051",
+    "Description": "SpaceZone",
+    "Amount": "74.97",
+    "Transaction Type": "debit",
+    "Category": "Shopping",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "06/25/2051",
+    "Description": "Tera Coins Payment",
+    "Amount": "942.76",
+    "Transaction Type": "credit",
+    "Category": "Tera Coins Payment",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "06/25/2051",
+    "Description": "Tera Coins Payment",
+    "Amount": "942.76",
+    "Transaction Type": "debit",
+    "Category": "Tera Coins Payment",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "06/25/2051",
+    "Description": "Inter-Nova",
+    "Amount": "74.99",
+    "Transaction Type": "debit",
+    "Category": "Internet",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "06/26/2051",
+    "Description": "Tera F&B",
+    "Amount": "9.62",
+    "Transaction Type": "debit",
+    "Category": "Groceries",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "06/27/2051",
+    "Description": "Novabucks",
+    "Amount": "3.5",
+    "Transaction Type": "debit",
+    "Category": "Coffee Shops",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "06/27/2051",
+    "Description": "Novinos",
+    "Amount": "22.66",
+    "Transaction Type": "debit",
+    "Category": "Fast Food",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "06/28/2051",
+    "Description": "Tera F&B",
+    "Amount": "7.57",
+    "Transaction Type": "debit",
+    "Category": "Groceries",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "07/01/2051",
+    "Description": "SpaceZone",
+    "Amount": "13.13",
+    "Transaction Type": "debit",
+    "Category": "Shopping",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "07/02/2051",
+    "Description": "Mortgage Payment",
+    "Amount": "1247.44",
+    "Transaction Type": "debit",
+    "Category": "Mortgage & Rent",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "07/02/2051",
+    "Description": "Movie Theater",
+    "Amount": "25",
+    "Transaction Type": "debit",
+    "Category": "Movies & DVDs",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "07/02/2051",
+    "Description": "Noverican Foods",
+    "Amount": "36.44",
+    "Transaction Type": "debit",
+    "Category": "Restaurants",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "07/04/2051",
+    "Description": "BP",
+    "Amount": "34.48",
+    "Transaction Type": "debit",
+    "Category": "Gas & Fuel",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "07/04/2051",
+    "Description": "Tetrix",
+    "Amount": "11.76",
+    "Transaction Type": "debit",
+    "Category": "Movies & DVDs",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "07/05/2051",
+    "Description": "Tera F&B",
+    "Amount": "44.25",
+    "Transaction Type": "debit",
+    "Category": "Groceries",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "07/05/2051",
+    "Description": "SpaceZone",
+    "Amount": "212.32",
+    "Transaction Type": "debit",
+    "Category": "Shopping",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "07/06/2051",
+    "Description": "SpaceZone Video",
+    "Amount": "6.41",
+    "Transaction Type": "debit",
+    "Category": "Movies & DVDs",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "07/06/2051",
+    "Description": "Biweekly Paycheck",
+    "Amount": "2000",
+    "Transaction Type": "credit",
+    "Category": "Paycheck",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "07/08/2051",
+    "Description": "Tera Coins Payment",
+    "Amount": "259.87",
+    "Transaction Type": "credit",
+    "Category": "Tera Coins Payment",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "07/09/2051",
+    "Description": "Tera Coins Payment",
+    "Amount": "242.16",
+    "Transaction Type": "credit",
+    "Category": "Tera Coins Payment",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "07/09/2051",
+    "Description": "Tera Coins Payment",
+    "Amount": "259.87",
+    "Transaction Type": "debit",
+    "Category": "Tera Coins Payment",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "07/09/2051",
+    "Description": "NovaMusic",
+    "Amount": "10.69",
+    "Transaction Type": "debit",
+    "Category": "Music",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "07/10/2051",
+    "Description": "Tera Coins Payment",
+    "Amount": "242.16",
+    "Transaction Type": "debit",
+    "Category": "Tera Coins Payment",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "07/10/2051",
+    "Description": "Tera F&B",
+    "Amount": "5.39",
+    "Transaction Type": "debit",
+    "Category": "Groceries",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "07/10/2051",
+    "Description": "Gas Company",
+    "Amount": "30",
+    "Transaction Type": "debit",
+    "Category": "Utilities",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "07/11/2051",
+    "Description": "NovaPhones",
+    "Amount": "89.46",
+    "Transaction Type": "debit",
+    "Category": "Mobile Phone",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "07/14/2051",
+    "Description": "Go Mart",
+    "Amount": "33.51",
+    "Transaction Type": "debit",
+    "Category": "Gas & Fuel",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "07/15/2051",
+    "Description": "Circle K",
+    "Amount": "36.24",
+    "Transaction Type": "debit",
+    "Category": "Gas & Fuel",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "07/17/2051",
+    "Description": "Wendy's",
+    "Amount": "15.23",
+    "Transaction Type": "debit",
+    "Category": "Fast Food",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "07/17/2051",
+    "Description": "Tera Water Charges",
+    "Amount": "35",
+    "Transaction Type": "debit",
+    "Category": "Utilities",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "07/17/2051",
+    "Description": "Tera Solar Company",
+    "Amount": "60",
+    "Transaction Type": "debit",
+    "Category": "Utilities",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "07/18/2051",
+    "Description": "Irish Restaurant",
+    "Amount": "28.54",
+    "Transaction Type": "debit",
+    "Category": "Alcohol & Bars",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "07/18/2051",
+    "Description": "State Farm",
+    "Amount": "75",
+    "Transaction Type": "debit",
+    "Category": "Auto Insurance",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "07/20/2051",
+    "Description": "Tera Coins Payment",
+    "Amount": "61.43",
+    "Transaction Type": "credit",
+    "Category": "Tera Coins Payment",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "07/20/2051",
+    "Description": "Tera Coins Payment",
+    "Amount": "102.88",
+    "Transaction Type": "credit",
+    "Category": "Tera Coins Payment",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "07/20/2051",
+    "Description": "Tera Coins Payment",
+    "Amount": "102.88",
+    "Transaction Type": "debit",
+    "Category": "Tera Coins Payment",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "07/20/2051",
+    "Description": "Biweekly Paycheck",
+    "Amount": "2000",
+    "Transaction Type": "credit",
+    "Category": "Paycheck",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "07/21/2051",
+    "Description": "Tera F&B",
+    "Amount": "28.93",
+    "Transaction Type": "debit",
+    "Category": "Groceries",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "07/21/2051",
+    "Description": "Barbershop",
+    "Amount": "30",
+    "Transaction Type": "debit",
+    "Category": "Haircut",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "07/23/2051",
+    "Description": "Tera Coins Payment",
+    "Amount": "61.43",
+    "Transaction Type": "debit",
+    "Category": "Tera Coins Payment",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "07/23/2051",
+    "Description": "Novabucks",
+    "Amount": "9.58",
+    "Transaction Type": "debit",
+    "Category": "Fast Food",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "07/24/2051",
+    "Description": "Noverican Foods",
+    "Amount": "26.59",
+    "Transaction Type": "debit",
+    "Category": "Restaurants",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "07/25/2051",
+    "Description": "Inter-Nova",
+    "Amount": "74.99",
+    "Transaction Type": "debit",
+    "Category": "Internet",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "07/26/2051",
+    "Description": "Conoco",
+    "Amount": "33.67",
+    "Transaction Type": "debit",
+    "Category": "Gas & Fuel",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "07/28/2051",
+    "Description": "Tera F&B",
+    "Amount": "7.61",
+    "Transaction Type": "debit",
+    "Category": "Groceries",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "07/30/2051",
+    "Description": "Noverican Foods",
+    "Amount": "34.38",
+    "Transaction Type": "debit",
+    "Category": "Restaurants",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "07/31/2051",
+    "Description": "Brewing Company",
+    "Amount": "6.6",
+    "Transaction Type": "debit",
+    "Category": "Alcohol & Bars",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "08/01/2051",
+    "Description": "SpaceZone",
+    "Amount": "13.13",
+    "Transaction Type": "debit",
+    "Category": "Shopping",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "08/02/2051",
+    "Description": "Tera Coins Payment",
+    "Amount": "816.27",
+    "Transaction Type": "credit",
+    "Category": "Tera Coins Payment",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "08/02/2051",
+    "Description": "Shell",
+    "Amount": "40.44",
+    "Transaction Type": "debit",
+    "Category": "Gas & Fuel",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "08/02/2051",
+    "Description": "Mortgage Payment",
+    "Amount": "1247.44",
+    "Transaction Type": "debit",
+    "Category": "Mortgage & Rent",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "08/03/2051",
+    "Description": "Tera F&B",
+    "Amount": "6.27",
+    "Transaction Type": "debit",
+    "Category": "Groceries",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "08/03/2051",
+    "Description": "Biweekly Paycheck",
+    "Amount": "2000",
+    "Transaction Type": "credit",
+    "Category": "Paycheck",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "08/04/2051",
+    "Description": "Tetrix",
+    "Amount": "11.76",
+    "Transaction Type": "debit",
+    "Category": "Movies & DVDs",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "08/06/2051",
+    "Description": "SpaceZone",
+    "Amount": "76.47",
+    "Transaction Type": "debit",
+    "Category": "Shopping",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "08/09/2051",
+    "Description": "NovaMusic",
+    "Amount": "10.69",
+    "Transaction Type": "debit",
+    "Category": "Music",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "08/09/2051",
+    "Description": "Gas Company",
+    "Amount": "30",
+    "Transaction Type": "debit",
+    "Category": "Utilities",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "08/10/2051",
+    "Description": "NovaPhones",
+    "Amount": "89.4",
+    "Transaction Type": "debit",
+    "Category": "Mobile Phone",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "08/11/2051",
+    "Description": "Chick-Fil-A",
+    "Amount": "13.67",
+    "Transaction Type": "debit",
+    "Category": "Fast Food",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "08/11/2051",
+    "Description": "Valero",
+    "Amount": "33.66",
+    "Transaction Type": "debit",
+    "Category": "Gas & Fuel",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "08/15/2051",
+    "Description": "Tera Coins Payment",
+    "Amount": "269.56",
+    "Transaction Type": "credit",
+    "Category": "Tera Coins Payment",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "08/15/2051",
+    "Description": "Tera Coins Payment",
+    "Amount": "159.38",
+    "Transaction Type": "credit",
+    "Category": "Tera Coins Payment",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "08/15/2051",
+    "Description": "Shell",
+    "Amount": "41.07",
+    "Transaction Type": "debit",
+    "Category": "Gas & Fuel",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "08/15/2051",
+    "Description": "Tera F&B",
+    "Amount": "5.64",
+    "Transaction Type": "debit",
+    "Category": "Groceries",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "08/15/2051",
+    "Description": "Tera Solar Company",
+    "Amount": "60",
+    "Transaction Type": "debit",
+    "Category": "Utilities",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "08/16/2051",
+    "Description": "Tera Coins Payment",
+    "Amount": "269.56",
+    "Transaction Type": "debit",
+    "Category": "Tera Coins Payment",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "08/16/2051",
+    "Description": "Tera Water Charges",
+    "Amount": "35",
+    "Transaction Type": "debit",
+    "Category": "Utilities",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "08/17/2051",
+    "Description": "Biweekly Paycheck",
+    "Amount": "2000",
+    "Transaction Type": "credit",
+    "Category": "Paycheck",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "08/17/2051",
+    "Description": "SpaceZone",
+    "Amount": "14.98",
+    "Transaction Type": "debit",
+    "Category": "Shopping",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "08/18/2051",
+    "Description": "SpaceZone",
+    "Amount": "23.47",
+    "Transaction Type": "debit",
+    "Category": "Shopping",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "08/20/2051",
+    "Description": "State Farm",
+    "Amount": "75",
+    "Transaction Type": "debit",
+    "Category": "Auto Insurance",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "08/21/2051",
+    "Description": "Tera Coins Payment",
+    "Amount": "34.18",
+    "Transaction Type": "credit",
+    "Category": "Tera Coins Payment",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "08/21/2051",
+    "Description": "Tera Coins Payment",
+    "Amount": "99.76",
+    "Transaction Type": "credit",
+    "Category": "Tera Coins Payment",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "08/21/2051",
+    "Description": "Tera Coins Payment",
+    "Amount": "99.76",
+    "Transaction Type": "debit",
+    "Category": "Tera Coins Payment",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "08/22/2051",
+    "Description": "Tera Coins Payment",
+    "Amount": "34.18",
+    "Transaction Type": "debit",
+    "Category": "Tera Coins Payment",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "08/24/2051",
+    "Description": "Noverican Foods",
+    "Amount": "42.31",
+    "Transaction Type": "debit",
+    "Category": "Restaurants",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "08/27/2051",
+    "Description": "Inter-Nova",
+    "Amount": "74.99",
+    "Transaction Type": "debit",
+    "Category": "Internet",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "08/30/2051",
+    "Description": "Shell",
+    "Amount": "35.65",
+    "Transaction Type": "debit",
+    "Category": "Gas & Fuel",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "08/31/2051",
+    "Description": "Tera F&B",
+    "Amount": "11.64",
+    "Transaction Type": "debit",
+    "Category": "Groceries",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "08/31/2051",
+    "Description": "Biweekly Paycheck",
+    "Amount": "2000",
+    "Transaction Type": "credit",
+    "Category": "Paycheck",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "09/01/2051",
+    "Description": "Brewing Company",
+    "Amount": "47.4",
+    "Transaction Type": "debit",
+    "Category": "Alcohol & Bars",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "09/01/2051",
+    "Description": "SpaceZone",
+    "Amount": "13.13",
+    "Transaction Type": "debit",
+    "Category": "Shopping",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "09/02/2051",
+    "Description": "SpaceZone",
+    "Amount": "109.83",
+    "Transaction Type": "debit",
+    "Category": "Shopping",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "09/04/2051",
+    "Description": "Tera Coins Payment",
+    "Amount": "687.29",
+    "Transaction Type": "credit",
+    "Category": "Tera Coins Payment",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "09/04/2051",
+    "Description": "Tera Coins Payment",
+    "Amount": "687.29",
+    "Transaction Type": "debit",
+    "Category": "Tera Coins Payment",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "09/04/2051",
+    "Description": "Mortgage Payment",
+    "Amount": "1247.44",
+    "Transaction Type": "debit",
+    "Category": "Mortgage & Rent",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "09/04/2051",
+    "Description": "Tetrix",
+    "Amount": "11.76",
+    "Transaction Type": "debit",
+    "Category": "Movies & DVDs",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "09/07/2051",
+    "Description": "Gas Company",
+    "Amount": "30",
+    "Transaction Type": "debit",
+    "Category": "Utilities",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "09/09/2051",
+    "Description": "Brewing Company",
+    "Amount": "18",
+    "Transaction Type": "debit",
+    "Category": "Alcohol & Bars",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "09/09/2051",
+    "Description": "NovaMusic",
+    "Amount": "10.69",
+    "Transaction Type": "debit",
+    "Category": "Music",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "09/11/2051",
+    "Description": "BP",
+    "Amount": "38.86",
+    "Transaction Type": "debit",
+    "Category": "Gas & Fuel",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "09/11/2051",
+    "Description": "Tera F&B",
+    "Amount": "7.87",
+    "Transaction Type": "debit",
+    "Category": "Groceries",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "09/12/2051",
+    "Description": "Tera F&B",
+    "Amount": "47.16",
+    "Transaction Type": "debit",
+    "Category": "Groceries",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "09/12/2051",
+    "Description": "NovaPhones",
+    "Amount": "89.4",
+    "Transaction Type": "debit",
+    "Category": "Mobile Phone",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "09/13/2051",
+    "Description": "Tera F&B",
+    "Amount": "5.64",
+    "Transaction Type": "debit",
+    "Category": "Groceries",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "09/14/2051",
+    "Description": "Tera Coins Payment",
+    "Amount": "134.34",
+    "Transaction Type": "credit",
+    "Category": "Tera Coins Payment",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "09/14/2051",
+    "Description": "Biweekly Paycheck",
+    "Amount": "2000",
+    "Transaction Type": "credit",
+    "Category": "Paycheck",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "09/17/2051",
+    "Description": "Tera F&B",
+    "Amount": "10.17",
+    "Transaction Type": "debit",
+    "Category": "Groceries",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "09/17/2051",
+    "Description": "Tera F&B",
+    "Amount": "8.8",
+    "Transaction Type": "debit",
+    "Category": "Groceries",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "09/17/2051",
+    "Description": "Tera Water Charges",
+    "Amount": "35",
+    "Transaction Type": "debit",
+    "Category": "Utilities",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "09/18/2051",
+    "Description": "Tera F&B",
+    "Amount": "4.32",
+    "Transaction Type": "debit",
+    "Category": "Groceries",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "09/18/2051",
+    "Description": "Tera Solar Company",
+    "Amount": "60",
+    "Transaction Type": "debit",
+    "Category": "Utilities",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "09/19/2051",
+    "Description": "State Farm",
+    "Amount": "75",
+    "Transaction Type": "debit",
+    "Category": "Auto Insurance",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "09/19/2051",
+    "Description": "Barbershop",
+    "Amount": "30",
+    "Transaction Type": "debit",
+    "Category": "Haircut",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "09/20/2051",
+    "Description": "SpaceZone",
+    "Amount": "47.38",
+    "Transaction Type": "debit",
+    "Category": "Shopping",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "09/22/2051",
+    "Description": "Hardware Store",
+    "Amount": "69.4",
+    "Transaction Type": "debit",
+    "Category": "Home Improvement",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "09/22/2051",
+    "Description": "Hardware Store",
+    "Amount": "6.83",
+    "Transaction Type": "debit",
+    "Category": "Home Improvement",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "09/25/2051",
+    "Description": "Inter-Nova",
+    "Amount": "74.99",
+    "Transaction Type": "debit",
+    "Category": "Internet",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "09/25/2051",
+    "Description": "Sushi Restaurant",
+    "Amount": "48.64",
+    "Transaction Type": "debit",
+    "Category": "Restaurants",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "09/26/2051",
+    "Description": "Novabucks",
+    "Amount": "5",
+    "Transaction Type": "debit",
+    "Category": "Coffee Shops",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "09/26/2051",
+    "Description": "Exxon",
+    "Amount": "38",
+    "Transaction Type": "debit",
+    "Category": "Gas & Fuel",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "09/27/2051",
+    "Description": "Valero",
+    "Amount": "40.71",
+    "Transaction Type": "debit",
+    "Category": "Gas & Fuel",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "09/28/2051",
+    "Description": "Tera Coins Payment",
+    "Amount": "128.12",
+    "Transaction Type": "credit",
+    "Category": "Tera Coins Payment",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "09/28/2051",
+    "Description": "Tera Coins Payment",
+    "Amount": "284.96",
+    "Transaction Type": "credit",
+    "Category": "Tera Coins Payment",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "09/28/2051",
+    "Description": "Tera Coins Payment",
+    "Amount": "284.96",
+    "Transaction Type": "debit",
+    "Category": "Tera Coins Payment",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "09/28/2051",
+    "Description": "Tera F&B",
+    "Amount": "13.36",
+    "Transaction Type": "debit",
+    "Category": "Groceries",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "09/28/2051",
+    "Description": "Biweekly Paycheck",
+    "Amount": "2000",
+    "Transaction Type": "credit",
+    "Category": "Paycheck",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "09/29/2051",
+    "Description": "Greek Restaurant",
+    "Amount": "23.26",
+    "Transaction Type": "debit",
+    "Category": "Restaurants",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "09/29/2051",
+    "Description": "German Restaurant",
+    "Amount": "46.7",
+    "Transaction Type": "debit",
+    "Category": "Restaurants",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "10/01/2051",
+    "Description": "Novabucks",
+    "Amount": "3",
+    "Transaction Type": "debit",
+    "Category": "Coffee Shops",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "10/01/2051",
+    "Description": "Tera Coins Payment",
+    "Amount": "128.12",
+    "Transaction Type": "debit",
+    "Category": "Tera Coins Payment",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "10/01/2051",
+    "Description": "Tera F&B",
+    "Amount": "15.66",
+    "Transaction Type": "debit",
+    "Category": "Groceries",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "10/01/2051",
+    "Description": "SpaceZone",
+    "Amount": "13.13",
+    "Transaction Type": "debit",
+    "Category": "Shopping",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "10/02/2051",
+    "Description": "Tera Coins Payment",
+    "Amount": "124.03",
+    "Transaction Type": "credit",
+    "Category": "Tera Coins Payment",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "10/02/2051",
+    "Description": "Tera Coins Payment",
+    "Amount": "124.03",
+    "Transaction Type": "debit",
+    "Category": "Tera Coins Payment",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "10/02/2051",
+    "Description": "Mortgage Payment",
+    "Amount": "1209.18",
+    "Transaction Type": "debit",
+    "Category": "Mortgage & Rent",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "10/04/2051",
+    "Description": "Tetrix",
+    "Amount": "11.76",
+    "Transaction Type": "debit",
+    "Category": "Movies & DVDs",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "10/06/2051",
+    "Description": "Noverican Foods",
+    "Amount": "27",
+    "Transaction Type": "debit",
+    "Category": "Restaurants",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "10/08/2051",
+    "Description": "Shell",
+    "Amount": "38.06",
+    "Transaction Type": "debit",
+    "Category": "Gas & Fuel",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "10/08/2051",
+    "Description": "Hardware Store",
+    "Amount": "80.65",
+    "Transaction Type": "debit",
+    "Category": "Home Improvement",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "10/08/2051",
+    "Description": "Hardware Store",
+    "Amount": "31.2",
+    "Transaction Type": "debit",
+    "Category": "Home Improvement",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "10/09/2051",
+    "Description": "NovaMusic",
+    "Amount": "10.69",
+    "Transaction Type": "debit",
+    "Category": "Music",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "10/09/2051",
+    "Description": "SpaceZone",
+    "Amount": "19.98",
+    "Transaction Type": "debit",
+    "Category": "Shopping",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "10/09/2051",
+    "Description": "Gas Company",
+    "Amount": "30",
+    "Transaction Type": "debit",
+    "Category": "Utilities",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "10/10/2051",
+    "Description": "Tera F&B",
+    "Amount": "53.68",
+    "Transaction Type": "debit",
+    "Category": "Groceries",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "10/11/2051",
+    "Description": "NovaPhones",
+    "Amount": "89.4",
+    "Transaction Type": "debit",
+    "Category": "Mobile Phone",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "10/12/2051",
+    "Description": "Biweekly Paycheck",
+    "Amount": "2000",
+    "Transaction Type": "credit",
+    "Category": "Paycheck",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "10/16/2051",
+    "Description": "Tera Solar Company",
+    "Amount": "60",
+    "Transaction Type": "debit",
+    "Category": "Utilities",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "10/17/2051",
+    "Description": "Tera Water Charges",
+    "Amount": "35",
+    "Transaction Type": "debit",
+    "Category": "Utilities",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "10/18/2051",
+    "Description": "State Farm",
+    "Amount": "75",
+    "Transaction Type": "debit",
+    "Category": "Auto Insurance",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "10/18/2051",
+    "Description": "Tera F&B",
+    "Amount": "33.55",
+    "Transaction Type": "debit",
+    "Category": "Groceries",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "10/18/2051",
+    "Description": "Hardware Store",
+    "Amount": "45.24",
+    "Transaction Type": "debit",
+    "Category": "Home Improvement",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "10/18/2051",
+    "Description": "Novunch",
+    "Amount": "8",
+    "Transaction Type": "debit",
+    "Category": "Restaurants",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "10/21/2051",
+    "Description": "Tera Coins Payment",
+    "Amount": "544.37",
+    "Transaction Type": "credit",
+    "Category": "Tera Coins Payment",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "10/22/2051",
+    "Description": "Tera Coins Payment",
+    "Amount": "353.83",
+    "Transaction Type": "credit",
+    "Category": "Tera Coins Payment",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "10/22/2051",
+    "Description": "Tera Coins Payment",
+    "Amount": "353.83",
+    "Transaction Type": "debit",
+    "Category": "Tera Coins Payment",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "10/22/2051",
+    "Description": "BP",
+    "Amount": "34.66",
+    "Transaction Type": "debit",
+    "Category": "Gas & Fuel",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "10/23/2051",
+    "Description": "Tera F&B",
+    "Amount": "7.57",
+    "Transaction Type": "debit",
+    "Category": "Groceries",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "10/25/2051",
+    "Description": "Inter-Nova",
+    "Amount": "74.99",
+    "Transaction Type": "debit",
+    "Category": "Internet",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "10/25/2051",
+    "Description": "SpaceZone",
+    "Amount": "29.98",
+    "Transaction Type": "debit",
+    "Category": "Shopping",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "10/26/2051",
+    "Description": "Biweekly Paycheck",
+    "Amount": "2000",
+    "Transaction Type": "credit",
+    "Category": "Paycheck",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "10/27/2051",
+    "Description": "Noverican Foods",
+    "Amount": "25.4",
+    "Transaction Type": "debit",
+    "Category": "Restaurants",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "10/28/2051",
+    "Description": "Brewing Company",
+    "Amount": "12.71",
+    "Transaction Type": "debit",
+    "Category": "Alcohol & Bars",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "10/28/2051",
+    "Description": "Seafood Restaurant",
+    "Amount": "14.75",
+    "Transaction Type": "debit",
+    "Category": "Food & Dining",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "10/28/2051",
+    "Description": "Tera F&B",
+    "Amount": "92.49",
+    "Transaction Type": "debit",
+    "Category": "Groceries",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "10/28/2051",
+    "Description": "Italian Restaurant",
+    "Amount": "54",
+    "Transaction Type": "debit",
+    "Category": "Restaurants",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "10/31/2051",
+    "Description": "Tera F&B",
+    "Amount": "5.64",
+    "Transaction Type": "debit",
+    "Category": "Groceries",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "11/01/2051",
+    "Description": "SpaceZone",
+    "Amount": "13.13",
+    "Transaction Type": "debit",
+    "Category": "Shopping",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "11/02/2051",
+    "Description": "Tera Coins Payment",
+    "Amount": "262.51",
+    "Transaction Type": "credit",
+    "Category": "Tera Coins Payment",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "11/02/2051",
+    "Description": "Tera Coins Payment",
+    "Amount": "262.51",
+    "Transaction Type": "debit",
+    "Category": "Tera Coins Payment",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "11/02/2051",
+    "Description": "Mortgage Payment",
+    "Amount": "1209.18",
+    "Transaction Type": "debit",
+    "Category": "Mortgage & Rent",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "11/03/2051",
+    "Description": "Novinos",
+    "Amount": "23.66",
+    "Transaction Type": "debit",
+    "Category": "Fast Food",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "11/04/2051",
+    "Description": "Tetrix",
+    "Amount": "11.76",
+    "Transaction Type": "debit",
+    "Category": "Movies & DVDs",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "11/05/2051",
+    "Description": "Shell",
+    "Amount": "36.51",
+    "Transaction Type": "debit",
+    "Category": "Gas & Fuel",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "11/06/2051",
+    "Description": "SpaceZone",
+    "Amount": "53.95",
+    "Transaction Type": "debit",
+    "Category": "Shopping",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "11/06/2051",
+    "Description": "Gas Company",
+    "Amount": "30",
+    "Transaction Type": "debit",
+    "Category": "Utilities",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "11/08/2051",
+    "Description": "Tera F&B",
+    "Amount": "5.64",
+    "Transaction Type": "debit",
+    "Category": "Groceries",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "11/09/2051",
+    "Description": "NovaMusic",
+    "Amount": "10.69",
+    "Transaction Type": "debit",
+    "Category": "Music",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "11/09/2051",
+    "Description": "Biweekly Paycheck",
+    "Amount": "2000",
+    "Transaction Type": "credit",
+    "Category": "Paycheck",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "11/10/2051",
+    "Description": "Brewing Company",
+    "Amount": "27",
+    "Transaction Type": "debit",
+    "Category": "Alcohol & Bars",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "11/10/2051",
+    "Description": "Chick-Fil-A",
+    "Amount": "14.19",
+    "Transaction Type": "debit",
+    "Category": "Fast Food",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "11/10/2051",
+    "Description": "Food Truck",
+    "Amount": "24.4",
+    "Transaction Type": "debit",
+    "Category": "Groceries",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "11/12/2051",
+    "Description": "Tera F&B",
+    "Amount": "10.18",
+    "Transaction Type": "debit",
+    "Category": "Groceries",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "11/12/2051",
+    "Description": "Noverican Foods",
+    "Amount": "22.33",
+    "Transaction Type": "debit",
+    "Category": "Restaurants",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "11/13/2051",
+    "Description": "Tera F&B",
+    "Amount": "4.8",
+    "Transaction Type": "debit",
+    "Category": "Groceries",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "11/13/2051",
+    "Description": "Tera F&B",
+    "Amount": "37.43",
+    "Transaction Type": "debit",
+    "Category": "Groceries",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "11/13/2051",
+    "Description": "Tera F&B",
+    "Amount": "10.15",
+    "Transaction Type": "debit",
+    "Category": "Groceries",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "11/13/2051",
+    "Description": "NovaPhones",
+    "Amount": "89.54",
+    "Transaction Type": "debit",
+    "Category": "Mobile Phone",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "11/14/2051",
+    "Description": "Tera Solar Company",
+    "Amount": "60",
+    "Transaction Type": "debit",
+    "Category": "Utilities",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "11/16/2051",
+    "Description": "Tera Water Charges",
+    "Amount": "35",
+    "Transaction Type": "debit",
+    "Category": "Utilities",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "11/17/2051",
+    "Description": "Brewing Company",
+    "Amount": "22.8",
+    "Transaction Type": "debit",
+    "Category": "Alcohol & Bars",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "11/17/2051",
+    "Description": "Hardware Store",
+    "Amount": "15.47",
+    "Transaction Type": "debit",
+    "Category": "Home Improvement",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "11/17/2051",
+    "Description": "Hardware Store",
+    "Amount": "6.4",
+    "Transaction Type": "debit",
+    "Category": "Home Improvement",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "11/17/2051",
+    "Description": "Greek Restaurant",
+    "Amount": "23.26",
+    "Transaction Type": "debit",
+    "Category": "Restaurants",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "11/19/2051",
+    "Description": "Brewing Company",
+    "Amount": "20",
+    "Transaction Type": "debit",
+    "Category": "Alcohol & Bars",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "11/19/2051",
+    "Description": "QuikTrip",
+    "Amount": "29.15",
+    "Transaction Type": "debit",
+    "Category": "Gas & Fuel",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "11/19/2051",
+    "Description": "Hardware Store",
+    "Amount": "10.02",
+    "Transaction Type": "debit",
+    "Category": "Home Improvement",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "11/20/2051",
+    "Description": "State Farm",
+    "Amount": "75",
+    "Transaction Type": "debit",
+    "Category": "Auto Insurance",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "11/20/2051",
+    "Description": "Tera Coins Payment",
+    "Amount": "421.96",
+    "Transaction Type": "credit",
+    "Category": "Tera Coins Payment",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "11/21/2051",
+    "Description": "Tera F&B",
+    "Amount": "5.64",
+    "Transaction Type": "debit",
+    "Category": "Groceries",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "11/21/2051",
+    "Description": "Hardware Store",
+    "Amount": "37.41",
+    "Transaction Type": "debit",
+    "Category": "Home Improvement",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "11/23/2051",
+    "Description": "Biweekly Paycheck",
+    "Amount": "2000",
+    "Transaction Type": "credit",
+    "Category": "Paycheck",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "11/26/2051",
+    "Description": "Noverican Foods",
+    "Amount": "16.8",
+    "Transaction Type": "debit",
+    "Category": "Alcohol & Bars",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "11/26/2051",
+    "Description": "Inter-Nova",
+    "Amount": "74.99",
+    "Transaction Type": "debit",
+    "Category": "Internet",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "11/27/2051",
+    "Description": "Movie Theater",
+    "Amount": "17",
+    "Transaction Type": "debit",
+    "Category": "Movies & DVDs",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "11/27/2051",
+    "Description": "Noverican Foods",
+    "Amount": "28.4",
+    "Transaction Type": "debit",
+    "Category": "Restaurants",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "11/29/2051",
+    "Description": "Tera Coins Payment",
+    "Amount": "582.99",
+    "Transaction Type": "credit",
+    "Category": "Tera Coins Payment",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "11/29/2051",
+    "Description": "Tera Coins Payment",
+    "Amount": "751.5",
+    "Transaction Type": "credit",
+    "Category": "Tera Coins Payment",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "11/30/2051",
+    "Description": "Tera Coins Payment",
+    "Amount": "582.99",
+    "Transaction Type": "debit",
+    "Category": "Tera Coins Payment",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "11/30/2051",
+    "Description": "Tera F&B",
+    "Amount": "6.27",
+    "Transaction Type": "debit",
+    "Category": "Groceries",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "12/01/2051",
+    "Description": "Tera F&B",
+    "Amount": "5.64",
+    "Transaction Type": "debit",
+    "Category": "Groceries",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "12/01/2051",
+    "Description": "Novunch",
+    "Amount": "8",
+    "Transaction Type": "debit",
+    "Category": "Restaurants",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "12/01/2051",
+    "Description": "SpaceZone",
+    "Amount": "13.13",
+    "Transaction Type": "debit",
+    "Category": "Shopping",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "12/03/2051",
+    "Description": "BP",
+    "Amount": "30.03",
+    "Transaction Type": "debit",
+    "Category": "Gas & Fuel",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "12/03/2051",
+    "Description": "Tera F&B",
+    "Amount": "148.15",
+    "Transaction Type": "debit",
+    "Category": "Groceries",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "12/03/2051",
+    "Description": "Mortgage Payment",
+    "Amount": "1209.18",
+    "Transaction Type": "debit",
+    "Category": "Mortgage & Rent",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "12/04/2051",
+    "Description": "Novabucks",
+    "Amount": "3",
+    "Transaction Type": "debit",
+    "Category": "Coffee Shops",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "12/04/2051",
+    "Description": "Latin Restaurant",
+    "Amount": "20.65",
+    "Transaction Type": "debit",
+    "Category": "Fast Food",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "12/04/2051",
+    "Description": "Tetrix",
+    "Amount": "11.76",
+    "Transaction Type": "debit",
+    "Category": "Movies & DVDs",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "12/06/2051",
+    "Description": "Tera F&B",
+    "Amount": "21.38",
+    "Transaction Type": "debit",
+    "Category": "Groceries",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "12/06/2051",
+    "Description": "Tera F&B",
+    "Amount": "13.48",
+    "Transaction Type": "debit",
+    "Category": "Groceries",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "12/06/2051",
+    "Description": "Gas Company",
+    "Amount": "40",
+    "Transaction Type": "debit",
+    "Category": "Utilities",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "12/07/2051",
+    "Description": "Barbershop",
+    "Amount": "30",
+    "Transaction Type": "debit",
+    "Category": "Haircut",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "12/07/2051",
+    "Description": "Biweekly Paycheck",
+    "Amount": "2000",
+    "Transaction Type": "credit",
+    "Category": "Paycheck",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "12/08/2051",
+    "Description": "Tera F&B",
+    "Amount": "12.64",
+    "Transaction Type": "debit",
+    "Category": "Groceries",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "12/09/2051",
+    "Description": "NovaMusic",
+    "Amount": "10.69",
+    "Transaction Type": "debit",
+    "Category": "Music",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "12/11/2051",
+    "Description": "Novunch",
+    "Amount": "10.29",
+    "Transaction Type": "debit",
+    "Category": "Restaurants",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "12/12/2051",
+    "Description": "NovaPhones",
+    "Amount": "89.54",
+    "Transaction Type": "debit",
+    "Category": "Mobile Phone",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "12/13/2051",
+    "Description": "TetraThai",
+    "Amount": "27",
+    "Transaction Type": "debit",
+    "Category": "Restaurants",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "12/14/2051",
+    "Description": "Tera F&B",
+    "Amount": "21.39",
+    "Transaction Type": "debit",
+    "Category": "Groceries",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "12/14/2051",
+    "Description": "Hardware Store",
+    "Amount": "17.1",
+    "Transaction Type": "debit",
+    "Category": "Home Improvement",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "12/14/2051",
+    "Description": "Tera Solar Company",
+    "Amount": "60",
+    "Transaction Type": "debit",
+    "Category": "Utilities",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "12/17/2051",
+    "Description": "Noverican Foods",
+    "Amount": "63",
+    "Transaction Type": "debit",
+    "Category": "Food & Dining",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "12/17/2051",
+    "Description": "BP",
+    "Amount": "20.01",
+    "Transaction Type": "debit",
+    "Category": "Gas & Fuel",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "12/17/2051",
+    "Description": "Tera Water Charges",
+    "Amount": "35",
+    "Transaction Type": "debit",
+    "Category": "Utilities",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "12/18/2051",
+    "Description": "Novabucks",
+    "Amount": "3",
+    "Transaction Type": "debit",
+    "Category": "Coffee Shops",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "12/18/2051",
+    "Description": "Tera Coins Payment",
+    "Amount": "311.02",
+    "Transaction Type": "credit",
+    "Category": "Tera Coins Payment",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "12/18/2051",
+    "Description": "Tera Coins Payment",
+    "Amount": "311.02",
+    "Transaction Type": "debit",
+    "Category": "Tera Coins Payment",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "12/18/2051",
+    "Description": "NovaKings",
+    "Amount": "56.52",
+    "Transaction Type": "debit",
+    "Category": "Restaurants",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "12/18/2051",
+    "Description": "SpaceZone",
+    "Amount": "49.99",
+    "Transaction Type": "debit",
+    "Category": "Shopping",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "12/18/2051",
+    "Description": "SpaceZone",
+    "Amount": "41.72",
+    "Transaction Type": "debit",
+    "Category": "Shopping",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "12/18/2051",
+    "Description": "SpaceZone",
+    "Amount": "24.3",
+    "Transaction Type": "debit",
+    "Category": "Shopping",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "12/19/2051",
+    "Description": "State Farm",
+    "Amount": "75",
+    "Transaction Type": "debit",
+    "Category": "Auto Insurance",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "12/19/2051",
+    "Description": "SpaceZone",
+    "Amount": "43.01",
+    "Transaction Type": "debit",
+    "Category": "Shopping",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "12/20/2051",
+    "Description": "Tera Coins Payment",
+    "Amount": "464.03",
+    "Transaction Type": "credit",
+    "Category": "Tera Coins Payment",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "12/20/2051",
+    "Description": "Shell",
+    "Amount": "30.38",
+    "Transaction Type": "debit",
+    "Category": "Gas & Fuel",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "12/21/2051",
+    "Description": "Tera Coins Payment",
+    "Amount": "464.03",
+    "Transaction Type": "debit",
+    "Category": "Tera Coins Payment",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "12/21/2051",
+    "Description": "Biweekly Paycheck",
+    "Amount": "2000",
+    "Transaction Type": "credit",
+    "Category": "Paycheck",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "12/22/2051",
+    "Description": "New York Deli",
+    "Amount": "21.38",
+    "Transaction Type": "debit",
+    "Category": "Fast Food",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "12/22/2051",
+    "Description": "Hardware Store",
+    "Amount": "22.14",
+    "Transaction Type": "debit",
+    "Category": "Home Improvement",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "12/23/2051",
+    "Description": "Hardware Store",
+    "Amount": "28",
+    "Transaction Type": "debit",
+    "Category": "Home Improvement",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "12/24/2051",
+    "Description": "Hardware Store",
+    "Amount": "38.4",
+    "Transaction Type": "debit",
+    "Category": "Home Improvement",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "12/26/2051",
+    "Description": "Chick-Fil-A",
+    "Amount": "56.07",
+    "Transaction Type": "debit",
+    "Category": "Fast Food",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "12/26/2051",
+    "Description": "Shell",
+    "Amount": "32.47",
+    "Transaction Type": "debit",
+    "Category": "Gas & Fuel",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "12/26/2051",
+    "Description": "Shell",
+    "Amount": "7.48",
+    "Transaction Type": "debit",
+    "Category": "Gas & Fuel",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "12/26/2051",
+    "Description": "Inter-Nova",
+    "Amount": "75.99",
+    "Transaction Type": "debit",
+    "Category": "Internet",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "12/26/2051",
+    "Description": "SpaceZone",
+    "Amount": "44.99",
+    "Transaction Type": "debit",
+    "Category": "Shopping",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "12/28/2051",
+    "Description": "Brewing Company",
+    "Amount": "12",
+    "Transaction Type": "debit",
+    "Category": "Alcohol & Bars",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "12/29/2051",
+    "Description": "Brewing Company",
+    "Amount": "14",
+    "Transaction Type": "debit",
+    "Category": "Alcohol & Bars",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "12/29/2051",
+    "Description": "Tera Coins Payment",
+    "Amount": "860.05",
+    "Transaction Type": "credit",
+    "Category": "Tera Coins Payment",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "12/29/2051",
+    "Description": "Tera F&B",
+    "Amount": "55.04",
+    "Transaction Type": "debit",
+    "Category": "Groceries",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "01/01/2052",
+    "Description": "SpaceZone",
+    "Amount": "13.09",
+    "Transaction Type": "debit",
+    "Category": "Shopping",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "01/02/2052",
+    "Description": "Tera Coins Payment",
+    "Amount": "499.6",
+    "Transaction Type": "debit",
+    "Category": "Tera Coins Payment",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "01/03/2052",
+    "Description": "Mortgage Payment",
+    "Amount": "1100",
+    "Transaction Type": "debit",
+    "Category": "Mortgage & Rent",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "01/03/2052",
+    "Description": "SpaceZone",
+    "Amount": "42.1",
+    "Transaction Type": "debit",
+    "Category": "Shopping",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "01/04/2052",
+    "Description": "Biweekly Paycheck",
+    "Amount": "2000",
+    "Transaction Type": "credit",
+    "Category": "Paycheck",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "01/05/2052",
+    "Description": "Noverican Foods",
+    "Amount": "23.49",
+    "Transaction Type": "debit",
+    "Category": "Restaurants",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "01/08/2052",
+    "Description": "Gas Company",
+    "Amount": "45",
+    "Transaction Type": "debit",
+    "Category": "Utilities",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "01/09/2052",
+    "Description": "Tera Coins Payment",
+    "Amount": "491.45",
+    "Transaction Type": "credit",
+    "Category": "Tera Coins Payment",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "01/09/2052",
+    "Description": "Tera Coins Payment",
+    "Amount": "491.45",
+    "Transaction Type": "debit",
+    "Category": "Tera Coins Payment",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "01/09/2052",
+    "Description": "Tera Coins Payment",
+    "Amount": "281.84",
+    "Transaction Type": "debit",
+    "Category": "Tera Coins Payment",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "01/09/2052",
+    "Description": "NovaMusic",
+    "Amount": "10.69",
+    "Transaction Type": "debit",
+    "Category": "Music",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "01/10/2052",
+    "Description": "Tera F&B",
+    "Amount": "58.79",
+    "Transaction Type": "debit",
+    "Category": "Groceries",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "01/10/2052",
+    "Description": "Barbershop",
+    "Amount": "30",
+    "Transaction Type": "debit",
+    "Category": "Haircut",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "01/10/2052",
+    "Description": "NovaPhones",
+    "Amount": "65",
+    "Transaction Type": "debit",
+    "Category": "Mobile Phone",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "01/14/2052",
+    "Description": "Shell",
+    "Amount": "28.92",
+    "Transaction Type": "debit",
+    "Category": "Gas & Fuel",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "01/15/2052",
+    "Description": "Tera F&B",
+    "Amount": "6.06",
+    "Transaction Type": "debit",
+    "Category": "Groceries",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "01/16/2052",
+    "Description": "Tera Water Charges",
+    "Amount": "35",
+    "Transaction Type": "debit",
+    "Category": "Utilities",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "01/16/2052",
+    "Description": "Tera Solar Company",
+    "Amount": "60",
+    "Transaction Type": "debit",
+    "Category": "Utilities",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "01/18/2052",
+    "Description": "State Farm",
+    "Amount": "75",
+    "Transaction Type": "debit",
+    "Category": "Auto Insurance",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "01/18/2052",
+    "Description": "Biweekly Paycheck",
+    "Amount": "2000",
+    "Transaction Type": "credit",
+    "Category": "Paycheck",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "01/21/2052",
+    "Description": "Tera Coins Payment",
+    "Amount": "277.99",
+    "Transaction Type": "credit",
+    "Category": "Tera Coins Payment",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "01/22/2052",
+    "Description": "Tera Coins Payment",
+    "Amount": "277.99",
+    "Transaction Type": "debit",
+    "Category": "Tera Coins Payment",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "01/24/2052",
+    "Description": "Tera F&B",
+    "Amount": "21.06",
+    "Transaction Type": "debit",
+    "Category": "Groceries",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "01/24/2052",
+    "Description": "SpaceZone",
+    "Amount": "11.7",
+    "Transaction Type": "debit",
+    "Category": "Shopping",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "01/24/2052",
+    "Description": "SpaceZone",
+    "Amount": "4.21",
+    "Transaction Type": "debit",
+    "Category": "Shopping",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "01/25/2052",
+    "Description": "Inter-Nova",
+    "Amount": "75",
+    "Transaction Type": "debit",
+    "Category": "Internet",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "01/31/2052",
+    "Description": "Tera Coins Payment",
+    "Amount": "1900",
+    "Transaction Type": "debit",
+    "Category": "Tera Coins Payment",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "01/31/2052",
+    "Description": "Shell",
+    "Amount": "31.32",
+    "Transaction Type": "debit",
+    "Category": "Gas & Fuel",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "02/01/2052",
+    "Description": "Biweekly Paycheck",
+    "Amount": "2000",
+    "Transaction Type": "credit",
+    "Category": "Paycheck",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "02/01/2052",
+    "Description": "Roadside Diner",
+    "Amount": "9.47",
+    "Transaction Type": "debit",
+    "Category": "Restaurants",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "02/01/2052",
+    "Description": "SpaceZone",
+    "Amount": "13.09",
+    "Transaction Type": "debit",
+    "Category": "Shopping",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "02/04/2052",
+    "Description": "Hardware Store",
+    "Amount": "86.97",
+    "Transaction Type": "debit",
+    "Category": "Home Improvement",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "02/04/2052",
+    "Description": "Tetrix",
+    "Amount": "11.76",
+    "Transaction Type": "debit",
+    "Category": "Television",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "02/05/2052",
+    "Description": "Mortgage Payment",
+    "Amount": "1100",
+    "Transaction Type": "debit",
+    "Category": "Mortgage & Rent",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "02/07/2052",
+    "Description": "Gas Company",
+    "Amount": "65",
+    "Transaction Type": "debit",
+    "Category": "Utilities",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "02/08/2052",
+    "Description": "Novabucks",
+    "Amount": "3",
+    "Transaction Type": "debit",
+    "Category": "Coffee Shops",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "02/08/2052",
+    "Description": "TetraThai",
+    "Amount": "27.47",
+    "Transaction Type": "debit",
+    "Category": "Restaurants",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "02/09/2052",
+    "Description": "NovaMusic",
+    "Amount": "10.69",
+    "Transaction Type": "debit",
+    "Category": "Music",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "02/11/2052",
+    "Description": "Novabucks",
+    "Amount": "3",
+    "Transaction Type": "debit",
+    "Category": "Coffee Shops",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "02/11/2052",
+    "Description": "Tera Coins Payment",
+    "Amount": "133.95",
+    "Transaction Type": "debit",
+    "Category": "Tera Coins Payment",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "02/11/2052",
+    "Description": "BP",
+    "Amount": "24.01",
+    "Transaction Type": "debit",
+    "Category": "Gas & Fuel",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "02/12/2052",
+    "Description": "Tera F&B",
+    "Amount": "30.54",
+    "Transaction Type": "debit",
+    "Category": "Groceries",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "02/12/2052",
+    "Description": "NovaPhones",
+    "Amount": "65",
+    "Transaction Type": "debit",
+    "Category": "Mobile Phone",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "02/13/2052",
+    "Description": "Tera F&B",
+    "Amount": "8.21",
+    "Transaction Type": "debit",
+    "Category": "Groceries",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "02/15/2052",
+    "Description": "Tera Coins Payment",
+    "Amount": "207.47",
+    "Transaction Type": "credit",
+    "Category": "Tera Coins Payment",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "02/15/2052",
+    "Description": "Tera Coins Payment",
+    "Amount": "207.47",
+    "Transaction Type": "debit",
+    "Category": "Tera Coins Payment",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "02/15/2052",
+    "Description": "Tera F&B",
+    "Amount": "4.59",
+    "Transaction Type": "debit",
+    "Category": "Groceries",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "02/15/2052",
+    "Description": "Biweekly Paycheck",
+    "Amount": "2000",
+    "Transaction Type": "credit",
+    "Category": "Paycheck",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "02/15/2052",
+    "Description": "Tera Solar Company",
+    "Amount": "60",
+    "Transaction Type": "debit",
+    "Category": "Utilities",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "02/16/2052",
+    "Description": "Brewing Company",
+    "Amount": "8",
+    "Transaction Type": "debit",
+    "Category": "Alcohol & Bars",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "02/16/2052",
+    "Description": "Noverican Foods",
+    "Amount": "32.75",
+    "Transaction Type": "debit",
+    "Category": "Restaurants",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "02/16/2052",
+    "Description": "SpaceZone",
+    "Amount": "37.45",
+    "Transaction Type": "debit",
+    "Category": "Shopping",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "02/19/2052",
+    "Description": "Tera Coins Payment",
+    "Amount": "574.84",
+    "Transaction Type": "debit",
+    "Category": "Tera Coins Payment",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "02/19/2052",
+    "Description": "Tera Water Charges",
+    "Amount": "35",
+    "Transaction Type": "debit",
+    "Category": "Utilities",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "02/20/2052",
+    "Description": "State Farm",
+    "Amount": "75",
+    "Transaction Type": "debit",
+    "Category": "Auto Insurance",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "02/20/2052",
+    "Description": "Tera Coins Payment",
+    "Amount": "292.54",
+    "Transaction Type": "credit",
+    "Category": "Tera Coins Payment",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "02/20/2052",
+    "Description": "Barbershop",
+    "Amount": "30",
+    "Transaction Type": "debit",
+    "Category": "Haircut",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "02/21/2052",
+    "Description": "Tera Coins Payment",
+    "Amount": "292.54",
+    "Transaction Type": "debit",
+    "Category": "Tera Coins Payment",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "02/21/2052",
+    "Description": "Tera F&B",
+    "Amount": "46.96",
+    "Transaction Type": "debit",
+    "Category": "Groceries",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "02/25/2052",
+    "Description": "BP",
+    "Amount": "33.8",
+    "Transaction Type": "debit",
+    "Category": "Gas & Fuel",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "02/25/2052",
+    "Description": "Inter-Nova",
+    "Amount": "75",
+    "Transaction Type": "debit",
+    "Category": "Internet",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "02/27/2052",
+    "Description": "Roadside Diner",
+    "Amount": "25.77",
+    "Transaction Type": "debit",
+    "Category": "Restaurants",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "02/28/2052",
+    "Description": "Tera F&B",
+    "Amount": "32.07",
+    "Transaction Type": "debit",
+    "Category": "Groceries",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "03/01/2052",
+    "Description": "Biweekly Paycheck",
+    "Amount": "2000",
+    "Transaction Type": "credit",
+    "Category": "Paycheck",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "03/01/2052",
+    "Description": "SpaceZone",
+    "Amount": "13.09",
+    "Transaction Type": "debit",
+    "Category": "Shopping",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "03/04/2052",
+    "Description": "Tera F&B",
+    "Amount": "92.04",
+    "Transaction Type": "debit",
+    "Category": "Groceries",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "03/04/2052",
+    "Description": "Mortgage Payment",
+    "Amount": "1100",
+    "Transaction Type": "debit",
+    "Category": "Mortgage & Rent",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "03/04/2052",
+    "Description": "Tetrix",
+    "Amount": "11.76",
+    "Transaction Type": "debit",
+    "Category": "Television",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "03/05/2052",
+    "Description": "NovaKings",
+    "Amount": "7",
+    "Transaction Type": "debit",
+    "Category": "Restaurants",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "03/06/2052",
+    "Description": "Tera Coins Payment",
+    "Amount": "491.86",
+    "Transaction Type": "debit",
+    "Category": "Tera Coins Payment",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "03/08/2052",
+    "Description": "BP",
+    "Amount": "34.08",
+    "Transaction Type": "debit",
+    "Category": "Gas & Fuel",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "03/08/2052",
+    "Description": "SpaceZone",
+    "Amount": "27.17",
+    "Transaction Type": "debit",
+    "Category": "Shopping",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "03/08/2052",
+    "Description": "Gas Company",
+    "Amount": "49",
+    "Transaction Type": "debit",
+    "Category": "Utilities",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "03/09/2052",
+    "Description": "NovaMusic",
+    "Amount": "10.69",
+    "Transaction Type": "debit",
+    "Category": "Music",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "03/12/2052",
+    "Description": "NovaPhones",
+    "Amount": "65",
+    "Transaction Type": "debit",
+    "Category": "Mobile Phone",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "03/12/2052",
+    "Description": "Bakery Place",
+    "Amount": "3.02",
+    "Transaction Type": "debit",
+    "Category": "Restaurants",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "03/13/2052",
+    "Description": "Tera Coins Payment",
+    "Amount": "532.86",
+    "Transaction Type": "credit",
+    "Category": "Tera Coins Payment",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "03/13/2052",
+    "Description": "Tera Coins Payment",
+    "Amount": "301.79",
+    "Transaction Type": "credit",
+    "Category": "Tera Coins Payment",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "03/14/2052",
+    "Description": "Tera Coins Payment",
+    "Amount": "305.27",
+    "Transaction Type": "debit",
+    "Category": "Tera Coins Payment",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "03/14/2052",
+    "Description": "Tera Coins Payment",
+    "Amount": "301.79",
+    "Transaction Type": "debit",
+    "Category": "Tera Coins Payment",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "03/14/2052",
+    "Description": "Novunch",
+    "Amount": "8",
+    "Transaction Type": "debit",
+    "Category": "Restaurants",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "03/15/2052",
+    "Description": "Biweekly Paycheck",
+    "Amount": "2000",
+    "Transaction Type": "credit",
+    "Category": "Paycheck",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "03/15/2052",
+    "Description": "Tera Solar Company",
+    "Amount": "60",
+    "Transaction Type": "debit",
+    "Category": "Utilities",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "03/18/2052",
+    "Description": "Best Buy",
+    "Amount": "320.99",
+    "Transaction Type": "debit",
+    "Category": "Electronics & Software",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "03/18/2052",
+    "Description": "Tera F&B",
+    "Amount": "16.23",
+    "Transaction Type": "debit",
+    "Category": "Groceries",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "03/19/2052",
+    "Description": "SpaceZone",
+    "Amount": "13.84",
+    "Transaction Type": "debit",
+    "Category": "Shopping",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "03/19/2052",
+    "Description": "Tera Water Charges",
+    "Amount": "35",
+    "Transaction Type": "debit",
+    "Category": "Utilities",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "03/20/2052",
+    "Description": "State Farm",
+    "Amount": "75",
+    "Transaction Type": "debit",
+    "Category": "Auto Insurance",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "03/22/2052",
+    "Description": "BP",
+    "Amount": "37.51",
+    "Transaction Type": "debit",
+    "Category": "Gas & Fuel",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "03/23/2052",
+    "Description": "Novabucks",
+    "Amount": "5.2",
+    "Transaction Type": "debit",
+    "Category": "Coffee Shops",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "03/25/2052",
+    "Description": "Inter-Nova",
+    "Amount": "75",
+    "Transaction Type": "debit",
+    "Category": "Internet",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "03/26/2052",
+    "Description": "SpaceZone",
+    "Amount": "16.04",
+    "Transaction Type": "debit",
+    "Category": "Shopping",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "03/27/2052",
+    "Description": "Brewing Company",
+    "Amount": "49.63",
+    "Transaction Type": "debit",
+    "Category": "Alcohol & Bars",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "03/27/2052",
+    "Description": "Tera F&B",
+    "Amount": "4.46",
+    "Transaction Type": "debit",
+    "Category": "Groceries",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "03/29/2052",
+    "Description": "Biweekly Paycheck",
+    "Amount": "2000",
+    "Transaction Type": "credit",
+    "Category": "Paycheck",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "03/30/2052",
+    "Description": "Novabucks",
+    "Amount": "12.84",
+    "Transaction Type": "debit",
+    "Category": "Coffee Shops",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "03/31/2052",
+    "Description": "Tera Coins Payment",
+    "Amount": "957.6",
+    "Transaction Type": "credit",
+    "Category": "Tera Coins Payment",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "04/01/2052",
+    "Description": "Tera Coins Payment",
+    "Amount": "1552.65",
+    "Transaction Type": "debit",
+    "Category": "Tera Coins Payment",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "04/01/2052",
+    "Description": "Tera Coins Payment",
+    "Amount": "600.51",
+    "Transaction Type": "credit",
+    "Category": "Tera Coins Payment",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "04/01/2052",
+    "Description": "SpaceZone",
+    "Amount": "13.09",
+    "Transaction Type": "debit",
+    "Category": "Shopping",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "04/02/2052",
+    "Description": "Mortgage Payment",
+    "Amount": "1100",
+    "Transaction Type": "debit",
+    "Category": "Mortgage & Rent",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "04/04/2052",
+    "Description": "Tera F&B",
+    "Amount": "5.64",
+    "Transaction Type": "debit",
+    "Category": "Groceries",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "04/04/2052",
+    "Description": "SpaceZone",
+    "Amount": "35.9",
+    "Transaction Type": "debit",
+    "Category": "Shopping",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "04/04/2052",
+    "Description": "Tetrix",
+    "Amount": "11.76",
+    "Transaction Type": "debit",
+    "Category": "Television",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "04/06/2052",
+    "Description": "SpaceZone",
+    "Amount": "27.54",
+    "Transaction Type": "debit",
+    "Category": "Shopping",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "04/08/2052",
+    "Description": "Gas Company",
+    "Amount": "30",
+    "Transaction Type": "debit",
+    "Category": "Utilities",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "04/09/2052",
+    "Description": "Tera Coins Payment",
+    "Amount": "436.75",
+    "Transaction Type": "debit",
+    "Category": "Tera Coins Payment",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "04/09/2052",
+    "Description": "Tera F&B",
+    "Amount": "10.7",
+    "Transaction Type": "debit",
+    "Category": "Groceries",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "04/09/2052",
+    "Description": "Barbershop",
+    "Amount": "30",
+    "Transaction Type": "debit",
+    "Category": "Haircut",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "04/09/2052",
+    "Description": "NovaMusic",
+    "Amount": "10.69",
+    "Transaction Type": "debit",
+    "Category": "Music",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "04/10/2052",
+    "Description": "NovaPhones",
+    "Amount": "65",
+    "Transaction Type": "debit",
+    "Category": "Mobile Phone",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "04/12/2052",
+    "Description": "Best Buy",
+    "Amount": "44.93",
+    "Transaction Type": "debit",
+    "Category": "Electronics & Software",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "04/12/2052",
+    "Description": "Tera F&B",
+    "Amount": "41.34",
+    "Transaction Type": "debit",
+    "Category": "Groceries",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "04/12/2052",
+    "Description": "Biweekly Paycheck",
+    "Amount": "2000",
+    "Transaction Type": "credit",
+    "Category": "Paycheck",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "04/13/2052",
+    "Description": "QuikTrip",
+    "Amount": "38.94",
+    "Transaction Type": "debit",
+    "Category": "Gas & Fuel",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "04/13/2052",
+    "Description": "Tera F&B",
+    "Amount": "16.87",
+    "Transaction Type": "debit",
+    "Category": "Groceries",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "04/13/2052",
+    "Description": "Vietnamese Restaurant",
+    "Amount": "20.64",
+    "Transaction Type": "debit",
+    "Category": "Restaurants",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "04/15/2052",
+    "Description": "Tera Solar Company",
+    "Amount": "60",
+    "Transaction Type": "debit",
+    "Category": "Utilities",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "04/16/2052",
+    "Description": "Tera Water Charges",
+    "Amount": "35",
+    "Transaction Type": "debit",
+    "Category": "Utilities",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "04/18/2052",
+    "Description": "State Farm",
+    "Amount": "75",
+    "Transaction Type": "debit",
+    "Category": "Auto Insurance",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "04/18/2052",
+    "Description": "Tera Coins Payment",
+    "Amount": "604.32",
+    "Transaction Type": "credit",
+    "Category": "Tera Coins Payment",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "04/18/2052",
+    "Description": "Tera Coins Payment",
+    "Amount": "458.1",
+    "Transaction Type": "credit",
+    "Category": "Tera Coins Payment",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "04/19/2052",
+    "Description": "Tera Coins Payment",
+    "Amount": "604.32",
+    "Transaction Type": "debit",
+    "Category": "Tera Coins Payment",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "04/19/2052",
+    "Description": "Tera F&B",
+    "Amount": "10.89",
+    "Transaction Type": "debit",
+    "Category": "Groceries",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "04/22/2052",
+    "Description": "Brewing Company",
+    "Amount": "14.4",
+    "Transaction Type": "debit",
+    "Category": "Alcohol & Bars",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "04/22/2052",
+    "Description": "Greek Restaurant",
+    "Amount": "64.52",
+    "Transaction Type": "debit",
+    "Category": "Restaurants",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "04/23/2052",
+    "Description": "Hardware Store",
+    "Amount": "29.56",
+    "Transaction Type": "debit",
+    "Category": "Home Improvement",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "04/25/2052",
+    "Description": "Inter-Nova",
+    "Amount": "75",
+    "Transaction Type": "debit",
+    "Category": "Internet",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "04/26/2052",
+    "Description": "Biweekly Paycheck",
+    "Amount": "2000",
+    "Transaction Type": "credit",
+    "Category": "Paycheck",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "04/27/2052",
+    "Description": "Brewing Company",
+    "Amount": "40",
+    "Transaction Type": "debit",
+    "Category": "Alcohol & Bars",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "04/27/2052",
+    "Description": "Tera Coins Payment",
+    "Amount": "268.96",
+    "Transaction Type": "credit",
+    "Category": "Tera Coins Payment",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "04/27/2052",
+    "Description": "Noverican Foods",
+    "Amount": "14.74",
+    "Transaction Type": "debit",
+    "Category": "Restaurants",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "04/29/2052",
+    "Description": "Tera Coins Payment",
+    "Amount": "268.96",
+    "Transaction Type": "debit",
+    "Category": "Tera Coins Payment",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "04/29/2052",
+    "Description": "Tera F&B",
+    "Amount": "5.64",
+    "Transaction Type": "debit",
+    "Category": "Groceries",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "04/30/2052",
+    "Description": "BP",
+    "Amount": "39.08",
+    "Transaction Type": "debit",
+    "Category": "Gas & Fuel",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "05/01/2052",
+    "Description": "SpaceZone",
+    "Amount": "13.09",
+    "Transaction Type": "debit",
+    "Category": "Shopping",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "05/02/2052",
+    "Description": "Mortgage Payment",
+    "Amount": "1100",
+    "Transaction Type": "debit",
+    "Category": "Mortgage & Rent",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "05/03/2052",
+    "Description": "Tera Coins Payment",
+    "Amount": "758.07",
+    "Transaction Type": "debit",
+    "Category": "Tera Coins Payment",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "05/04/2052",
+    "Description": "Tetrix",
+    "Amount": "13.9",
+    "Transaction Type": "debit",
+    "Category": "Television",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "05/06/2052",
+    "Description": "SpaceZone",
+    "Amount": "16.94",
+    "Transaction Type": "debit",
+    "Category": "Shopping",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "05/07/2052",
+    "Description": "SpaceZone",
+    "Amount": "38.56",
+    "Transaction Type": "debit",
+    "Category": "Shopping",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "05/09/2052",
+    "Description": "Best Buy",
+    "Amount": "331.69",
+    "Transaction Type": "debit",
+    "Category": "Electronics & Software",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "05/09/2052",
+    "Description": "NovaMusic",
+    "Amount": "10.69",
+    "Transaction Type": "debit",
+    "Category": "Music",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "05/09/2052",
+    "Description": "Target",
+    "Amount": "3.2",
+    "Transaction Type": "debit",
+    "Category": "Shopping",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "05/09/2052",
+    "Description": "Gas Company",
+    "Amount": "30",
+    "Transaction Type": "debit",
+    "Category": "Utilities",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "05/10/2052",
+    "Description": "Best Buy",
+    "Amount": "21.39",
+    "Transaction Type": "debit",
+    "Category": "Electronics & Software",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "05/10/2052",
+    "Description": "NovaPhones",
+    "Amount": "65",
+    "Transaction Type": "debit",
+    "Category": "Mobile Phone",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "05/10/2052",
+    "Description": "Biweekly Paycheck",
+    "Amount": "2000",
+    "Transaction Type": "credit",
+    "Category": "Paycheck",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "05/13/2052",
+    "Description": "Tera Coins Payment",
+    "Amount": "480.88",
+    "Transaction Type": "debit",
+    "Category": "Tera Coins Payment",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "05/13/2052",
+    "Description": "QuikTrip",
+    "Amount": "35.24",
+    "Transaction Type": "debit",
+    "Category": "Gas & Fuel",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "05/13/2052",
+    "Description": "NovaKings",
+    "Amount": "98.19",
+    "Transaction Type": "debit",
+    "Category": "Restaurants",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "05/13/2052",
+    "Description": "Greek Restaurant",
+    "Amount": "23.11",
+    "Transaction Type": "debit",
+    "Category": "Restaurants",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "05/14/2052",
+    "Description": "Tera F&B",
+    "Amount": "2.02",
+    "Transaction Type": "debit",
+    "Category": "Groceries",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "05/15/2052",
+    "Description": "Tera Solar Company",
+    "Amount": "60",
+    "Transaction Type": "debit",
+    "Category": "Utilities",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "05/17/2052",
+    "Description": "Tera Coins Payment",
+    "Amount": "575.33",
+    "Transaction Type": "credit",
+    "Category": "Tera Coins Payment",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "05/17/2052",
+    "Description": "Tera Water Charges",
+    "Amount": "35",
+    "Transaction Type": "debit",
+    "Category": "Utilities",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "05/20/2052",
+    "Description": "State Farm",
+    "Amount": "75",
+    "Transaction Type": "debit",
+    "Category": "Auto Insurance",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "05/20/2052",
+    "Description": "Tera Coins Payment",
+    "Amount": "415.47",
+    "Transaction Type": "debit",
+    "Category": "Tera Coins Payment",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "05/20/2052",
+    "Description": "Noverican Foods",
+    "Amount": "32.53",
+    "Transaction Type": "debit",
+    "Category": "Restaurants",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "05/24/2052",
+    "Description": "Tera Coins Payment",
+    "Amount": "765.68",
+    "Transaction Type": "credit",
+    "Category": "Tera Coins Payment",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "05/24/2052",
+    "Description": "Hardware Store",
+    "Amount": "27.96",
+    "Transaction Type": "debit",
+    "Category": "Home Improvement",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "05/24/2052",
+    "Description": "Biweekly Paycheck",
+    "Amount": "2000",
+    "Transaction Type": "credit",
+    "Category": "Paycheck",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "05/24/2052",
+    "Description": "Novunch",
+    "Amount": "8",
+    "Transaction Type": "debit",
+    "Category": "Restaurants",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "05/25/2052",
+    "Description": "QuikTrip",
+    "Amount": "36.76",
+    "Transaction Type": "debit",
+    "Category": "Gas & Fuel",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "05/25/2052",
+    "Description": "Hardware Store",
+    "Amount": "30.99",
+    "Transaction Type": "debit",
+    "Category": "Home Improvement",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "05/27/2052",
+    "Description": "Teraboy",
+    "Amount": "34.33",
+    "Transaction Type": "debit",
+    "Category": "Restaurants",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "05/28/2052",
+    "Description": "Tera Coins Payment",
+    "Amount": "765.68",
+    "Transaction Type": "debit",
+    "Category": "Tera Coins Payment",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "05/30/2052",
+    "Description": "Inter-Nova",
+    "Amount": "75",
+    "Transaction Type": "debit",
+    "Category": "Internet",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "05/30/2052",
+    "Description": "Noverican Foods",
+    "Amount": "34.82",
+    "Transaction Type": "debit",
+    "Category": "Restaurants",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "06/01/2052",
+    "Description": "SpaceZone",
+    "Amount": "13.09",
+    "Transaction Type": "debit",
+    "Category": "Shopping",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "06/03/2052",
+    "Description": "Novabucks",
+    "Amount": "2.75",
+    "Transaction Type": "debit",
+    "Category": "Coffee Shops",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "06/03/2052",
+    "Description": "Tera Coins Payment",
+    "Amount": "260.95",
+    "Transaction Type": "credit",
+    "Category": "Tera Coins Payment",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "06/03/2052",
+    "Description": "Mortgage Payment",
+    "Amount": "1100",
+    "Transaction Type": "debit",
+    "Category": "Mortgage & Rent",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "06/04/2052",
+    "Description": "Barbershop",
+    "Amount": "30",
+    "Transaction Type": "debit",
+    "Category": "Haircut",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "06/04/2052",
+    "Description": "Tetrix",
+    "Amount": "13.9",
+    "Transaction Type": "debit",
+    "Category": "Television",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "06/05/2052",
+    "Description": "Tera F&B",
+    "Amount": "23",
+    "Transaction Type": "debit",
+    "Category": "Groceries",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "06/05/2052",
+    "Description": "Teraboy",
+    "Amount": "23.24",
+    "Transaction Type": "debit",
+    "Category": "Restaurants",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "06/06/2052",
+    "Description": "Novabucks",
+    "Amount": "3.75",
+    "Transaction Type": "debit",
+    "Category": "Coffee Shops",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "06/06/2052",
+    "Description": "Tera F&B",
+    "Amount": "5.64",
+    "Transaction Type": "debit",
+    "Category": "Groceries",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "06/07/2052",
+    "Description": "Tera Coins Payment",
+    "Amount": "458.56",
+    "Transaction Type": "debit",
+    "Category": "Tera Coins Payment",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "06/07/2052",
+    "Description": "Biweekly Paycheck",
+    "Amount": "2000",
+    "Transaction Type": "credit",
+    "Category": "Paycheck",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "06/07/2052",
+    "Description": "Gas Company",
+    "Amount": "30",
+    "Transaction Type": "debit",
+    "Category": "Utilities",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "06/09/2052",
+    "Description": "NovaMusic",
+    "Amount": "10.69",
+    "Transaction Type": "debit",
+    "Category": "Music",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "06/12/2052",
+    "Description": "NovaPhones",
+    "Amount": "65",
+    "Transaction Type": "debit",
+    "Category": "Mobile Phone",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "06/13/2052",
+    "Description": "Tera Coins Payment",
+    "Amount": "152.72",
+    "Transaction Type": "credit",
+    "Category": "Tera Coins Payment",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "06/13/2052",
+    "Description": "Tera Coins Payment",
+    "Amount": "152.72",
+    "Transaction Type": "debit",
+    "Category": "Tera Coins Payment",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "06/14/2052",
+    "Description": "Tera F&B",
+    "Amount": "10.69",
+    "Transaction Type": "debit",
+    "Category": "Groceries",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "06/15/2052",
+    "Description": "BP",
+    "Amount": "33.16",
+    "Transaction Type": "debit",
+    "Category": "Gas & Fuel",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "06/17/2052",
+    "Description": "Tera Water Charges",
+    "Amount": "35",
+    "Transaction Type": "debit",
+    "Category": "Utilities",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "06/17/2052",
+    "Description": "Tera Solar Company",
+    "Amount": "60",
+    "Transaction Type": "debit",
+    "Category": "Utilities",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "06/18/2052",
+    "Description": "Brewing Company",
+    "Amount": "15",
+    "Transaction Type": "debit",
+    "Category": "Alcohol & Bars",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "06/18/2052",
+    "Description": "Shell",
+    "Amount": "41.83",
+    "Transaction Type": "debit",
+    "Category": "Gas & Fuel",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "06/19/2052",
+    "Description": "State Farm",
+    "Amount": "75",
+    "Transaction Type": "debit",
+    "Category": "Auto Insurance",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "06/20/2052",
+    "Description": "Tera Coins Payment",
+    "Amount": "375.26",
+    "Transaction Type": "debit",
+    "Category": "Tera Coins Payment",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "06/20/2052",
+    "Description": "Mike's Construction Co.",
+    "Amount": "9200",
+    "Transaction Type": "debit",
+    "Category": "Home Improvement",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "06/20/2052",
+    "Description": "Tera Coins Payment",
+    "Amount": "100.68",
+    "Transaction Type": "credit",
+    "Category": "Tera Coins Payment",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "06/21/2052",
+    "Description": "Tera Coins Payment",
+    "Amount": "100.68",
+    "Transaction Type": "debit",
+    "Category": "Tera Coins Payment",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "06/21/2052",
+    "Description": "Biweekly Paycheck",
+    "Amount": "2000",
+    "Transaction Type": "credit",
+    "Category": "Paycheck",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "06/24/2052",
+    "Description": "Brewing Company",
+    "Amount": "15",
+    "Transaction Type": "debit",
+    "Category": "Alcohol & Bars",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "06/28/2052",
+    "Description": "BP",
+    "Amount": "30.64",
+    "Transaction Type": "debit",
+    "Category": "Gas & Fuel",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "06/30/2052",
+    "Description": "Inter-Nova",
+    "Amount": "75",
+    "Transaction Type": "debit",
+    "Category": "Internet",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "07/01/2052",
+    "Description": "Novabucks",
+    "Amount": "7",
+    "Transaction Type": "debit",
+    "Category": "Coffee Shops",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "07/01/2052",
+    "Description": "Tera F&B",
+    "Amount": "99.47",
+    "Transaction Type": "debit",
+    "Category": "Groceries",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "07/01/2052",
+    "Description": "Hawaiian Grill",
+    "Amount": "24.97",
+    "Transaction Type": "debit",
+    "Category": "Restaurants",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "07/01/2052",
+    "Description": "TetraThai",
+    "Amount": "24",
+    "Transaction Type": "debit",
+    "Category": "Restaurants",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "07/01/2052",
+    "Description": "SpaceZone",
+    "Amount": "13.09",
+    "Transaction Type": "debit",
+    "Category": "Shopping",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "07/02/2052",
+    "Description": "Hardware Store",
+    "Amount": "229.9",
+    "Transaction Type": "debit",
+    "Category": "Home Improvement",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "07/02/2052",
+    "Description": "Mortgage Payment",
+    "Amount": "1100",
+    "Transaction Type": "debit",
+    "Category": "Mortgage & Rent",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "07/04/2052",
+    "Description": "Tetrix",
+    "Amount": "13.9",
+    "Transaction Type": "debit",
+    "Category": "Television",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "07/05/2052",
+    "Description": "Brewing Company",
+    "Amount": "19",
+    "Transaction Type": "debit",
+    "Category": "Alcohol & Bars",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "07/05/2052",
+    "Description": "Biweekly Paycheck",
+    "Amount": "2250",
+    "Transaction Type": "credit",
+    "Category": "Paycheck",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "07/06/2052",
+    "Description": "Tera Coins Payment",
+    "Amount": "220.08",
+    "Transaction Type": "credit",
+    "Category": "Tera Coins Payment",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "07/06/2052",
+    "Description": "Tera F&B",
+    "Amount": "92.98",
+    "Transaction Type": "debit",
+    "Category": "Groceries",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "07/06/2052",
+    "Description": "Greek Restaurant",
+    "Amount": "23.26",
+    "Transaction Type": "debit",
+    "Category": "Restaurants",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "07/07/2052",
+    "Description": "Hardware Store",
+    "Amount": "103.14",
+    "Transaction Type": "debit",
+    "Category": "Home Improvement",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "07/08/2052",
+    "Description": "Tera Coins Payment",
+    "Amount": "305.28",
+    "Transaction Type": "debit",
+    "Category": "Tera Coins Payment",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "07/08/2052",
+    "Description": "Tera Coins Payment",
+    "Amount": "220.08",
+    "Transaction Type": "debit",
+    "Category": "Tera Coins Payment",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "07/09/2052",
+    "Description": "Tera Coins Payment",
+    "Amount": "549.72",
+    "Transaction Type": "credit",
+    "Category": "Tera Coins Payment",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "07/09/2052",
+    "Description": "NovaMusic",
+    "Amount": "10.69",
+    "Transaction Type": "debit",
+    "Category": "Music",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "07/10/2052",
+    "Description": "NovaPhones",
+    "Amount": "65",
+    "Transaction Type": "debit",
+    "Category": "Mobile Phone",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "07/10/2052",
+    "Description": "Gas Company",
+    "Amount": "30",
+    "Transaction Type": "debit",
+    "Category": "Utilities",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "07/15/2052",
+    "Description": "Tera F&B",
+    "Amount": "87.14",
+    "Transaction Type": "debit",
+    "Category": "Groceries",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "07/16/2052",
+    "Description": "SpaceZone",
+    "Amount": "89.99",
+    "Transaction Type": "debit",
+    "Category": "Shopping",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "07/16/2052",
+    "Description": "Tera Solar Company",
+    "Amount": "60",
+    "Transaction Type": "debit",
+    "Category": "Utilities",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "07/17/2052",
+    "Description": "Tera Water Charges",
+    "Amount": "35",
+    "Transaction Type": "debit",
+    "Category": "Utilities",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "07/18/2052",
+    "Description": "State Farm",
+    "Amount": "75",
+    "Transaction Type": "debit",
+    "Category": "Auto Insurance",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "07/18/2052",
+    "Description": "Tera Coins Payment",
+    "Amount": "814.5",
+    "Transaction Type": "debit",
+    "Category": "Tera Coins Payment",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "07/18/2052",
+    "Description": "BP",
+    "Amount": "36.42",
+    "Transaction Type": "debit",
+    "Category": "Gas & Fuel",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "07/18/2052",
+    "Description": "Tera F&B",
+    "Amount": "29.83",
+    "Transaction Type": "debit",
+    "Category": "Groceries",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "07/18/2052",
+    "Description": "Novunch",
+    "Amount": "8.82",
+    "Transaction Type": "debit",
+    "Category": "Restaurants",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "07/19/2052",
+    "Description": "Tera Coins Payment",
+    "Amount": "115.52",
+    "Transaction Type": "credit",
+    "Category": "Tera Coins Payment",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "07/19/2052",
+    "Description": "Biweekly Paycheck",
+    "Amount": "2250",
+    "Transaction Type": "credit",
+    "Category": "Paycheck",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "07/19/2052",
+    "Description": "Teraboy",
+    "Amount": "28",
+    "Transaction Type": "debit",
+    "Category": "Restaurants",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "07/22/2052",
+    "Description": "Tera Coins Payment",
+    "Amount": "257.08",
+    "Transaction Type": "credit",
+    "Category": "Tera Coins Payment",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "07/22/2052",
+    "Description": "TetraThai",
+    "Amount": "26.67",
+    "Transaction Type": "debit",
+    "Category": "Restaurants",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "07/23/2052",
+    "Description": "Tera Coins Payment",
+    "Amount": "257.08",
+    "Transaction Type": "debit",
+    "Category": "Tera Coins Payment",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "07/24/2052",
+    "Description": "Novabucks",
+    "Amount": "2.5",
+    "Transaction Type": "debit",
+    "Category": "Coffee Shops",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "07/27/2052",
+    "Description": "Barbershop",
+    "Amount": "30",
+    "Transaction Type": "debit",
+    "Category": "Haircut",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "07/28/2052",
+    "Description": "Hardware Store",
+    "Amount": "44.31",
+    "Transaction Type": "debit",
+    "Category": "Home Improvement",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "07/29/2052",
+    "Description": "Tera F&B",
+    "Amount": "5.35",
+    "Transaction Type": "debit",
+    "Category": "Groceries",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "07/29/2052",
+    "Description": "NovaKings",
+    "Amount": "44.92",
+    "Transaction Type": "debit",
+    "Category": "Restaurants",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "07/30/2052",
+    "Description": "Tera F&B",
+    "Amount": "15.77",
+    "Transaction Type": "debit",
+    "Category": "Groceries",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "07/30/2052",
+    "Description": "Inter-Nova",
+    "Amount": "75",
+    "Transaction Type": "debit",
+    "Category": "Internet",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "08/01/2052",
+    "Description": "SpaceZone",
+    "Amount": "13.09",
+    "Transaction Type": "debit",
+    "Category": "Shopping",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "08/02/2052",
+    "Description": "Mortgage Payment",
+    "Amount": "1100",
+    "Transaction Type": "debit",
+    "Category": "Mortgage & Rent",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "08/02/2052",
+    "Description": "Biweekly Paycheck",
+    "Amount": "2250",
+    "Transaction Type": "credit",
+    "Category": "Paycheck",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "08/03/2052",
+    "Description": "BP",
+    "Amount": "36.36",
+    "Transaction Type": "debit",
+    "Category": "Gas & Fuel",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "08/03/2052",
+    "Description": "Tera F&B",
+    "Amount": "3.96",
+    "Transaction Type": "debit",
+    "Category": "Groceries",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "08/03/2052",
+    "Description": "Noverican Foods",
+    "Amount": "23.47",
+    "Transaction Type": "debit",
+    "Category": "Restaurants",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "08/04/2052",
+    "Description": "Tetrix",
+    "Amount": "13.9",
+    "Transaction Type": "debit",
+    "Category": "Television",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "08/05/2052",
+    "Description": "Brewing Company",
+    "Amount": "18",
+    "Transaction Type": "debit",
+    "Category": "Alcohol & Bars",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "08/05/2052",
+    "Description": "Tera Coins Payment",
+    "Amount": "349.28",
+    "Transaction Type": "credit",
+    "Category": "Tera Coins Payment",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "08/05/2052",
+    "Description": "Tera Coins Payment",
+    "Amount": "117.65",
+    "Transaction Type": "credit",
+    "Category": "Tera Coins Payment",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "08/06/2052",
+    "Description": "Tera Coins Payment",
+    "Amount": "521.17",
+    "Transaction Type": "debit",
+    "Category": "Tera Coins Payment",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "08/06/2052",
+    "Description": "Tera Coins Payment",
+    "Amount": "117.65",
+    "Transaction Type": "debit",
+    "Category": "Tera Coins Payment",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "08/06/2052",
+    "Description": "Hardware Store",
+    "Amount": "125",
+    "Transaction Type": "debit",
+    "Category": "Home Improvement",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "08/08/2052",
+    "Description": "Tera F&B",
+    "Amount": "11.72",
+    "Transaction Type": "debit",
+    "Category": "Groceries",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "08/09/2052",
+    "Description": "NovaMusic",
+    "Amount": "10.69",
+    "Transaction Type": "debit",
+    "Category": "Music",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "08/09/2052",
+    "Description": "Gas Company",
+    "Amount": "30",
+    "Transaction Type": "debit",
+    "Category": "Utilities",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "08/12/2052",
+    "Description": "NovaPhones",
+    "Amount": "65",
+    "Transaction Type": "debit",
+    "Category": "Mobile Phone",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "08/12/2052",
+    "Description": "TetraThai",
+    "Amount": "26.67",
+    "Transaction Type": "debit",
+    "Category": "Restaurants",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "08/14/2052",
+    "Description": "Novabucks",
+    "Amount": "2.75",
+    "Transaction Type": "debit",
+    "Category": "Coffee Shops",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "08/15/2052",
+    "Description": "Tera Coins Payment",
+    "Amount": "335.2",
+    "Transaction Type": "debit",
+    "Category": "Tera Coins Payment",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "08/15/2052",
+    "Description": "Tera Solar Company",
+    "Amount": "60",
+    "Transaction Type": "debit",
+    "Category": "Utilities",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "08/16/2052",
+    "Description": "Biweekly Paycheck",
+    "Amount": "2250",
+    "Transaction Type": "credit",
+    "Category": "Paycheck",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "08/16/2052",
+    "Description": "Tera Water Charges",
+    "Amount": "35",
+    "Transaction Type": "debit",
+    "Category": "Utilities",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "08/17/2052",
+    "Description": "Tera Coins Payment",
+    "Amount": "87.17",
+    "Transaction Type": "credit",
+    "Category": "Tera Coins Payment",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "08/17/2052",
+    "Description": "Tera F&B",
+    "Amount": "33.15",
+    "Transaction Type": "debit",
+    "Category": "Groceries",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "08/17/2052",
+    "Description": "Barbershop",
+    "Amount": "19",
+    "Transaction Type": "debit",
+    "Category": "Haircut",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "08/17/2052",
+    "Description": "Noverican Foods",
+    "Amount": "3.5",
+    "Transaction Type": "debit",
+    "Category": "Restaurants",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "08/19/2052",
+    "Description": "Tera Coins Payment",
+    "Amount": "1248.95",
+    "Transaction Type": "debit",
+    "Category": "Tera Coins Payment",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "08/20/2052",
+    "Description": "State Farm",
+    "Amount": "75",
+    "Transaction Type": "debit",
+    "Category": "Auto Insurance",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "08/20/2052",
+    "Description": "Novabucks",
+    "Amount": "2.75",
+    "Transaction Type": "debit",
+    "Category": "Coffee Shops",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "08/21/2052",
+    "Description": "Shell",
+    "Amount": "34.69",
+    "Transaction Type": "debit",
+    "Category": "Gas & Fuel",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "08/23/2052",
+    "Description": "Novabucks",
+    "Amount": "2.75",
+    "Transaction Type": "debit",
+    "Category": "Coffee Shops",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "08/25/2052",
+    "Description": "Novunch",
+    "Amount": "39.43",
+    "Transaction Type": "debit",
+    "Category": "Restaurants",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "08/26/2052",
+    "Description": "Hardware Store",
+    "Amount": "66.75",
+    "Transaction Type": "debit",
+    "Category": "Home Improvement",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "08/29/2052",
+    "Description": "Novabucks",
+    "Amount": "3",
+    "Transaction Type": "debit",
+    "Category": "Coffee Shops",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "08/30/2052",
+    "Description": "Novabucks",
+    "Amount": "2.75",
+    "Transaction Type": "debit",
+    "Category": "Coffee Shops",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "08/30/2052",
+    "Description": "Inter-Nova",
+    "Amount": "75",
+    "Transaction Type": "debit",
+    "Category": "Internet",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "08/30/2052",
+    "Description": "Biweekly Paycheck",
+    "Amount": "2250",
+    "Transaction Type": "credit",
+    "Category": "Paycheck",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "08/31/2052",
+    "Description": "Hardware Store",
+    "Amount": "68.04",
+    "Transaction Type": "debit",
+    "Category": "Home Improvement",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "08/31/2052",
+    "Description": "NovaQ",
+    "Amount": "41.78",
+    "Transaction Type": "debit",
+    "Category": "Restaurants",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "09/01/2052",
+    "Description": "SpaceZone",
+    "Amount": "13.09",
+    "Transaction Type": "debit",
+    "Category": "Shopping",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "09/03/2052",
+    "Description": "Mortgage Payment",
+    "Amount": "1100",
+    "Transaction Type": "debit",
+    "Category": "Mortgage & Rent",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "09/03/2052",
+    "Description": "NovaKings",
+    "Amount": "41.24",
+    "Transaction Type": "debit",
+    "Category": "Restaurants",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "09/04/2052",
+    "Description": "Tetrix",
+    "Amount": "13.9",
+    "Transaction Type": "debit",
+    "Category": "Television",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "09/05/2052",
+    "Description": "Novabucks",
+    "Amount": "3.75",
+    "Transaction Type": "debit",
+    "Category": "Coffee Shops",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "09/06/2052",
+    "Description": "Tera Coins Payment",
+    "Amount": "1390.37",
+    "Transaction Type": "credit",
+    "Category": "Tera Coins Payment",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "09/06/2052",
+    "Description": "Tera Coins Payment",
+    "Amount": "1390.37",
+    "Transaction Type": "debit",
+    "Category": "Tera Coins Payment",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "09/06/2052",
+    "Description": "Tera Coins Payment",
+    "Amount": "502.75",
+    "Transaction Type": "debit",
+    "Category": "Tera Coins Payment",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "09/07/2052",
+    "Description": "Brewing Company",
+    "Amount": "12.87",
+    "Transaction Type": "debit",
+    "Category": "Alcohol & Bars",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "09/08/2052",
+    "Description": "Brewing Company",
+    "Amount": "19.3",
+    "Transaction Type": "debit",
+    "Category": "Alcohol & Bars",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "09/09/2052",
+    "Description": "Shell",
+    "Amount": "28.77",
+    "Transaction Type": "debit",
+    "Category": "Gas & Fuel",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "09/09/2052",
+    "Description": "Tera F&B",
+    "Amount": "65.09",
+    "Transaction Type": "debit",
+    "Category": "Groceries",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "09/09/2052",
+    "Description": "Hardware Store",
+    "Amount": "26.25",
+    "Transaction Type": "debit",
+    "Category": "Home Improvement",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "09/09/2052",
+    "Description": "NovaMusic",
+    "Amount": "10.69",
+    "Transaction Type": "debit",
+    "Category": "Music",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "09/09/2052",
+    "Description": "Gas Company",
+    "Amount": "30",
+    "Transaction Type": "debit",
+    "Category": "Utilities",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "09/11/2052",
+    "Description": "Tera Coins Payment",
+    "Amount": "360.56",
+    "Transaction Type": "credit",
+    "Category": "Tera Coins Payment",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "09/11/2052",
+    "Description": "NovaPhones",
+    "Amount": "65",
+    "Transaction Type": "debit",
+    "Category": "Mobile Phone",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "09/12/2052",
+    "Description": "Tera Coins Payment",
+    "Amount": "360.56",
+    "Transaction Type": "debit",
+    "Category": "Tera Coins Payment",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "09/13/2052",
+    "Description": "Novabucks",
+    "Amount": "2.75",
+    "Transaction Type": "debit",
+    "Category": "Coffee Shops",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "09/13/2052",
+    "Description": "Biweekly Paycheck",
+    "Amount": "2250",
+    "Transaction Type": "credit",
+    "Category": "Paycheck",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "09/14/2052",
+    "Description": "Tera F&B",
+    "Amount": "46.44",
+    "Transaction Type": "debit",
+    "Category": "Groceries",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "09/15/2052",
+    "Description": "SpaceZone",
+    "Amount": "47.66",
+    "Transaction Type": "debit",
+    "Category": "Shopping",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "09/16/2052",
+    "Description": "Tera Coins Payment",
+    "Amount": "90.57",
+    "Transaction Type": "debit",
+    "Category": "Tera Coins Payment",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "09/16/2052",
+    "Description": "Tera Coins Payment",
+    "Amount": "90.57",
+    "Transaction Type": "credit",
+    "Category": "Tera Coins Payment",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "09/16/2052",
+    "Description": "Tera Water Charges",
+    "Amount": "35",
+    "Transaction Type": "debit",
+    "Category": "Utilities",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "09/17/2052",
+    "Description": "Tera Coins Payment",
+    "Amount": "186.13",
+    "Transaction Type": "credit",
+    "Category": "Tera Coins Payment",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "09/17/2052",
+    "Description": "Tera Solar Company",
+    "Amount": "60",
+    "Transaction Type": "debit",
+    "Category": "Utilities",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "09/18/2052",
+    "Description": "State Farm",
+    "Amount": "75",
+    "Transaction Type": "debit",
+    "Category": "Auto Insurance",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "09/18/2052",
+    "Description": "Tera Coins Payment",
+    "Amount": "1606.46",
+    "Transaction Type": "debit",
+    "Category": "Tera Coins Payment",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "09/19/2052",
+    "Description": "Brewing Company",
+    "Amount": "40.81",
+    "Transaction Type": "debit",
+    "Category": "Alcohol & Bars",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "09/19/2052",
+    "Description": "Novabucks",
+    "Amount": "2.75",
+    "Transaction Type": "debit",
+    "Category": "Coffee Shops",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "09/20/2052",
+    "Description": "Tera Coins Payment",
+    "Amount": "9.43",
+    "Transaction Type": "credit",
+    "Category": "Tera Coins Payment",
+    "Account Name": "Silver Card"
+  },
+  {
+    "Date": "09/22/2052",
+    "Description": "Seafood Restaurant",
+    "Amount": "131.1",
+    "Transaction Type": "debit",
+    "Category": "Restaurants",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "09/23/2052",
+    "Description": "Tera Coins Payment",
+    "Amount": "9.43",
+    "Transaction Type": "debit",
+    "Category": "Tera Coins Payment",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "09/23/2052",
+    "Description": "Tera F&B",
+    "Amount": "27.71",
+    "Transaction Type": "debit",
+    "Category": "Groceries",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "09/23/2052",
+    "Description": "SpaceZone",
+    "Amount": "24.63",
+    "Transaction Type": "debit",
+    "Category": "Shopping",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "09/27/2052",
+    "Description": "Biweekly Paycheck",
+    "Amount": "2250",
+    "Transaction Type": "credit",
+    "Category": "Paycheck",
+    "Account Name": "Checking"
+  },
+  {
+    "Date": "09/28/2052",
+    "Description": "BP",
+    "Amount": "33.46",
+    "Transaction Type": "debit",
+    "Category": "Gas & Fuel",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "09/28/2052",
+    "Description": "Sheetz",
+    "Amount": "4.27",
+    "Transaction Type": "debit",
+    "Category": "Gas & Fuel",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "09/30/2052",
+    "Description": "Novabucks",
+    "Amount": "1.75",
+    "Transaction Type": "debit",
+    "Category": "Coffee Shops",
+    "Account Name": "Platinum Card"
+  },
+  {
+    "Date": "09/30/2052",
+    "Description": "Inter-Nova",
+    "Amount": "75",
+    "Transaction Type": "debit",
+    "Category": "Internet",
+    "Account Name": "Checking"
+  }
+]
