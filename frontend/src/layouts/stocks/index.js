@@ -72,22 +72,24 @@ function Stocks() {
             <th>Holding</th>
             <th>Market</th>
             <th>Open</th>
-            <th>Sustainable</th>
+            {/* <th>Sustainable</th> */}
             <th>Symbol</th>
           </tr>
         </thead>
         <tbody>
   {stocks.map((stockArray, index) => (
-    stockArray.map((stock, innerIndex) => (
-      <tr key={`${index}-${innerIndex}`}>
-        <td>{stock["30 d % chng"]}</td>
-        <td>{stock["Holding"]}</td>
-        <td>{stock["Market"]}</td>
-        <td>{stock["Open"]}</td>
-        <td>{stock["Sustainable"]}</td>
-        <td>{stock["Symbol Type"]}</td>
-      </tr>
-    ))
+    stockArray
+      .filter((stock) => stock["Holding"] > 0)
+      .map((stock, innerIndex) => (
+        <tr key={`${index}-${innerIndex}`}>
+          <td>{stock["30 d % chng"]}</td>
+          <td>{stock["Holding"]}</td>
+          <td>{stock["Market"]}</td>
+          <td>{stock["Open"]}</td>
+          {/* <td>{stock["Sustainable"]}</td> */}
+          <td>{stock["Symbol"]}</td>
+        </tr>
+      ))
   ))}
 </tbody>
 
