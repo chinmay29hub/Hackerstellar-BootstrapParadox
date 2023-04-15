@@ -1,7 +1,7 @@
 /*!
 
 =========================================================
-* Vision UI Free React - v1.0.0
+* TERRA FINANCE React - v1.0.0
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/vision-ui-free-react
@@ -116,61 +116,8 @@ function DefaultNavbar({ transparent, light, action }) {
               margin: "0 auto",
             }}
           >
-            VISION UI FREE
+            TERRA FINANCE
           </VuiTypography>
-        </VuiBox>
-        <VuiBox color="inherit" display={{ xs: "none", lg: "flex" }} m={0} p={0}>
-          <DefaultNavbarLink icon="donut_large" name="dashboard" route="/dashboard" />
-          <DefaultNavbarLink icon="person" name="profile" route="/profile" />
-          <DefaultNavbarLink icon="account_circle" name="sign up" route="/authentication/sign-up" />
-          <DefaultNavbarLink icon="key" name="sign in" route="/authentication/sign-in" />
-        </VuiBox>
-        {action &&
-          (action.type === "internal" ? (
-            <VuiBox display={{ xs: "none", lg: "inline-block" }}>
-              <VuiButton
-                component={Link}
-                to={action.route}
-                variant="gradient"
-                color={action.color ? action.color : "info"}
-                size="small"
-              >
-                {action.label}
-              </VuiButton>
-            </VuiBox>
-          ) : (
-            <VuiBox display={{ xs: "none", lg: "inline-block" }}>
-              <VuiButton
-                component="a"
-                href={action.route}
-                target="_blank"
-                rel="noreferrer"
-                color={action.color ? action.color : "info"}
-                sx={({ typography: { size }, functions: { pxToRem } }) => ({
-                  fontSize: pxToRem(size.sm),
-                })}
-              >
-                {action.label}
-              </VuiButton>
-            </VuiBox>
-          ))}
-        <VuiBox
-          display={{ xs: "inline-block", lg: "none" }}
-          lineHeight={0}
-          py={1.5}
-          pl={1.5}
-          color="inherit"
-          sx={{ cursor: "pointer" }}
-          onClick={openMobileNavbar}
-        >
-          <Icon
-            sx={({ palette: { white } }) => ({
-              color: white.main,
-            })}
-            fontSize="default"
-          >
-            {mobileNavbar ? "close" : "menu"}
-          </Icon>
         </VuiBox>
       </VuiBox>
       {mobileView && <DefaultNavbarMobile open={mobileNavbar} close={closeMobileNavbar} />}

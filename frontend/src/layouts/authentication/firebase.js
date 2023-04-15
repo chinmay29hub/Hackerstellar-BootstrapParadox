@@ -1,6 +1,7 @@
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
 import { getAuth } from "firebase/auth";
+import { getFirestore } from "firebase/firestore";
 
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
@@ -9,6 +10,7 @@ import { getAuth } from "firebase/auth";
 const firebaseConfig = {
     apiKey: "AIzaSyBFVUFb4OxHB5xqgs_Gj9Bks45UN_kkt1s",
     authDomain: "terra-finance-8927d.firebaseapp.com",
+    databaseURL: "https://terra-finance-8927d-default-rtdb.firebaseio.com",
     projectId: "terra-finance-8927d",
     storageBucket: "terra-finance-8927d.appspot.com",
     messagingSenderId: "999929828829",
@@ -18,7 +20,9 @@ const firebaseConfig = {
  
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
+export const fs = getFirestore(app);
 
 // Initialize Firebase Authentication and get a reference to the service
 export const auth = getAuth(app);
+
 export default app;

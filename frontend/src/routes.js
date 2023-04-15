@@ -28,6 +28,7 @@ import Profile from "layouts/profile";
 import SignIn from "layouts/authentication/sign-in";
 import SignUp from "layouts/authentication/sign-up";
 import Register from "layouts/authentication/register";
+import Budget from "layouts/budget";
 
 // Vision UI Dashboard React icons
 import { IoRocketSharp } from "react-icons/io5";
@@ -78,11 +79,11 @@ const routes = [
   },
   {
     type: "collapse",
-    name: "Sign In",
-    key: "sign-in",
-    route: "/authentication/sign-in",
+    name: "Budget Split",
+    key: "budget-split",
+    route: "/budget",
     icon: <IoIosDocument size="15px" color="inherit" />,
-    component: SignIn,
+    component: Budget,
     noCollapse: true,
   },
   {

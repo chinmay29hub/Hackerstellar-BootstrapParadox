@@ -41,6 +41,8 @@
 		"react-scripts": "^5.0.1",
 		"stylis": "4.0.10",
 		"stylis-plugin-rtl": "^2.0.2",
+		"util": "^0.12.5",
+		"utils": "^0.3.1",
 		"uuid": "8.3.2",
 		"web-vitals": "1.0.1"
 	},
