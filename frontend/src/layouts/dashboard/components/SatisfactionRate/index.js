@@ -7,23 +7,48 @@ import { IoHappy } from 'react-icons/io5';
 import colors from 'assets/theme/base/colors';
 import linearGradient from 'assets/theme/functions/linearGradient';
 import CircularProgress from '@mui/material/CircularProgress';
+import { getDoc, doc } from "firebase/firestore";
+import { fs } from "layouts/authentication/firebase";
+import { useEffect, useState } from "react";
 
 const SatisfactionRate = () => {
 	const { info, gradients } = colors;
 	const { cardContent } = gradients;
 
+	const[income, setIncome] =useState(null)
+	const[expense, setExpense] = useState(1)
+
+	const monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+	let monthIndex = (new Date().getMonth());
+	let monthName = monthNames[monthIndex];
+  
+	const balanceref = doc(fs, "kshitij", monthName + " Expense")
+  
+	useEffect(() => {
+	  getDoc(balanceref).then((data) => {
+		setIncome(data.data().income)
+		setExpense(data.data().expense)
+		console.log(income)
+		console.log(expense)
+	  }).catch((error) => {
+		console.log("Error getting documents: ", error);
+	  });
+	},[])
+  
+
 	return (
 		<Card sx={{ height: '340px' }}>
 			<VuiBox display='flex' flexDirection='column'>
 				<VuiTypography variant='lg' color='white' fontWeight='bold' mb='4px'>
-					Satisfaction Rate
+					Expenditure This Month
 				</VuiTypography>
 				<VuiTypography variant='button' color='text' fontWeight='regular' mb='20px'>
-					From all projects
+					Start Saving
 				</VuiTypography>
 				<VuiBox sx={{ alignSelf: 'center', justifySelf: 'center', zIndex: '-1' }}>
-					<VuiBox sx={{ position: 'relative', display: 'inline-flex' }}>
-						<CircularProgress variant='determinate' value={60} size={170} color='info' />
+					{((parseInt(expense, 10) / parseInt(income, 10) * 100) < 50) ?
+					(<VuiBox sx={{ position: 'relative', display: 'inline-flex' }}>
+						<CircularProgress variant='determinate' value={ parseInt(expense, 10) / parseInt(income, 10) * 100} size={170} color='info' />
 						<VuiBox
 							sx={{
 								top: 0,
@@ -49,7 +74,35 @@ const SatisfactionRate = () => {
 								<IoHappy size='30px' color='#fff' />
 							</VuiBox>
 						</VuiBox>
+					</VuiBox>) : 
+					(<VuiBox sx={{ position: 'relative', display: 'inline-flex' }}>
+					<CircularProgress variant='determinate' value={ parseInt(expense, 10) / parseInt(income, 10) * 100} size={170} color='error' />
+					<VuiBox
+						sx={{
+							top: 0,
+							left: 0,
+							bottom: 0,
+							right: 0,
+							position: 'absolute',
+							display: 'flex',
+							alignItems: 'center',
+							justifyContent: 'center'
+						}}>
+						<VuiBox
+							sx={{
+								background: info.main,
+								transform: 'translateY(-50%)',
+								width: '50px',
+								height: '50px',
+								borderRadius: '50%',
+								display: 'flex',
+								justifyContent: 'center',
+								alignItems: 'center'
+							}}>
+							<IoHappy size='30px' color='#fff' />
+						</VuiBox>
 					</VuiBox>
+				</VuiBox>)}
 				</VuiBox>
 				<VuiBox
 					sx={({ breakpoints }) => ({
@@ -65,9 +118,9 @@ const SatisfactionRate = () => {
 						transform: 'translateY(-90%)',
 						zIndex: '1000'
 					})}>
-					<VuiTypography color='text' variant='caption' display='inline-block' fontWeight='regular'>
+					{/* <VuiTypography color='text' variant='caption' display='inline-block' fontWeight='regular'>
 						0%
-					</VuiTypography>
+					</VuiTypography> */}
 					<VuiBox
 						flexDirection='column'
 						display='flex'
@@ -75,15 +128,15 @@ const SatisfactionRate = () => {
 						alignItems='center'
 						sx={{ minWidth: '80px' }}>
 						<VuiTypography color='white' variant='h3'>
-							95%
+						{ (parseInt(expense, 10) / parseInt(income, 10) * 100).toFixed(2)}
 						</VuiTypography>
 						<VuiTypography color='text' variant='caption' fontWeight='regular'>
-							Based on likes
+							Money Spent
 						</VuiTypography>
 					</VuiBox>
-					<VuiTypography color='text' variant='caption' display='inline-block' fontWeight='regular'>
+					{/* <VuiTypography color='text' variant='caption' display='inline-block' fontWeight='regular'>
 						100%
-					</VuiTypography>
+					</VuiTypography> */}
 				</VuiBox>
 			</VuiBox>
 		</Card>

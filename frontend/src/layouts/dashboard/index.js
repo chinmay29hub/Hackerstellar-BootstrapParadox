@@ -1,7 +1,7 @@
 // @mui material components
 import Grid from "@mui/material/Grid";
 import Icon from "@mui/material/Icon";
-import { Card, LinearProgress, Stack } from "@mui/material";
+import { Card, LinearProgress, Stack, useScrollTrigger } from "@mui/material";
 
 // Vision UI Dashboard React components
 import VuiBox from "components/VuiBox";
@@ -40,10 +40,42 @@ import { lineChartDataDashboard } from "layouts/dashboard/data/lineChartData";
 import { lineChartOptionsDashboard } from "layouts/dashboard/data/lineChartOptions";
 import { barChartDataDashboard } from "layouts/dashboard/data/barChartData";
 import { barChartOptionsDashboard } from "layouts/dashboard/data/barChartOptions";
+import { getDoc, doc } from "firebase/firestore";
+import { fs } from "layouts/authentication/firebase";
+import { useEffect, useState } from "react";
 
 function Dashboard() {
   const { gradients } = colors;
   const { cardContent } = gradients;
+
+  const[income, setIncome] =useState(null)
+  const[points, setPoints] =useState(null)
+  const[expense, setExpense] = useState(null)
+
+  const monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+  let monthIndex = (new Date().getMonth());
+  let monthName = monthNames[monthIndex];
+  var today = new Date()
+  var date = (today.getDate() + monthName + today.getFullYear())
+
+  const rewards = doc(fs, "kshitij", "details");
+  const balanceref = doc(fs, "kshitij", monthName + " Expense")
+
+  useEffect(() => {
+    getDoc(rewards).then((data) => {
+      setPoints(data.data().rewards)
+    }).catch((error) => {
+      console.log("Error getting documents: ", error);
+    });
+
+    getDoc(balanceref).then((data) => {
+      setIncome(data.data().income)
+      setExpense(data.data().expense)
+    }).catch((error) => {
+      console.log("Error getting documents: ", error);
+    });
+  },[])
+
 
   return (
     <DashboardLayout>
@@ -53,25 +85,22 @@ function Dashboard() {
           <Grid container spacing={3}>
             <Grid item xs={12} md={6} xl={3}>
               <MiniStatisticsCard
-                title={{ text: "today's money", fontWeight: "regular" }}
-                count="$53,000"
-                percentage={{ color: "success", text: "+55%" }}
+                title={{ text: "Your Terra Points", fontWeight: "regular" }}
+                count={{ color: "success", text: points }}
                 icon={{ color: "info", component: <IoWallet size="22px" color="white" /> }}
               />
             </Grid>
             <Grid item xs={12} md={6} xl={3}>
               <MiniStatisticsCard
-                title={{ text: "today's users" }}
-                count="2,300"
-                percentage={{ color: "success", text: "+3%" }}
+                title={{ text: "This month's Income" }}
+                count={{ color: "white", text: income }}
                 icon={{ color: "info", component: <IoGlobe size="22px" color="white" /> }}
               />
             </Grid>
             <Grid item xs={12} md={6} xl={3}>
               <MiniStatisticsCard
-                title={{ text: "new clients" }}
-                count="+3,462"
-                percentage={{ color: "error", text: "-2%" }}
+                title={{ text: "This month's Expense" }}
+                count={{ color: "error", text: expense }}
                 icon={{ color: "info", component: <IoDocumentText size="22px" color="white" /> }}
               />
             </Grid>

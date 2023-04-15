@@ -89,7 +89,7 @@ const routes = [
   {
     type: "collapse",
     name: "Add Expense",
-    key: "sign-up",
+    key: "expense",
     route: "/expense",
     icon: <IoRocketSharp size="15px" color="inherit" />,
     component: Expense,

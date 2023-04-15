@@ -65,8 +65,8 @@ function MiniStatisticsCard({ bgColor, title, count, percentage, icon, direction
                 >
                   {title.text}
                 </VuiTypography>
-                <VuiTypography variant="subtitle1" fontWeight="bold" color="white">
-                  {count}{" "}
+                <VuiTypography variant="subtitle1" color={count.color} fontWeight="bold">
+                  {count.text}{" "}
                   <VuiTypography variant="button" color={percentage.color} fontWeight="bold">
                     {percentage.text}
                   </VuiTypography>
@@ -130,7 +130,19 @@ MiniStatisticsCard.propTypes = {
     fontWeight: PropTypes.oneOf(["light", "regular", "medium", "bold"]),
     text: PropTypes.string,
   }),
-  count: PropTypes.oneOfType([PropTypes.string, PropTypes.number]).isRequired,
+  count: PropTypes.shape({
+    color: PropTypes.oneOf([
+      "primary",
+      "secondary",
+      "info",
+      "success",
+      "warning",
+      "error",
+      "dark",
+      "white",
+    ]),
+    text: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
+  }).isRequired,
   percentage: PropTypes.shape({
     color: PropTypes.oneOf([
       "primary",
