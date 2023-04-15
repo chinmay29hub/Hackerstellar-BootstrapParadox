@@ -29,7 +29,7 @@ import SignIn from "layouts/authentication/sign-in";
 import SignUp from "layouts/authentication/sign-up";
 import Register from "layouts/authentication/register";
 import Budget from "layouts/budget";
-
+import Expense from "layouts/expense";
 // Vision UI Dashboard React icons
 import { IoRocketSharp } from "react-icons/io5";
 import { IoIosDocument } from "react-icons/io";
@@ -88,11 +88,11 @@ const routes = [
   },
   {
     type: "collapse",
-    name: "Sign Up",
+    name: "Add Expense",
     key: "sign-up",
-    route: "/authentication/sign-up",
+    route: "/expense",
     icon: <IoRocketSharp size="15px" color="inherit" />,
-    component: SignUp,
+    component: Expense,
     noCollapse: true,
   },
   {

@@ -95,7 +95,7 @@ function Budget() {
     if (extra > 0) {
         console.log("extra")
         try {
-            const docRef = await setDoc(doc(fs, "kshitij",monthName + " Expense"), {
+            const docRef = await setDoc(doc(fs, "kshitij",monthName + " Budget"), {
                 income: income,
                 education: education,
                 bills: bills,
@@ -107,7 +107,7 @@ function Budget() {
                 month: monthName,
                 expense: "true"
             });
-            const docRef1 = await setDoc(doc(fs, "kshitij",monthName + " Budget"), {
+            const docRef1 = await setDoc(doc(fs, "kshitij",monthName + " Expense"), {
                 income: income,
                 education: education,
                 bills: bills,
@@ -118,7 +118,8 @@ function Budget() {
                 date: date,
                 month: monthName,
                 budget: "true",
-                balance: income
+                balance: income,     
+                expense: "0"
             });
           } catch (e) {
             console.error("Error adding document: ", e);
