@@ -6,6 +6,9 @@ from dabas import ocr_space_file
 import pickle
 import numpy as np
 import json
+import smtplib
+from email.mime.text import MIMEText
+from email.mime.multipart import MIMEMultipart
 app = Flask(__name__)
 CORS(app)
 
@@ -15,6 +18,35 @@ for cat in categories:
     with open("models/"+cat+"_model.pkl", 'rb') as file:
         models[cat] = pickle.load(file)
 print(models.keys())
+
+def send_mail(receiver_email='barwaniwalataher6@gmail.com',body='Body of the email'):
+# Email account credentials
+    sender_email = 'barwaniwalataher6@outlook.com'
+    sender_password = '_Taher@2002'
+    receiver_email = receiver_email
+
+    # Create message object instance
+    message = MIMEMultipart()
+    message['From'] = sender_email
+    message['To'] = receiver_email
+    message['Subject'] = 'Alert You have spend over your spending limit'
+
+    # Email body
+    body = body
+    message.attach(MIMEText(body, 'plain'))
+
+    # Create SMTP session
+    session = smtplib.SMTP('smtp.office365.com', 587)
+    session.starttls()
+    session.login(sender_email, sender_password)
+
+    # Send email
+    text = message.as_string()
+    session.sendmail(sender_email, receiver_email, text)
+    session.quit()
+    print('Mail Sent')
+
+
 @app.route('/ocr', methods=['POST'])
 def space_file():
     file = request.files['image']
