@@ -6,11 +6,31 @@ import colors from 'assets/theme/base/colors';
 import { FaEllipsisH } from 'react-icons/fa';
 import linearGradient from 'assets/theme/functions/linearGradient';
 import CircularProgress from '@mui/material/CircularProgress';
+import { getDoc, doc } from "firebase/firestore";
+import { fs } from "layouts/authentication/firebase";
+import { useEffect, useState } from "react";
 
 function ReferralTracking() {
+	const monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+	let monthIndex = (new Date().getMonth());
+	let monthName = monthNames[monthIndex];
 	const { info, gradients } = colors;
 	const { cardContent } = gradients;
 
+	const rewards = doc(fs, "kshitij", "details");
+	const balanceref = doc(fs, "kshitij", monthName + " Expense")
+
+	useEffect(() => {
+		getDoc(balanceref).then((data) => {
+			setRenewable(data.data().renewable)
+			setTotal(data.data().totaltransactions)
+		  }).catch((error) => {
+			console.log("Error getting documents: ", error);
+		  });
+	},[])
+
+	const[renewable, setRenewable] =useState(null)
+	const[total, setTotal] = useState(null)
 	return (
 		<Card
 			sx={{
@@ -25,7 +45,7 @@ function ReferralTracking() {
 					sx={{ width: '100%' }}
 					mb='40px'>
 					<VuiTypography variant='lg' color='white' mr='auto' fontWeight='bold'>
-						Referral Tracking
+						Terra Score Tracker
 					</VuiTypography>
 					<VuiBox
 						display='flex'
@@ -68,7 +88,7 @@ function ReferralTracking() {
 						})}>
 						<VuiBox
 							display='flex'
-							width='220px'
+							width='500px'
 							p='20px 22px'
 							flexDirection='column'
 							sx={({ breakpoints }) => ({
@@ -82,14 +102,14 @@ function ReferralTracking() {
 									maxWidth: '100% !important'
 								}
 							})}>
-							<VuiTypography color='text' variant='button' fontWeight='regular' mb='5px'>
-								Invited
+							<VuiTypography color='text' variant='button' fontWeight='regular' mb='5px' fontSize="8px">
+							{renewable} / {total} eco-friendly transactions
 							</VuiTypography>
 							<VuiTypography color='white' variant='lg' fontWeight='bold'>
-								145 people
+								
 							</VuiTypography>
 						</VuiBox>
-						<VuiBox
+						{/* <VuiBox
 							display='flex'
 							width='220px'
 							p='20px 22px'
@@ -111,15 +131,22 @@ function ReferralTracking() {
 							<VuiTypography color='white' variant='lg' fontWeight='bold'>
 								1,465
 							</VuiTypography>
-						</VuiBox>
+						</VuiBox> */}
 					</Stack>
 					<VuiBox sx={{ position: 'relative', display: 'inline-flex' }}>
-						<CircularProgress
+						{((parseInt(renewable, 10) / parseInt(total, 10) * 100) < 50) ?
+						(<CircularProgress
 							variant='determinate'
-							value={70}
+							value={parseInt(renewable, 10) / parseInt(total, 10) * 100}
+							size={window.innerWidth >= 1024 ? 200 : window.innerWidth >= 768 ? 170 : 200}
+							color='error'
+						/>) :
+						(<CircularProgress
+							variant='determinate'
+							value={parseInt(renewable, 10) / parseInt(total, 10) * 100}
 							size={window.innerWidth >= 1024 ? 200 : window.innerWidth >= 768 ? 170 : 200}
 							color='success'
-						/>
+						/>)}
 						<VuiBox
 							sx={{
 								top: 0,
@@ -133,7 +160,7 @@ function ReferralTracking() {
 							}}>
 							<VuiBox display='flex' flexDirection='column' justifyContent='center' alignItems='center'>
 								<VuiTypography color='text' variant='button' mb='4px'>
-									Safety
+									
 								</VuiTypography>
 								<VuiTypography
 									color='white'
@@ -145,10 +172,10 @@ function ReferralTracking() {
 											fontSize: '32px'
 										}
 									})}>
-									9.3
+									{ (parseInt(renewable, 10) / parseInt(total, 10) * 10).toFixed(1)}
 								</VuiTypography>
 								<VuiTypography color='text' variant='button'>
-									Total Score
+									Terra Grade
 								</VuiTypography>
 							</VuiBox>
 						</VuiBox>

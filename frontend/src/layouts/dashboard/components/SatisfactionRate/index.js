@@ -128,7 +128,7 @@ const SatisfactionRate = () => {
 						alignItems='center'
 						sx={{ minWidth: '80px' }}>
 						<VuiTypography color='white' variant='h3'>
-						{ (parseInt(expense, 10) / parseInt(income, 10) * 100).toFixed(2)}
+						{ (parseInt(expense, 10) / parseInt(income, 10) * 100).toFixed(2)} %
 						</VuiTypography>
 						<VuiTypography color='text' variant='caption' fontWeight='regular'>
 							Money Spent
