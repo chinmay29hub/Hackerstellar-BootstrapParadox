@@ -6,6 +6,8 @@ import Profile from "layouts/profile";
 import SignIn from "layouts/authentication/sign-in";
 import SignUp from "layouts/authentication/sign-up";
 import Register from "layouts/authentication/register";
+import Budget from "layouts/budget";
+import Expense from "layouts/expense";
 import OCR from "layouts/ocr/OCR";
 
 // Vision UI Dashboard React icons
@@ -57,20 +59,20 @@ const routes = [
   },
   {
     type: "collapse",
-    name: "Sign In",
-    key: "sign-in",
-    route: "/authentication/sign-in",
+    name: "Budget Split",
+    key: "budget-split",
+    route: "/budget",
     icon: <IoIosDocument size="15px" color="inherit" />,
-    component: SignIn,
+    component: Budget,
     noCollapse: true,
   },
   {
     type: "collapse",
-    name: "Sign Up",
+    name: "Add Expense",
     key: "sign-up",
-    route: "/authentication/sign-up",
+    route: "/expense",
     icon: <IoRocketSharp size="15px" color="inherit" />,
-    component: SignUp,
+    component: Expense,
     noCollapse: true,
   },
   {
