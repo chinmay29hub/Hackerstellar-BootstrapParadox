@@ -48,6 +48,7 @@ function Dashboard() {
   return (
     <DashboardLayout>
       <DashboardNavbar />
+      Hello
       <VuiBox py={3}>
         <VuiBox mb={3}>
           <Grid container spacing={3}>
