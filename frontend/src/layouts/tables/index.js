@@ -27,7 +27,7 @@ function Tables() {
   const [projects, setProjects] = useState([]);
 
   useEffect(() => {
-    const query = ref(db, "/");
+    const query = ref(db, "/transactions");
     return onValue(query, (snapshot) => {
       const data = snapshot.val();
 

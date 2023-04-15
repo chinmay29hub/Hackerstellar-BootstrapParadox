@@ -87,7 +87,6 @@ function Budget() {
                 extra: extra,
                 date: date,
                 month: monthName,
-                expense: "true"
             });
             const docRef1 = await setDoc(doc(fs, "kshitij",monthName + " Expense"), {
                 income: income,
@@ -99,9 +98,8 @@ function Budget() {
                 extra: extra,
                 date: date,
                 month: monthName,
-                budget: "true",
                 balance: income,     
-                expense: "0"
+                expense: 0
             });
           } catch (e) {
             console.error("Error adding document: ", e);
