@@ -1,21 +1,3 @@
-/*!
-
-=========================================================
-* TERRA FINANCE React - v1.0.0
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/vision-ui-free-react
-* Copyright 2021 Creative Tim (https://www.creative-tim.com/)
-* Licensed under MIT (https://github.com/creativetimofficial/vision-ui-free-react/blob/master LICENSE.md)
-
-* Design and Coded by Simmmple & Creative Tim
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-*/
-
 import { useState, useEffect } from "react";
 
 // react-router-dom components
@@ -43,9 +25,14 @@ import { fs } from "layouts/authentication/firebase";
 import { doc, setDoc, getDocs } from "firebase/firestore";
 import { collection, query, where } from "firebase/firestore";
 const options = [
-  { label: 'Option 1', value: 'option1' },
-  { label: 'Option 2', value: 'option2' },
-  { label: 'Option 3', value: 'option3' },
+  { label: 'Shopping', value: 'Shopping' },
+  { label: 'Home Improvement', value: 'Home Improvement' },
+  { label: 'Foods', value: 'Foods' },
+  { label: 'Credit Card Payment', value: 'Credit Card Payment' },
+  { label: 'Entertainment', value: 'Entertainment' },
+  { label: 'Misc', value: 'Misc' },
+  { label: 'Groceries', value: 'Groceries' },
+  { label: 'Paycheck', value: 'Paycheck' },
 ];
 import NavbarDarkExample from "components/NavbarDarkExample";
 function Expense() {
