@@ -99,7 +99,10 @@ function Budget() {
                 date: date,
                 month: monthName,
                 balance: income,     
-                expense: 0
+                expense: 0,
+                totaltransaction: 0,
+                renewable: 0,
+                rewards: 0
             });
           } catch (e) {
             console.error("Error adding document: ", e);
