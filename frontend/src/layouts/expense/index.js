@@ -69,10 +69,10 @@ function Expense() {
 
   const[previoustotal, setPrevioustotal] = useState(null)
   const[previouscategory, setPreviouscategory] = useState(null)
-  const [selectedOption, setSelectedOption] = useState(null);
-  const[amount, setAmount] = useState(null);
-  const[category, setCategory] = useState(null);
-  const[product, setProduct] = useState(null);
+  // const [selectedOption, setSelectedOption] = useState(null);
+  // const[amount, setAmount] = useState(null);
+  // const[category, setCategory] = useState(null);
+  // const[product, setProduct] = useState(null);
   const[expense, setExpense] = useState(null);
 
   const monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];

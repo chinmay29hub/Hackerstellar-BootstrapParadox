@@ -167,7 +167,7 @@ function Dashboard() {
                     <VuiTypography variant="button" color="success" fontWeight="bold">
                       +5% more{" "}
                       <VuiTypography variant="button" color="text" fontWeight="regular">
-                        in 2021
+                        in 20251
                       </VuiTypography>
                     </VuiTypography>
                   </VuiBox>
