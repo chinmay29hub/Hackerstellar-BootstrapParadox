@@ -135,6 +135,7 @@ function Expense() {
                 });
                   console.log("renewable")
                   setMessage("Bravo! you won two Terra Rewards")
+                  axios.post("http://localhost:4000/send_point_mail",{"product":product,"type":"gain"}).then(e=>console.log(e))
             } catch(e) {
                 console.log(e)
             }
@@ -146,6 +147,8 @@ function Expense() {
                 });
                   console.log("non-renewable")
                   setMessage("You lost 1 Terra Reward, try to use renewable resource next time")
+                  axios.post("http://localhost:4000/send_point_mail",{"product":product,"type":"loss"}).then(e=>console.log(e))
+
             } catch(e) {
                 console.log(e)
             }
