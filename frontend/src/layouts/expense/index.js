@@ -124,8 +124,9 @@ function Expense() {
 		console.log("Error getting documents: ", error);
 	  });
 
-      axios.post("http://localhost:4000/product", { category: product }).then((e) => {
-        if (e==1) {
+      axios.post("http://localhost:4000/product", { product_name : product }).then((data) => {
+        console.log(data.data.key)
+        if (data.data.key ==="1") {
             try{
                 const docRef = updateDoc(doc(fs, "kshitij",monthName + " Expense"), {
                     rewards : rewards + 2,

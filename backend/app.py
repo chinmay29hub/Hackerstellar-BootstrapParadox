@@ -116,10 +116,10 @@ def get_product_info():
         alt_text = alternative.choices[0].text.strip()
 
         # Return response as JSON
-        return jsonify({'no'})
+        return { "key" : '0'}
     
     # Return response as JSON
-    return jsonify({'yes'})
+    return {"key" : '1'}
 
 if __name__ == '__main__':
     # send_mail()
