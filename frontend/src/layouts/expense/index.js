@@ -70,6 +70,10 @@ function Expense() {
   const[previoustotal, setPrevioustotal] = useState(null)
   const[previouscategory, setPreviouscategory] = useState(null)
   const[expense, setExpense] = useState(null);
+  const[rewards, setRewards] = useState(null);
+  const[renewable, setRenewable] = useState(null);
+  const[totaltransaction, setTotaltransaction] = useState(null);
+  const[message, setMessage] = useState("")
 
   const monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
   let monthIndex = (new Date().getMonth());
@@ -118,6 +122,34 @@ function Expense() {
 	  }).catch((error) => {
 		console.log("Error getting documents: ", error);
 	  });
+
+      axios.post("http://localhost:4000/product", { category: product }).then((e) => {
+        if (e==1) {
+            try{
+                const docRef = updateDoc(doc(fs, "kshitij",monthName + " Expense"), {
+                    rewards : rewards + 2,
+                    renewable: renewable + 1,
+                    totaltransaction: totaltransaction + 1
+                });
+                  console.log("renewable")
+                  setMessage("Bravo! you won two Terra Rewards")
+            } catch(e) {
+                console.log(e)
+            }
+        } else {
+            try{
+                const docRef = updateDoc(doc(fs, "kshitij",monthName + " Expense"), {
+                    rewards : rewards - 1,
+                    totaltransaction: totaltransaction + 1
+                });
+                  console.log("non-renewable")
+                  setMessage("You lost 1 Terra Reward, try to use renewable resource next time")
+            } catch(e) {
+                console.log(e)
+            }
+        }
+      })
+
   
   }
 
@@ -125,10 +157,11 @@ function Expense() {
 	useEffect(( category ) => {
 	  getDoc(balanceref).then((data) => {
 		setPreviouscategory(data.data())
-        console.log(previouscategory)
 		setPrevioustotal(data.data().balance)
-        console.log(previoustotal)
         setExpense(data.data().expense)
+        setRewards(data.data().rewards)
+        setRenewable(data.data().renewable)
+        setTotaltransaction(data.data().totaltransaction)
 	  }).catch((error) => {
 		console.log("Error getting documents: ", error);
 	  });
@@ -141,7 +174,7 @@ function Expense() {
     console.log(amount)
     } */}
     <CoverLayout
-      title="Add what you spent on"
+      title={message}
       color="white"
       description="Enter your the amount you spend and the category"
       premotto="DON'T SPEND MUCH"
@@ -227,6 +260,19 @@ function Expense() {
             ADD TRANSACTION
           </VuiButton>
         </VuiBox>
+
+        { message == "You lost 1 Terra Reward, try to use renewable resource next time" ? 
+        (<VuiBox mb={1} ml={0.5}>
+            <VuiTypography component="label" variant="button" color="error" fontWeight="medium">
+              {message}
+            </VuiTypography>
+        </VuiBox>) :
+        (<VuiBox mb={1} ml={0.5}>
+            <VuiTypography component="label" variant="button" color="success" fontWeight="medium">
+              {message}
+            </VuiTypography>
+        </VuiBox>)
+}
         
     </VuiBox>
     </CoverLayout>
