@@ -5,14 +5,6 @@ import InstagramIcon from "@mui/icons-material/Instagram";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import Card from "@mui/material/Card";
 import Grid from "@mui/material/Grid";
-import team1 from "assets/images/avatar1.png";
-import team2 from "assets/images/avatar2.png";
-import team3 from "assets/images/avatar3.png";
-import team4 from "assets/images/avatar4.png";
-// Images
-import profile1 from "assets/images/profile-1.png";
-import profile2 from "assets/images/profile-2.png";
-import profile3 from "assets/images/profile-3.png";
 // Vision UI Dashboard React components
 import VuiBox from "components/VuiBox";
 import VuiTypography from "components/VuiTypography";
