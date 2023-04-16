@@ -54,7 +54,7 @@ function Expense() {
       try {
         const formData = new FormData();
         formData.append('image', image);
-        const response = await axios.post('http://127.0.0.1:4000/ocr', formData);
+        const response = await axios.post('http://localhost:4000/ocr', formData);
         setMatches(response.data.matches);
         const amountMatch = response.data.matches[0];
         if (amountMatch) {
@@ -113,7 +113,7 @@ function Expense() {
     getDoc(balanceref).then((data) => {
 		if(data.data()[category] < 0) {
             console.log("reaching")
-            axios.post(url="http://127.0.0.1:4000/send_mail", { category: category }).then((e) => console.log(e))
+            axios.post("http://localhost:4000/send_mail", { category: category }).then((e) => console.log(e))
         }
 	  }).catch((error) => {
 		console.log("Error getting documents: ", error);
