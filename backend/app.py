@@ -76,7 +76,7 @@ def space_file():
 
     return {'matches': matches}
 
-@app.route('/forecast-spending',methods = ['POST'])
+@app.route('/forecast-spending', methods = ['POST'])
 def forecast_spending():
     data = request.json["data"]
     category = request.json["category"]

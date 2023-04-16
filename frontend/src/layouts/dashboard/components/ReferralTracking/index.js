@@ -23,7 +23,7 @@ function ReferralTracking() {
 	useEffect(() => {
 		getDoc(balanceref).then((data) => {
 			setRenewable(data.data().renewable)
-			setTotal(data.data().totaltransactions)
+			setTotal(data.data().totaltransaction)
 		  }).catch((error) => {
 			console.log("Error getting documents: ", error);
 		  });
@@ -137,13 +137,13 @@ function ReferralTracking() {
 						{((parseInt(renewable, 10) / parseInt(total, 10) * 100) < 50) ?
 						(<CircularProgress
 							variant='determinate'
-							value={parseInt(renewable, 10) / parseInt(total, 10) * 100}
+							value={renewable / total * 100}
 							size={window.innerWidth >= 1024 ? 200 : window.innerWidth >= 768 ? 170 : 200}
 							color='error'
 						/>) :
 						(<CircularProgress
 							variant='determinate'
-							value={parseInt(renewable, 10) / parseInt(total, 10) * 100}
+							value={renewable / total * 100}
 							size={window.innerWidth >= 1024 ? 200 : window.innerWidth >= 768 ? 170 : 200}
 							color='success'
 						/>)}
