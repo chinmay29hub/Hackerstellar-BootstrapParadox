@@ -134,6 +134,54 @@ def get_product_info():
     return {"key" : '1'}
 
 
+@app.route("/send_point_mail",methods = ["POST"])
+def send_point_mail(receiver_email='barwaniwalataher6@gmail.com',name = "Kshitij"):
+    product = request.json["product"]
+    type = request.json["type"]
+    # product = "Oxygen"
+    # type = "loss"
+# Email account credentials
+    body = expense_vinci(type=type,product = product)
+    sender_email = 'barwaniwalataher6@outlook.com'
+    sender_password = '_Taher@2002'
+    receiver_email = receiver_email
+
+    # Create message object instance
+    message = MIMEMultipart()
+    message['From'] = sender_email
+    message['To'] = receiver_email
+    message['Subject'] = 'You Got Some sustainable reward'
+
+    # Email body
+    body = body
+    message.attach(MIMEText(body, 'plain'))
+
+    # Create SMTP session
+    session = smtplib.SMTP('smtp.office365.com', 587)
+    session.starttls()
+    session.login(sender_email, sender_password)
+
+    # Send email
+    text = message.as_string()
+    session.sendmail(sender_email, receiver_email, text)
+    session.quit()
+    print('Mail Sent')
+
+    return json.dumps({"success":"200"})
+
+
+
+
+def expense_vinci(type="earn",product = "Oxygen"):
+    instructions = openai.Completion.create(
+        model=model,
+        prompt=f"Write a Mail body stating you got {type} points and suggest reneawable and sustainable alternative of {product} to them.",
+        max_tokens=200,
+    )
+    print(instructions)
+    return instructions.choices[0].text.strip()
+
+
 @app.route('/create_budget', methods=['POST'])
 def create_budget():
     data = request.json["income"]
@@ -149,5 +197,5 @@ def create_budget():
     return {'generated_text': generated_text}
 
 if __name__ == '__main__':
-    # send_mail()
+    # send_point_mail()
     app.run(port=4000)

@@ -14,10 +14,6 @@ import Slack from "examples/Icons/Slack";
 import Spotify from "examples/Icons/Spotify";
 import Jira from "examples/Icons/Jira";
 import Invision from "examples/Icons/Invision";
-import avatar1 from "assets/images/avatar1.png";
-import avatar2 from "assets/images/avatar2.png";
-import avatar3 from "assets/images/avatar3.png";
-import avatar4 from "assets/images/avatar4.png";
 
 export default function data() {
   const avatars = (members) =>
