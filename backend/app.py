@@ -14,6 +14,8 @@ import openai
 app = Flask(__name__)
 CORS(app)
 
+total = 3500
+
 categories = ['Shopping', 'Home Improvement', 'Foods', 'Credit Card Payment', 'Entertainment', 'Misc', 'Groceries', 'Paycheck']
 models = {}
 for cat in categories:
@@ -120,6 +122,21 @@ def get_product_info():
     
     # Return response as JSON
     return {"key" : '1'}
+
+
+@app.route('/create_budget', methods=['POST'])
+def create_budget():
+    data = request.get_json()
+    total = data['total']
+    prompt = f"I have {total} dollars, help me create a budget for this month for my education, medical, investment, groceries, misc and bills for a month"
+    response = openai.Completion.create(
+        model="text-davinci-003",
+        prompt=prompt,
+        max_tokens=200,
+    )
+    instructions = json.loads(response.choices[0].text)
+    generated_text = instructions['text'].strip()
+    return {'generated_text': generated_text}
 
 if __name__ == '__main__':
     # send_mail()
