@@ -69,10 +69,6 @@ function Expense() {
 
   const[previoustotal, setPrevioustotal] = useState(null)
   const[previouscategory, setPreviouscategory] = useState(null)
-  // const [selectedOption, setSelectedOption] = useState(null);
-  // const[amount, setAmount] = useState(null);
-  // const[category, setCategory] = useState(null);
-  // const[product, setProduct] = useState(null);
   const[expense, setExpense] = useState(null);
 
   const monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
@@ -89,7 +85,12 @@ function Expense() {
 
 
   const handleSelect = (option) => {
-    setCategory(option);
+    setCategory(option.value);
+    getDoc(balanceref).then((data) => {
+		setPreviouscategory(data.data()[option.value])
+	  }).catch((error) => {
+		console.log("Error getting documents: ", error);
+	  });
   };
 
   const balanceref = doc(fs, "kshitij", monthName + " Expense")
@@ -97,26 +98,38 @@ function Expense() {
   const onSubmit = async (e) => {
     e.preventDefault()
     console.log("started")
+    console.log(category)
     try{
         const docRef = await updateDoc(doc(fs, "kshitij",monthName + " Expense"), {
             balance : (previoustotal - amount),
             expense: (parseInt(expense) + parseInt(amount)),
-            // [category]: (previouscategory - amount)
+            [category]: (previouscategory - amount)
         });
           console.log("success")
     } catch(e) {
         console.log(e)
     }
+
+    getDoc(balanceref).then((data) => {
+		if(data.data()[category] < 0) {
+            console.log("reaching")
+            axios.post("http://localhost:4000/send_mail", { category: category }).then((e) => console.log(e))
+
+        }
+	  }).catch((error) => {
+		console.log("Error getting documents: ", error);
+	  });
   
   }
 
   
 	useEffect(( category ) => {
 	  getDoc(balanceref).then((data) => {
-		setPreviouscategory(data.data()[category])
+		setPreviouscategory(data.data())
+        console.log(previouscategory)
 		setPrevioustotal(data.data().balance)
+        console.log(previoustotal)
         setExpense(data.data().expense)
-		console.log(data.data()[category])
 	  }).catch((error) => {
 		console.log("Error getting documents: ", error);
 	  });

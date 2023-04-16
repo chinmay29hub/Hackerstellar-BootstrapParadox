@@ -2,6 +2,7 @@
 	"name": "vision-ui-dashboard-react",
 	"version": "3.0.0",
 	"private": true,
+	"proxy": "http://localhost:4000",
 	"author": "Creative Tim",
 	"license": "See license in https://www.creative-tim.com/license",
 	"description": "Material UI version of Vision UI Dashboard by Creative Tim",

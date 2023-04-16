@@ -1,4 +1,4 @@
-from flask import Flask, request
+from flask import Flask, request, jsonify
 import requests
 import re
 from flask_cors import CORS
@@ -9,6 +9,8 @@ import json
 import smtplib
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
+import openai
+
 app = Flask(__name__)
 CORS(app)
 
@@ -19,8 +21,11 @@ for cat in categories:
         models[cat] = pickle.load(file)
 print(models.keys())
 
-def send_mail(receiver_email='barwaniwalataher6@gmail.com',body='Body of the email'):
+@app.route('/send_mail', methods=['POST'])
+def send_mail(receiver_email='chinmaysonawane57@gmail.com',name = "Kshitij",category = "Shopping"):
+    category = request.json["category"]
 # Email account credentials
+    body = "\nDear "+name+",\n\nYour expenditure in "+category+" has exceeded the budget limit set for this category. We urge you to take immediate action to address this situation and bring your spending in line with the budget limit. Failure to do so may have a negative impact on your overall financial position and hinder your ability to achieve your financial goals.\n\nAs a budget monitoring company, we understand the importance of financial prudence and effective resource management. We offer budget monitoring and management solutions that can assist you in managing your finances effectively. Please contact us if you require any assistance.\n\nBest regards,\n\nTaher Barwaniwala\n\nTerraFinances"
     sender_email = 'barwaniwalataher6@outlook.com'
     sender_password = '_Taher@2002'
     receiver_email = receiver_email
@@ -45,6 +50,8 @@ def send_mail(receiver_email='barwaniwalataher6@gmail.com',body='Body of the ema
     session.sendmail(sender_email, receiver_email, text)
     session.quit()
     print('Mail Sent')
+
+    return json.dumps({"success":"200"})
 
 
 @app.route('/ocr', methods=['POST'])
@@ -75,5 +82,45 @@ def forecast_spending():
     prediction = model.predict(start = len(data),end = len(data)+5,typ = 'levels')
     return json.dumps({"prediction":prediction.tolist()})
 
+openai.api_key = "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"
+model = "text-davinci-003"
+
+@app.route('/product', methods=['POST'])
+def get_product_info():
+    # Get product_name from the JSON payload
+    product_name = request.json.get('product_name')
+
+    # Check if product_name is provided
+    if not product_name:
+        return jsonify({'error': 'Product name not provided.'})
+
+    # Generate instructions
+    instructions = openai.Completion.create(
+        model=model,
+        prompt=f"Is {product_name} renewable or sustainable? Answer in only yes or no.",
+        max_tokens=200,
+    )
+
+    # Get generated text
+    generated_text = instructions.choices[0].text.strip()
+
+    # Check if the answer is "No"
+    if "No" in generated_text:
+        # Generate alternative
+        alternative = openai.Completion.create(
+            model=model,
+            prompt=f"Suggest renewable or sustainable alternatives to {product_name} in the year 2050",
+            max_tokens=200,
+        )
+        # Get alternative text
+        alt_text = alternative.choices[0].text.strip()
+
+        # Return response as JSON
+        return jsonify({'no'})
+    
+    # Return response as JSON
+    return jsonify({'yes'})
+
 if __name__ == '__main__':
+    # send_mail()
     app.run(port=4000)
