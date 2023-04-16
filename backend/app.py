@@ -126,16 +126,16 @@ def get_product_info():
 
 @app.route('/create_budget', methods=['POST'])
 def create_budget():
-    data = request.get_json()
-    total = data['total']
-    prompt = f"I have {total} dollars, help me create a budget for this month for my education, medical, investment, groceries, misc and bills for a month"
+    data = request.json["income"]
+    prompt = f"I have {data} dollars, help me create a budget for this month for my education, medical, investment, groceries, misc and bills for a month"
     response = openai.Completion.create(
         model="text-davinci-003",
         prompt=prompt,
         max_tokens=200,
     )
-    instructions = json.loads(response.choices[0].text)
-    generated_text = instructions['text'].strip()
+    generated_text = response.choices[0].text.strip()
+
+    print(generated_text)
     return {'generated_text': generated_text}
 
 if __name__ == '__main__':
