@@ -22,15 +22,15 @@ import PropTypes from "prop-types";
 // @mui material components
 import Grid from "@mui/material/Grid";
 
-// Vision UI Dashboard React components
+// Bootstrap Paradox Dashboard React components
 import VuiBox from "components/VuiBox";
 import VuiTypography from "components/VuiTypography";
 
-// Vision UI Dashboard React example components
+// Bootstrap Paradox Dashboard React example components
 import DefaultNavbar from "examples/Navbars/DefaultNavbar";
 import PageLayout from "examples/LayoutContainers/PageLayout";
 
-// Vision UI Dashboard React page layout routes
+// Bootstrap Paradox Dashboard React page layout routes
 import pageRoutes from "page.routes";
 
 // Images

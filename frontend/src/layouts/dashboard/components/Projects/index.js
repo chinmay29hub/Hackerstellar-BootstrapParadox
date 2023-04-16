@@ -25,11 +25,11 @@ import Menu from "@mui/material/Menu";
 import MenuItem from "@mui/material/MenuItem";
 import { BsCheckCircleFill } from "react-icons/bs";
 
-// Vision UI Dashboard React components
+// Bootstrap Paradox Dashboard React components
 import VuiBox from "components/VuiBox";
 import VuiTypography from "components/VuiTypography";
 
-// Vision UI Dashboard Materail-UI example components
+// Bootstrap Paradox Dashboard Materail-UI example components
 import Table from "examples/Tables/Table";
 
 // Data

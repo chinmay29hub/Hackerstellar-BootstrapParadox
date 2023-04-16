@@ -5,7 +5,7 @@
 	"proxy": "http://localhost:4000",
 	"author": "Creative Tim",
 	"license": "See license in https://www.creative-tim.com/license",
-	"description": "Material UI version of Vision UI Dashboard by Creative Tim",
+	"description": "Material UI version of Bootstrap Paradox Dashboard by Creative Tim",
 	"homepage": "https://demos.creative-tim.com/vision-ui-dashboard-react/#/dashboard",
 	"bugs": {
 		"url": "https://github.com/creativetimofficial/vision-ui-dashboard-react/issues"

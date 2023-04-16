@@ -20,7 +20,7 @@
 // @mui material components
 import Card from "@mui/material/Card";
 import billingCard from "assets/images/billing-background-card.png";
-// Vision UI Dashboard React components
+// Bootstrap Paradox Dashboard React components
 import VuiBox from "components/VuiBox";
 import VuiTypography from "components/VuiTypography";
 import PropTypes from "prop-types";
@@ -53,7 +53,7 @@ function MasterCard({ number, valid, cvv }) {
           sx={{ width: "100%" }}
         >
           <VuiTypography color="white" variant="lg" fontWeight="bold" mr="auto">
-            Vision UI
+            Bootstrap Paradox
           </VuiTypography>
           <RiMastercardFill size="48px" color="white" />
         </VuiBox>

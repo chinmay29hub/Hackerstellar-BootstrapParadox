@@ -18,11 +18,11 @@
 
 export const lineChartDataDashboard = [
   {
-    name: "Mobile apps",
-    data: [500, 250, 300, 220, 500, 250, 300, 230, 300, 350, 250, 400],
+    name: "Terra Card Payments",
+    data: [365.48, 555.99, 365.48, 553.51, 761.59, 629.21],
   },
   {
-    name: "Websites",
-    data: [200, 230, 300, 350, 370, 420, 550, 350, 400, 500, 330, 550],
+    name: "Home Improvements",
+    data: [657.30,  551.50, 447.52, 654.95, 660.13, 650.81],
   },
 ];

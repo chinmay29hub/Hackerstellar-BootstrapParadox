@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 import { BrowserRouter } from "react-router-dom";
 import App from "App";
 
-// Vision UI Dashboard React Context Provider
+// Bootstrap Paradox Dashboard React Context Provider
 import { VisionUIControllerProvider } from "context";
 
 ReactDOM.render(

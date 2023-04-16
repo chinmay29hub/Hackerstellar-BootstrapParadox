@@ -1,4 +1,4 @@
-// Vision UI Dashboard React layouts
+// Bootstrap Paradox Dashboard React layouts
 import Dashboard from "layouts/dashboard";
 import Tables from "layouts/tables";
 import Billing from "layouts/billing";
@@ -12,7 +12,7 @@ import OCR from "layouts/ocr/OCR";
 import Stocks from "layouts/stocks";
 import Plan from "layouts/plan";
 
-// Vision UI Dashboard React icons
+// Bootstrap Paradox Dashboard React icons
 import { IoRocketSharp } from "react-icons/io5";
 import { IoIosDocument } from "react-icons/io";
 import { BsFillPersonFill } from "react-icons/bs";

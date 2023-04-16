@@ -21,7 +21,7 @@
   to convert the hex code into rgb for using it inside the rgba color format.
  */
 
-// Vision UI Dashboard React helper functions
+// Bootstrap Paradox Dashboard React helper functions
 import hexToRgb from "assets/theme/functions/hexToRgb";
 
 function rgba(color, opacity) {

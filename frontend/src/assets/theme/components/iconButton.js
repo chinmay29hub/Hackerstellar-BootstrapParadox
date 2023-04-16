@@ -16,7 +16,7 @@
 
 */
 
-// Vision UI Dashboard React Base Styles
+// Bootstrap Paradox Dashboard React Base Styles
 import colors from "assets/theme/base/colors";
 
 const { transparent } = colors;

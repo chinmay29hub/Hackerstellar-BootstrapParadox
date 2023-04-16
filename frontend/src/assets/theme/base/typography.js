@@ -17,17 +17,17 @@
 */
 
 /**
- * The base typography styles for the Vision UI Dashboard  Material.
+ * The base typography styles for the Bootstrap Paradox Dashboard  Material.
  * You can add new typography style using this file.
- * You can customized the typography styles for the entire Vision UI Dashboard  Material using thie file.
+ * You can customized the typography styles for the entire Bootstrap Paradox Dashboard  Material using thie file.
  */
 
-// Vision UI Dashboard React Base Styles
+// Bootstrap Paradox Dashboard React Base Styles
 
 import colors from "assets/theme/base/colors";
 import "./typography.css";
 
-// Vision UI Dashboard React Helper Functions
+// Bootstrap Paradox Dashboard React Helper Functions
 import pxToRem from "assets/theme/functions/pxToRem";
 
 const { dark } = colors;

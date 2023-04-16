@@ -11,7 +11,7 @@ import Stack from "@mui/material/Stack";
 // Icons
 import { FaApple, FaFacebook, FaGoogle } from "react-icons/fa";
 
-// Vision UI Dashboard React components
+// Bootstrap Paradox Dashboard React components
 import VuiBox from "components/VuiBox";
 import VuiTypography from "components/VuiTypography";
 import VuiInput from "components/VuiInput";
@@ -19,7 +19,7 @@ import VuiButton from "components/VuiButton";
 import VuiSwitch from "components/VuiSwitch";
 import GradientBorder from "examples/GradientBorder";
 
-// Vision UI Dashboard assets
+// Bootstrap Paradox Dashboard assets
 import radialGradient from "assets/theme/functions/radialGradient";
 import rgba from "assets/theme/functions/rgba";
 import palette from "assets/theme/base/colors";

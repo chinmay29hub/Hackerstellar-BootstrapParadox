@@ -24,7 +24,7 @@ import Card from "@mui/material/Card";
 import Grid from "@mui/material/Grid";
 import Icon from "@mui/material/Icon";
 
-// Vision UI Dashboard React components
+// Bootstrap Paradox Dashboard React components
 import VuiBox from "components/VuiBox";
 import VuiTypography from "components/VuiTypography";
 import colors from "assets/theme/base/colors";

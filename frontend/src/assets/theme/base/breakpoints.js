@@ -17,9 +17,9 @@
 */
 
 /**
- * The base breakpoints for the Vision UI Dashboard  Material.
+ * The base breakpoints for the Bootstrap Paradox Dashboard  Material.
  * You can add new breakpoints using this file.
- * You can customized the breakpoints for the entire Vision UI Dashboard  Material using thie file.
+ * You can customized the breakpoints for the entire Bootstrap Paradox Dashboard  Material using thie file.
  */
 
 export default {

@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 // react-router-dom components
 import { Link } from "react-router-dom";
 
-// Vision UI Dashboard React components
+// Bootstrap Paradox Dashboard React components
 import VuiBox from "components/VuiBox";
 import VuiTypography from "components/VuiTypography";
 import VuiInput from "components/VuiInput";
@@ -11,7 +11,7 @@ import VuiButton from "components/VuiButton";
 import VuiSwitch from "components/VuiSwitch";
 import GradientBorder from "examples/GradientBorder";
 
-// Vision UI Dashboard assets
+// Bootstrap Paradox Dashboard assets
 import radialGradient from "assets/theme/functions/radialGradient";
 import palette from "assets/theme/base/colors";
 import borders from "assets/theme/base/borders";
@@ -96,6 +96,8 @@ function Expense() {
 		console.log("Error getting documents: ", error);
 	  });
   };
+
+  
 
   const balanceref = doc(fs, "kshitij", monthName + " Expense")
 

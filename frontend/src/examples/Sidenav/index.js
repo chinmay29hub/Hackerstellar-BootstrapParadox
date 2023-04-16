@@ -30,12 +30,12 @@ import Divider from "@mui/material/Divider";
 import Link from "@mui/material/Link";
 import Icon from "@mui/material/Icon";
 
-// Vision UI Dashboard React components
+// Bootstrap Paradox Dashboard React components
 import VuiBox from "components/VuiBox";
 import VuiTypography from "components/VuiTypography";
 import VuiButton from "components/VuiButton";
 
-// Vision UI Dashboard React example components
+// Bootstrap Paradox Dashboard React example components
 import SidenavCollapse from "examples/Sidenav/SidenavCollapse";
 // import SidenavCard from "examples/Sidenav/SidenavCard";
 
@@ -43,10 +43,10 @@ import SidenavCollapse from "examples/Sidenav/SidenavCollapse";
 import SidenavRoot from "examples/Sidenav/SidenavRoot";
 import sidenavLogoLabel from "examples/Sidenav/styles/sidenav";
 
-// Vision UI Dashboard React context
+// Bootstrap Paradox Dashboard React context
 import { useVisionUIController, setMiniSidenav, setTransparentSidenav } from "context";
 
-// Vision UI Dashboard React icons
+// Bootstrap Paradox Dashboard React icons
 import SimmmpleLogo from "examples/Icons/SimmmpleLogo";
 
 // function Sidenav({ color, brand, brandName, routes, ...rest }) {

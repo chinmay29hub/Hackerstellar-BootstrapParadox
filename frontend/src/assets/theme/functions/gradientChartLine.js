@@ -20,7 +20,7 @@
   The gradientChartLine() function helps you to create a gradient color for the chart line
  */
 
-// Vision UI Dashboard React helper functions
+// Bootstrap Paradox Dashboard React helper functions
 import rgba from "assets/theme/functions/rgba";
 
 function gradientChartLine(chart, color, opacity = 0.2) {

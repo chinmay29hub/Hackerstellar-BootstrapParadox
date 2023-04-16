@@ -3,18 +3,19 @@ import Grid from "@mui/material/Grid";
 import Icon from "@mui/material/Icon";
 import { Card, LinearProgress, Stack, useScrollTrigger } from "@mui/material";
 
-// Vision UI Dashboard React components
+// Bootstrap Paradox Dashboard React components
 import VuiBox from "components/VuiBox";
 import VuiTypography from "components/VuiTypography";
 import VuiProgress from "components/VuiProgress";
+import VuiButton from "components/VuiButton";
 
-// Vision UI Dashboard React example components
+// Bootstrap Paradox Dashboard React example components
 import DashboardLayout from "examples/LayoutContainers/DashboardLayout";
 import DashboardNavbar from "examples/Navbars/DashboardNavbar";
 import MiniStatisticsCard from "examples/Cards/StatisticsCards/MiniStatisticsCard";
 import linearGradient from "assets/theme/functions/linearGradient";
 
-// Vision UI Dashboard React base styles
+// Bootstrap Paradox Dashboard React base styles
 import typography from "assets/theme/base/typography";
 import colors from "assets/theme/base/colors";
 
@@ -32,6 +33,7 @@ import { IoBuild } from "react-icons/io5";
 import { IoWallet } from "react-icons/io5";
 import { IoDocumentText } from "react-icons/io5";
 import { FaShoppingCart } from "react-icons/fa";
+import axios from "axios";
 
 // Data
 import LineChart from "examples/Charts/LineCharts/LineChart";
@@ -65,6 +67,13 @@ function Dashboard() {
 
   const rewards = doc(fs, "kshitij", "details");
   const balanceref = doc(fs, "kshitij", monthName + " Expense")
+  const[linedata, setlinedata] = useState(null)
+
+  const onSubmit = () => {
+    axios.post("http://localhost:4000/forecast-spending").then((e) => {
+      setlinedata(e.data)
+    })
+ }
 
   useEffect(() => {
     getDoc(rewards).then((data) => {
@@ -163,14 +172,19 @@ function Dashboard() {
                   <VuiTypography variant="lg" color="white" fontWeight="bold" mb="5px">
                     Sales Overview
                   </VuiTypography>
-                  <VuiBox display="flex" alignItems="center" mb="40px">
+                  <VuiBox mt={4} mb={1}>
+                  {/* <VuiButton color="info" fullWidth onClick={onSubmit}>
+                    Forecast
+                  </VuiButton> */}
+                </VuiBox>
+                  {/* <VuiBox display="flex" alignItems="center" mb="40px">
                     <VuiTypography variant="button" color="success" fontWeight="bold">
                       +5% more{" "}
                       <VuiTypography variant="button" color="text" fontWeight="regular">
                         in 20251
                       </VuiTypography>
                     </VuiTypography>
-                  </VuiBox>
+                  </VuiBox> */}
                   <VuiBox sx={{ height: "310px" }}>
                     <LineChart
                       lineChartData={lineChartDataDashboard}

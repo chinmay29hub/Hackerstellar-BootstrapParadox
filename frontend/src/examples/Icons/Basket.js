@@ -19,7 +19,7 @@
 // prop-types is a library for typechecking of props
 import PropTypes from "prop-types";
 
-// Vision UI Dashboard React base styles
+// Bootstrap Paradox Dashboard React base styles
 import colors from "assets/theme/base/colors";
 
 function Basket({ color, size }) {

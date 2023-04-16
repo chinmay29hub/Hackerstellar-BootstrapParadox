@@ -21,7 +21,7 @@ import { useState } from "react";
 // @mui material components
 import Card from "@mui/material/Card";
 
-// Vision UI Dashboard React components
+// Bootstrap Paradox Dashboard React components
 import VuiBox from "components/VuiBox";
 import VuiTypography from "components/VuiTypography";
 import VuiSwitch from "components/VuiSwitch";

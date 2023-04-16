@@ -1,0 +1,144 @@
+,Date,Description,Amount,Transaction Type,Category,Account Name
+3,01-03-2018,Credit Card Payment,2298.09,credit,Credit Card Payment,Platinum Card
+22,01/22/2018,Credit Card Payment,554.99,credit,Credit Card Payment,Platinum Card
+23,01/22/2018,Credit Card Payment,309.81,credit,Credit Card Payment,Silver Card
+24,01/22/2018,Credit Card Payment,554.99,debit,Credit Card Payment,Checking
+26,01/23/2018,Credit Card Payment,309.81,debit,Credit Card Payment,Checking
+38,02-05-2018,Credit Card Payment,145.14,credit,Credit Card Payment,Platinum Card
+39,02-06-2018,Credit Card Payment,154.13,credit,Credit Card Payment,Silver Card
+40,02-07-2018,Credit Card Payment,154.13,debit,Credit Card Payment,Checking
+58,02/26/2018,Credit Card Payment,765.37,credit,Credit Card Payment,Platinum Card
+59,02/26/2018,Credit Card Payment,156.11,credit,Credit Card Payment,Silver Card
+60,02/26/2018,Credit Card Payment,765.37,debit,Credit Card Payment,Checking
+64,02/27/2018,Credit Card Payment,156.11,debit,Credit Card Payment,Checking
+74,03-05-2018,Credit Card Payment,761.59,credit,Credit Card Payment,Silver Card
+75,03-05-2018,Credit Card Payment,761.59,debit,Credit Card Payment,Checking
+96,03/23/2018,Credit Card Payment,559.91,credit,Credit Card Payment,Platinum Card
+97,03/23/2018,Credit Card Payment,559.91,debit,Credit Card Payment,Checking
+111,04-02-2018,Credit Card Payment,817.14,credit,Credit Card Payment,Silver Card
+112,04-02-2018,Credit Card Payment,817.14,debit,Credit Card Payment,Checking
+117,04-04-2018,Credit Card Payment,363.08,credit,Credit Card Payment,Platinum Card
+118,04-04-2018,Credit Card Payment,363.08,debit,Credit Card Payment,Checking
+146,04/26/2018,Credit Card Payment,769.72,credit,Credit Card Payment,Silver Card
+147,04/26/2018,Credit Card Payment,1216.94,credit,Credit Card Payment,Platinum Card
+148,04/26/2018,Credit Card Payment,1216.94,debit,Credit Card Payment,Checking
+149,04/27/2018,Credit Card Payment,769.72,debit,Credit Card Payment,Checking
+165,05-09-2018,Credit Card Payment,601.4,credit,Credit Card Payment,Platinum Card
+166,05-09-2018,Credit Card Payment,601.4,debit,Credit Card Payment,Checking
+182,05/19/2018,Credit Card Payment,207.08,credit,Credit Card Payment,Platinum Card
+185,05/21/2018,Credit Card Payment,283.07,credit,Credit Card Payment,Silver Card
+188,05/22/2018,Credit Card Payment,283.07,debit,Credit Card Payment,Checking
+199,06-02-2018,Credit Card Payment,235.18,credit,Credit Card Payment,Silver Card
+200,06-02-2018,Credit Card Payment,466.36,credit,Credit Card Payment,Platinum Card
+202,06-04-2018,Credit Card Payment,235.18,debit,Credit Card Payment,Checking
+215,06/14/2018,Credit Card Payment,283.44,credit,Credit Card Payment,Platinum Card
+216,06/14/2018,Credit Card Payment,283.44,debit,Credit Card Payment,Checking
+226,06/20/2018,Credit Card Payment,89.45,credit,Credit Card Payment,Silver Card
+228,06/21/2018,Credit Card Payment,89.45,debit,Credit Card Payment,Checking
+232,06/25/2018,Credit Card Payment,942.76,credit,Credit Card Payment,Platinum Card
+233,06/25/2018,Credit Card Payment,942.76,debit,Credit Card Payment,Checking
+249,07-08-2018,Credit Card Payment,259.87,credit,Credit Card Payment,Platinum Card
+250,07-09-2018,Credit Card Payment,242.16,credit,Credit Card Payment,Silver Card
+251,07-09-2018,Credit Card Payment,259.87,debit,Credit Card Payment,Checking
+253,07-10-2018,Credit Card Payment,242.16,debit,Credit Card Payment,Checking
+264,07/20/2018,Credit Card Payment,61.43,credit,Credit Card Payment,Silver Card
+265,07/20/2018,Credit Card Payment,102.88,credit,Credit Card Payment,Platinum Card
+266,07/20/2018,Credit Card Payment,102.88,debit,Credit Card Payment,Checking
+270,07/23/2018,Credit Card Payment,61.43,debit,Credit Card Payment,Checking
+279,08-02-2018,Credit Card Payment,816.27,credit,Credit Card Payment,Platinum Card
+291,08/15/2018,Credit Card Payment,269.56,credit,Credit Card Payment,Silver Card
+292,08/15/2018,Credit Card Payment,159.38,credit,Credit Card Payment,Platinum Card
+296,08/16/2018,Credit Card Payment,269.56,debit,Credit Card Payment,Checking
+302,08/21/2018,Credit Card Payment,34.18,credit,Credit Card Payment,Silver Card
+303,08/21/2018,Credit Card Payment,99.76,credit,Credit Card Payment,Platinum Card
+304,08/21/2018,Credit Card Payment,99.76,debit,Credit Card Payment,Checking
+305,08/22/2018,Credit Card Payment,34.18,debit,Credit Card Payment,Checking
+314,09-04-2018,Credit Card Payment,687.29,credit,Credit Card Payment,Platinum Card
+315,09-04-2018,Credit Card Payment,687.29,debit,Credit Card Payment,Checking
+326,09/14/2018,Credit Card Payment,134.34,credit,Credit Card Payment,Platinum Card
+343,09/28/2018,Credit Card Payment,128.12,credit,Credit Card Payment,Silver Card
+344,09/28/2018,Credit Card Payment,284.96,credit,Credit Card Payment,Platinum Card
+345,09/28/2018,Credit Card Payment,284.96,debit,Credit Card Payment,Checking
+351,10-01-2018,Credit Card Payment,128.12,debit,Credit Card Payment,Checking
+354,10-02-2018,Credit Card Payment,124.03,credit,Credit Card Payment,Platinum Card
+355,10-02-2018,Credit Card Payment,124.03,debit,Credit Card Payment,Checking
+374,10/21/2018,Credit Card Payment,544.37,credit,Credit Card Payment,Platinum Card
+375,10/22/2018,Credit Card Payment,353.83,credit,Credit Card Payment,Silver Card
+376,10/22/2018,Credit Card Payment,353.83,debit,Credit Card Payment,Checking
+389,11-02-2018,Credit Card Payment,262.51,credit,Credit Card Payment,Platinum Card
+390,11-02-2018,Credit Card Payment,262.51,debit,Credit Card Payment,Checking
+419,11/20/2018,Credit Card Payment,421.96,credit,Credit Card Payment,Platinum Card
+427,11/29/2018,Credit Card Payment,582.99,credit,Credit Card Payment,Silver Card
+428,11/29/2018,Credit Card Payment,751.5,credit,Credit Card Payment,Platinum Card
+429,11/30/2018,Credit Card Payment,582.99,debit,Credit Card Payment,Checking
+457,12/18/2018,Credit Card Payment,311.02,credit,Credit Card Payment,Platinum Card
+458,12/18/2018,Credit Card Payment,311.02,debit,Credit Card Payment,Checking
+465,12/20/2018,Credit Card Payment,464.03,credit,Credit Card Payment,Silver Card
+467,12/21/2018,Credit Card Payment,464.03,debit,Credit Card Payment,Checking
+480,12/29/2018,Credit Card Payment,860.05,credit,Credit Card Payment,Platinum Card
+483,01-02-2019,Credit Card Payment,499.6,debit,Credit Card Payment,Checking
+489,01-09-2019,Credit Card Payment,491.45,credit,Credit Card Payment,Platinum Card
+490,01-09-2019,Credit Card Payment,491.45,debit,Credit Card Payment,Checking
+491,01-09-2019,Credit Card Payment,281.84,debit,Credit Card Payment,Checking
+502,01/21/2019,Credit Card Payment,277.99,credit,Credit Card Payment,Silver Card
+503,01/22/2019,Credit Card Payment,277.99,debit,Credit Card Payment,Checking
+508,01/31/2019,Credit Card Payment,1900.0,debit,Credit Card Payment,Checking
+521,02-11-2019,Credit Card Payment,133.95,debit,Credit Card Payment,Checking
+526,02/15/2019,Credit Card Payment,207.47,credit,Credit Card Payment,Platinum Card
+527,02/15/2019,Credit Card Payment,207.47,debit,Credit Card Payment,Checking
+534,02/19/2019,Credit Card Payment,574.84,debit,Credit Card Payment,Checking
+537,02/20/2019,Credit Card Payment,292.54,credit,Credit Card Payment,Silver Card
+539,02/21/2019,Credit Card Payment,292.54,debit,Credit Card Payment,Checking
+551,03-06-2019,Credit Card Payment,491.86,debit,Credit Card Payment,Checking
+558,03/13/2019,Credit Card Payment,532.86,credit,Credit Card Payment,Platinum Card
+559,03/13/2019,Credit Card Payment,301.79,credit,Credit Card Payment,Silver Card
+560,03/14/2019,Credit Card Payment,305.27,debit,Credit Card Payment,Checking
+561,03/14/2019,Credit Card Payment,301.79,debit,Credit Card Payment,Checking
+578,03/31/2019,Credit Card Payment,957.6,credit,Credit Card Payment,Platinum Card
+579,04-01-2019,Credit Card Payment,1552.65,debit,Credit Card Payment,Checking
+580,04-01-2019,Credit Card Payment,600.51,credit,Credit Card Payment,Platinum Card
+588,04-09-2019,Credit Card Payment,436.75,debit,Credit Card Payment,Checking
+602,04/18/2019,Credit Card Payment,604.32,credit,Credit Card Payment,Silver Card
+603,04/18/2019,Credit Card Payment,458.1,credit,Credit Card Payment,Platinum Card
+604,04/19/2019,Credit Card Payment,604.32,debit,Credit Card Payment,Checking
+612,04/27/2019,Credit Card Payment,268.96,credit,Credit Card Payment,Silver Card
+614,04/29/2019,Credit Card Payment,268.96,debit,Credit Card Payment,Checking
+619,05-03-2019,Credit Card Payment,758.07,debit,Credit Card Payment,Checking
+630,05/13/2019,Credit Card Payment,480.88,debit,Credit Card Payment,Checking
+636,05/17/2019,Credit Card Payment,575.33,credit,Credit Card Payment,Platinum Card
+639,05/20/2019,Credit Card Payment,415.47,debit,Credit Card Payment,Checking
+641,05/24/2019,Credit Card Payment,765.68,credit,Credit Card Payment,Silver Card
+648,05/28/2019,Credit Card Payment,765.68,debit,Credit Card Payment,Checking
+653,06-03-2019,Credit Card Payment,260.95,credit,Credit Card Payment,Platinum Card
+661,06-07-2019,Credit Card Payment,458.56,debit,Credit Card Payment,Checking
+666,06/13/2019,Credit Card Payment,152.72,credit,Credit Card Payment,Platinum Card
+667,06/13/2019,Credit Card Payment,152.72,debit,Credit Card Payment,Checking
+675,06/20/2019,Credit Card Payment,375.26,debit,Credit Card Payment,Checking
+677,06/20/2019,Credit Card Payment,100.68,credit,Credit Card Payment,Silver Card
+678,06/21/2019,Credit Card Payment,100.68,debit,Credit Card Payment,Checking
+693,07-06-2019,Credit Card Payment,220.08,credit,Credit Card Payment,Silver Card
+697,07-08-2019,Credit Card Payment,305.28,debit,Credit Card Payment,Checking
+698,07-08-2019,Credit Card Payment,220.08,debit,Credit Card Payment,Checking
+699,07-09-2019,Credit Card Payment,549.72,credit,Credit Card Payment,Platinum Card
+708,07/18/2019,Credit Card Payment,814.5,debit,Credit Card Payment,Checking
+712,07/19/2019,Credit Card Payment,115.52,credit,Credit Card Payment,Platinum Card
+715,07/22/2019,Credit Card Payment,257.08,credit,Credit Card Payment,Silver Card
+717,07/23/2019,Credit Card Payment,257.08,debit,Credit Card Payment,Checking
+733,08-05-2019,Credit Card Payment,349.28,credit,Credit Card Payment,Platinum Card
+734,08-05-2019,Credit Card Payment,117.65,credit,Credit Card Payment,Silver Card
+735,08-06-2019,Credit Card Payment,521.17,debit,Credit Card Payment,Checking
+736,08-06-2019,Credit Card Payment,117.65,debit,Credit Card Payment,Checking
+744,08/15/2019,Credit Card Payment,335.2,debit,Credit Card Payment,Checking
+748,08/17/2019,Credit Card Payment,87.17,credit,Credit Card Payment,Platinum Card
+752,08/19/2019,Credit Card Payment,1248.95,debit,Credit Card Payment,Checking
+770,09-06-2019,Credit Card Payment,1390.37,credit,Credit Card Payment,Platinum Card
+771,09-06-2019,Credit Card Payment,1390.37,debit,Credit Card Payment,Checking
+772,09-06-2019,Credit Card Payment,502.75,debit,Credit Card Payment,Checking
+780,09-11-2019,Credit Card Payment,360.56,credit,Credit Card Payment,Silver Card
+782,09-12-2019,Credit Card Payment,360.56,debit,Credit Card Payment,Checking
+787,09/16/2019,Credit Card Payment,90.57,debit,Credit Card Payment,Checking
+788,09/16/2019,Credit Card Payment,90.57,credit,Credit Card Payment,Silver Card
+790,09/17/2019,Credit Card Payment,186.13,credit,Credit Card Payment,Platinum Card
+793,09/18/2019,Credit Card Payment,1606.46,debit,Credit Card Payment,Checking
+796,09/20/2019,Credit Card Payment,9.43,credit,Credit Card Payment,Silver Card
+798,09/23/2019,Credit Card Payment,9.43,debit,Credit Card Payment,Checking

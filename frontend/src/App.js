@@ -8,13 +8,13 @@ import { ThemeProvider } from "@mui/material/styles";
 import CssBaseline from "@mui/material/CssBaseline";
 import Icon from "@mui/material/Icon";
 
-// Vision UI Dashboard React components
+// Bootstrap Paradox Dashboard React components
 import VuiBox from "components/VuiBox";
 
-// Vision UI Dashboard React example components
+// Bootstrap Paradox Dashboard React example components
 import Sidenav from "examples/Sidenav";
 
-// Vision UI Dashboard React themes
+// Bootstrap Paradox Dashboard React themes
 import theme from "assets/theme";
 import themeRTL from "assets/theme/theme-rtl";
 
@@ -23,10 +23,10 @@ import rtlPlugin from "stylis-plugin-rtl";
 import { CacheProvider } from "@emotion/react";
 import createCache from "@emotion/cache";
 
-// Vision UI Dashboard React routes
+// Bootstrap Paradox Dashboard React routes
 import routes from "routes";
 
-// Vision UI Dashboard React contexts
+// Bootstrap Paradox Dashboard React contexts
 import { useVisionUIController, setMiniSidenav, setOpenConfigurator } from "context";
 
 export default function App() {

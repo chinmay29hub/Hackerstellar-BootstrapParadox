@@ -5,6 +5,7 @@ from flask_cors import CORS
 from dabas import ocr_space_file
 import pickle
 import numpy as np
+import pandas as pd
 import json
 import smtplib
 from email.mime.text import MIMEText
@@ -78,11 +79,20 @@ def space_file():
 
 @app.route('/forecast-spending', methods = ['POST'])
 def forecast_spending():
-    data = request.json["data"]
-    category = request.json["category"]
-    model = models[category]
-    prediction = model.predict(start = len(data),end = len(data)+5,typ = 'levels')
-    return json.dumps({"prediction":prediction.tolist()})
+    df = pd.read_csv('ccpay.csv')
+    data = df.head(10)
+
+    df2 = pd.read_csv('homeimp.csv')
+    data2 = df2.head(10)
+
+    # category = request.json["category"]
+    model = models['Credit Card Payment']
+    model2 = models['Home Improvement']
+    prediction1 = model.predict(start = len(data),end = len(data)+5,typ = 'levels')
+    prediction2 = model2.predict(start = len(data2),end = len(data2)+5,typ = 'levels')
+    print(prediction1)
+    print(prediction2)
+    return ({{"name":"Credit Card Payment", "data":prediction1.tolist()}, {"name": "Home Improvement", "data":prediction2.tolist()}})
 
 openai.api_key = "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"
 model = "text-davinci-003"
@@ -92,7 +102,7 @@ def get_product_info():
     # Get product_name from the JSON payload
     product_name = request.json.get('product_name')
 
-    # Check if product_name is provided
+    # Check if product_name is provided 
     if not product_name:
         return jsonify({'error': 'Product name not provided.'})
 

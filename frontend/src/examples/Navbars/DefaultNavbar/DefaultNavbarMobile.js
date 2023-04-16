@@ -23,10 +23,10 @@ import PropTypes from "prop-types";
 import Menu from "@mui/material/Menu";
 // import Grid from "@mui/material/Grid";
 
-// Vision UI Dashboard React components
+// Bootstrap Paradox Dashboard React components
 import VuiBox from "components/VuiBox";
 
-// Vision UI Dashboard React example components
+// Bootstrap Paradox Dashboard React example components
 import DefaultNavbarLink from "examples/Navbars/DefaultNavbar/DefaultNavbarLink";
 import palette from "assets/theme/base/colors";
 import tripleLinearGradient from "assets/theme/functions/tripleLinearGradient";

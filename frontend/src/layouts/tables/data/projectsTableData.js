@@ -2,7 +2,7 @@
 // @mui material components
 import Icon from "@mui/material/Icon";
 
-// Vision UI Dashboard React components
+// Bootstrap Paradox Dashboard React components
 import VuiBox from "components/VuiBox";
 import VuiTypography from "components/VuiTypography";
 import VuiProgress from "components/VuiProgress";
@@ -55,7 +55,7 @@ export default {
         <VuiBox display="flex" alignItems="center">
           <AdobeXD size="20px" />
           <VuiTypography pl="16px" color="white" variant="button" fontWeight="medium">
-            Chakra Vision UI Version
+            Chakra Bootstrap Paradox Version
           </VuiTypography>
         </VuiBox>
       ),

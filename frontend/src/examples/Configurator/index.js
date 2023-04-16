@@ -31,7 +31,7 @@ import Icon from "@mui/material/Icon";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import FacebookIcon from "@mui/icons-material/Facebook";
 
-// Vision UI Dashboard React components
+// Bootstrap Paradox Dashboard React components
 import VuiBox from "components/VuiBox";
 import VuiTypography from "components/VuiTypography";
 import VuiButton from "components/VuiButton";
@@ -40,7 +40,7 @@ import VuiSwitch from "components/VuiSwitch";
 // Custom styles for the Configurator
 import ConfiguratorRoot from "examples/Configurator/ConfiguratorRoot";
 
-// Vision UI Dashboard React context
+// Bootstrap Paradox Dashboard React context
 import {
   useVisionUIController,
   setOpenConfigurator,
@@ -103,7 +103,7 @@ function Configurator() {
       >
         <VuiBox>
           <VuiTypography color="white" variant="h5" fontWeight="bold">
-            Vision UI Configurator
+            Bootstrap Paradox Configurator
           </VuiTypography>
           <VuiTypography variant="body2" color="white" fontWeight="bold">
             See our dashboard options.

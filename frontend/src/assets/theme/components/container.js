@@ -16,10 +16,10 @@
 
 */
 
-// Vision UI Dashboard React base styles
+// Bootstrap Paradox Dashboard React base styles
 import breakpoints from "assets/theme/base/breakpoints";
 
-// Vision UI Dashboard React helper functions
+// Bootstrap Paradox Dashboard React helper functions
 import pxToRem from "assets/theme/functions/pxToRem";
 
 const {

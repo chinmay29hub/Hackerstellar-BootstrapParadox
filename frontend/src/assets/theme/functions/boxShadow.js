@@ -20,7 +20,7 @@
   The boxShadow() function helps you to create a box shadow for an element
  */
 
-// Vision UI Dashboard React helper functions
+// Bootstrap Paradox Dashboard React helper functions
 import rgba from "assets/theme/functions/rgba";
 import pxToRem from "assets/theme/functions/pxToRem";
 
